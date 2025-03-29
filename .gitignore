@@ -1,0 +1,7 @@
+# Py Moondream Models
+*.mf.gz
+
+# Ollama Models and keys
+/ollama/id_ed25519.pub
+/ollama/id_id_ed25519
+/ollama/models
