@@ -5,3 +5,9 @@
 /ollama/id_ed25519.pub
 /ollama/id_id_ed25519
 /ollama/models
+
+# HugginFace models
+*.gguf
+
+# Llama.cpp
+/llama.cpp/*

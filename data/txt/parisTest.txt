@@ -1,0 +1,41 @@
+clip_init: model name:   openai/clip-vit-large-patch14-336
+clip_init: description:  image encoder for LLaVA
+clip_init: GGUF version: 2
+clip_init: alignment:    32
+clip_init: n_tensors:    377
+clip_init: n_kv:         18
+clip_init: ftype:        f16
+
+clip_init: loaded meta data with 18 key-value pairs and 377 tensors from models/mmproj-model-f16.gguf
+clip_init: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+clip_init: - kv   0:                       general.architecture str              = clip
+clip_init: - kv   1:                      clip.has_text_encoder bool             = false
+clip_init: - kv   2:                    clip.has_vision_encoder bool             = true
+clip_init: - kv   3:                   clip.has_llava_projector bool             = true
+clip_init: - kv   4:                          general.file_type u32              = 1
+clip_init: - kv   5:                               general.name str              = openai/clip-vit-large-patch14-336
+clip_init: - kv   6:                        general.description str              = image encoder for LLaVA
+clip_init: - kv   7:                     clip.vision.image_size u32              = 336
+clip_init: - kv   8:                     clip.vision.patch_size u32              = 14
+clip_init: - kv   9:               clip.vision.embedding_length u32              = 1024
+clip_init: - kv  10:            clip.vision.feed_forward_length u32              = 4096
+clip_init: - kv  11:                 clip.vision.projection_dim u32              = 768
+clip_init: - kv  12:           clip.vision.attention.head_count u32              = 16
+clip_init: - kv  13:   clip.vision.attention.layer_norm_epsilon f32              = 0.000010
+clip_init: - kv  14:                    clip.vision.block_count u32              = 23
+clip_init: - kv  15:                     clip.vision.image_mean arr[f32,3]       = [0.481455, 0.457828, 0.408211]
+clip_init: - kv  16:                      clip.vision.image_std arr[f32,3]       = [0.268630, 0.261303, 0.275777]
+clip_init: - kv  17:                              clip.use_gelu bool             = false
+clip_init: - type  f32:  235 tensors
+clip_init: - type  f16:  142 tensors
+clip_ctx: CLIP using CPU backend
+clip_init: text_encoder:   0
+clip_init: vision_encoder: 1
+clip_init: llava_projector:  1
+clip_init: minicpmv_projector:  0
+clip_init: minicpmv_version:  2
+clip_init: glm_projector:  0
+clip_init: model size:     595.49 MB
+clip_init: metadata size:  0.13 MB
+clip_init: params backend buffer size =  595.49 MB (377 tensors)
+clip_init:        CPU compute buffer size =    32.89 MiB
