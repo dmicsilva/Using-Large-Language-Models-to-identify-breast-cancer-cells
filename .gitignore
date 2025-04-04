@@ -11,3 +11,9 @@
 
 # Llama.cpp
 /llama.cpp/*
+
+# Virtual Environment
+/.venv
+
+# Datasets
+/Datasets
