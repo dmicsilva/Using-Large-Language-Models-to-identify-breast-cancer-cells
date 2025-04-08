@@ -3,8 +3,9 @@ import base64
 import requests
 
 endpoint = "http://localhost:11434/api/chat"
-model = "llama3.2:1b"
+#model = "llama3.2:1b"
 #model = "deepseek-r1:1.5b"
+model = "llama2-uncensored:7b"
 
 def encode_image_to_base64(image_path):
     """Convert an image file to base64 string."""
@@ -42,8 +43,8 @@ def extract_knowledge_from_image(baselineImage_path, evalImage_path):
 
 def process_directory():
     """Process all images in current directory and create text files."""
-    baselineImage_path = Path('/home/buybluepants/Documents/Thesis/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/Breast Cancer Patients MRI\'s/validation/Healthy/S_75.jpg')
-    evalImage_path = Path('/home/buybluepants/Documents/Thesis/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/Breast Cancer Patients MRI\'s/validation/Sick/S_75.jpg')
+    baselineImage_path = Path('/home/buybluepants/Documents/Thesis/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/Breast Cancer Patients MRI\'s/validation/Sick/S_75.jpg')
+    evalImage_path = Path('/home/buybluepants/Documents/Thesis/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/Breast Cancer Patients MRI\'s/validation/Healthy/S_75.jpg')
 
     print(f"\nProcessing {evalImage_path}...")
 
