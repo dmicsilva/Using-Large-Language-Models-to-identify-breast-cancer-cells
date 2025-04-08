@@ -16,4 +16,7 @@
 /.venv
 
 # Datasets
-/Datasets
+/datasets
+
+# Document writing (LaTeX)
+/document

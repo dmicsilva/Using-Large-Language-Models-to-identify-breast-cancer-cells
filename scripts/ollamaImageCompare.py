@@ -3,16 +3,17 @@ import base64
 import requests
 
 endpoint = "http://localhost:11434/api/chat"
-#model = "llama3.2:1b"
-model = "deepseek-r1:7b"
+model = "llama3.2:1b"
+#model = "deepseek-r1:1.5b"
 
 def encode_image_to_base64(image_path):
     """Convert an image file to base64 string."""
     return base64.b64encode(image_path.read_bytes()).decode('utf-8')
 
-def extract_knowledge_from_image(image_path):
+def extract_knowledge_from_image(baselineImage_path, evalImage_path):
     """Send image to local Llama API and get text description."""
-    base64_image = encode_image_to_base64(image_path)
+    baselineImage_base64 = encode_image_to_base64(baselineImage_path)
+    evalImage_base64 = encode_image_to_base64(evalImage_path)
 
     payload = {
         "model": model,
@@ -21,13 +22,12 @@ def extract_knowledge_from_image(image_path):
             {
                 "role": "user",
                 "content": (
-                    "This is an image of Paris \n"
-                    "Provide a comprehensive description of the image, focusing on key elements such as subjects, \
-                        objects, setting, and any notable details and visual style. Describe the style of the image (e.g., realistic, abstract, vintage) \
-                            and the atmosphere it conveys. Merge all information into a seamless paragraph without using the ‘What, Who, Where, When, How’ structure. \
-                                Provide the ratio and orientation after the description. "
+                    "You are a model that evaluates the existance of breast cancer from an image of a fictional MRI exam. Don't look for a diagnosis or treatment plan, just make the evaluation. \n"
+                    "The first image you receive is your baseline, so consider it as a positive case. \n"
+                    "The second image is the image you need to evaluate, according to the first image. \n"
+                    "Respond with only 'positive' or 'negative' according to the result."
                 ),
-                "images": [base64_image]
+                "images": [baselineImage_base64, evalImage_base64]
             }
         ]
     }
@@ -42,13 +42,12 @@ def extract_knowledge_from_image(image_path):
 
 def process_directory():
     """Process all images in current directory and create text files."""
-    textFolderDirectory = Path('data/txt')
-    for image_path in Path('data/image').glob('*'):
-        if image_path.suffix.lower() in {'.png', '.jpg', '.jpeg', '.gif', '.bmp', '.webp'}:
-            print(f"\nProcessing {image_path}...")
+    baselineImage_path = Path('/home/buybluepants/Documents/Thesis/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/Breast Cancer Patients MRI\'s/validation/Healthy/S_75.jpg')
+    evalImage_path = Path('/home/buybluepants/Documents/Thesis/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/Breast Cancer Patients MRI\'s/validation/Sick/S_75.jpg')
 
-            text = extract_knowledge_from_image(image_path)
-            textFolderDirectory.with_stem(model).with_suffix('.txt').write_text(text, encoding='utf-8')
-            print(f"Created {image_path.with_suffix('.txt')}")
+    print(f"\nProcessing {evalImage_path}...")
+
+    text = extract_knowledge_from_image(baselineImage_path, evalImage_path)
+    print(text)
 
 process_directory()
