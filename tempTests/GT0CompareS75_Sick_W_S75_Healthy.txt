@@ -1,0 +1,5 @@
+Ground truth: Negative
+
+deepseek-r1:1.5b: Succesful
+llama2-uncensored:7b: Succesful
+llama3.2:1b: Error
