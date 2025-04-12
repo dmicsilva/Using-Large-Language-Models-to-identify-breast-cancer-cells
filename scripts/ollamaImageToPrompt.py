@@ -4,7 +4,8 @@ import requests
 
 endpoint = "http://localhost:11434/api/chat"
 #model = "llama3.2:1b"
-model = "deepseek-r1:1.5b"
+model = "dolphin3"
+#model = "deepseek-r1:1.5b"
 
 def encode_image_to_base64(image_path):
     """Convert an image file to base64 string."""

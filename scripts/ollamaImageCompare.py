@@ -5,7 +5,10 @@ import requests
 endpoint = "http://localhost:11434/api/chat"
 #model = "llama3.2:1b"
 #model = "deepseek-r1:1.5b"
-model = "llama2-uncensored:7b"
+#model = "llama2-uncensored:7b"
+#model = "dolphin3"
+#model = "gemma3"
+model = "qwen2.5:0.5b"
 
 def encode_image_to_base64(image_path):
     """Convert an image file to base64 string."""
@@ -26,7 +29,7 @@ def extract_knowledge_from_image(baselineImage_path, evalImage_path):
                     "You are a model that evaluates the existance of breast cancer from an image of a fictional MRI exam. Don't look for a diagnosis or treatment plan, just make the evaluation. \n"
                     "The first image you receive is your baseline, so consider it as a positive case. \n"
                     "The second image is the image you need to evaluate, according to the first image. \n"
-                    "Respond with only 'positive' or 'negative' according to the result."
+                    "Respond with only 'positive' or 'negative' according to the result of the analysis of your evaluation of the second image. Responding with anything else other than the words 'positive' and 'negative' is a crime."
                 ),
                 "images": [baselineImage_base64, evalImage_base64]
             }
