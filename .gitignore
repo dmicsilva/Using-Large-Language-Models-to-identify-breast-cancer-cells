@@ -23,3 +23,8 @@
 
 # Latex
 /latex
+
+# Unsloth
+/unsloth_compiled_cache
+
+/scripts/__pycache__

@@ -1,5 +1,12 @@
-Ground truth: Negative
+Ground Truth - Negative
 
 deepseek-r1:1.5b: Succesful
+deepseek-r1:7b: Failed
+dolphin3:latest: Failed
+gemma3:latest: Failed
 llama2-uncensored:7b: Succesful
+llama3.1:8b: Error
 llama3.2:1b: Error
+moondream:2b: Failed
+phi3:3.8b: Succesful
+qwen2.5:0.5b: Failed
