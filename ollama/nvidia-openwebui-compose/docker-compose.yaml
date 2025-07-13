@@ -1,0 +1,38 @@
+name: ollama
+services:
+    ollama:
+        volumes:
+            - ..:/root/.ollama
+        ports:
+            - 11434:11434
+        container_name: ollama
+        image: docker.io/ollama/ollama:latest
+        deploy:
+            resources:
+                reservations:
+                    devices:
+                        - driver: nvidia
+                          count: 1
+                          capabilities: [gpu]
+
+    webui:
+        image: ghcr.io/open-webui/open-webui:main
+        #expose:
+            #- 8083/tcp
+        ports:
+            - 8083:8080/tcp
+        environment:
+            - OLLAMA_BASE_URL=http://192.168.1.168:11434/
+        # uncomment the following if you are running ollama on the docker host and remove the ollama service below
+        #- OLLAMA_BASE_URL=http://host.docker.internal:11434
+        volumes:
+            - open-webui:/app/backend/data
+        depends_on:
+            - ollama
+
+volumes:
+    ollama:
+        external: true
+        name: ollama
+    open-webui:
+

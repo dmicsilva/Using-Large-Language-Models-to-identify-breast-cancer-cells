@@ -5,6 +5,7 @@
 /ollama/id_ed25519.pub
 /ollama/id_id_ed25519
 /ollama/models
+/ollama/history
 
 # HugginFace models
 *.gguf
@@ -28,3 +29,8 @@
 /unsloth_compiled_cache
 
 /scripts/__pycache__
+
+# Document
+
+/preparationDocument/PreparaçãoTese_BDionisio_55076.pdf
+/preparationDocument/OLD_Dissertation_Plan_Duarte_Silva_55419.pdf
