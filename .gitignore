@@ -17,7 +17,7 @@
 /.venv
 
 # Datasets
-/datasets
+/datasets/Breast Cancer Patients MRI's
 
 # Document writing (LaTeX)
 /document
