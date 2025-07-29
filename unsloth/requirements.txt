@@ -1,0 +1,9 @@
+accelerate
+bitsandbytes
+peft
+trl
+unsloth
+xformers
+sentencepiece
+transformers
+huggingface_hub

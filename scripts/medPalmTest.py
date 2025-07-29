@@ -7,6 +7,4 @@ text = torch.randint(0, 20000, (1, 4096))
 
 model = MedPalm()
 output = model(img, text)
-print(output.shape)
-
-#https://github.com/kyegomez/Med-PaLM
+print(output)

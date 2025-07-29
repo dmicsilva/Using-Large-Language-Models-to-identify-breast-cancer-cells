@@ -1,0 +1,1 @@
+docker run --rm --gpus=all -v .:/app -it cuda-py311-tuner

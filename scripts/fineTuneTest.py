@@ -37,7 +37,8 @@ huggingface_model_name = "buybluepants/FineTuneTest_Deepseek-1.5B"
 
 # 2. Before Training
 model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name = "unsloth/DeepSeek-R1-Distill-Qwen-1.5B-unsloth-bnb-4bit",
+    #model_name = "unsloth/DeepSeek-R1-Distill-Qwen-1.5B-unsloth-bnb-4bit",
+    model_name = "buybluepants/FineTuneTest_Deepseek-1.5B",
     max_seq_length = max_seq_length,
     dtype = dtype,
     load_in_4bit = load_in_4bit,

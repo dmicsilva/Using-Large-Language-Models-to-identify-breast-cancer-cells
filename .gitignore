@@ -27,7 +27,7 @@
 
 # Unsloth
 /unsloth_compiled_cache
-
+/sentencepiece
 /scripts/__pycache__
 
 # Document
