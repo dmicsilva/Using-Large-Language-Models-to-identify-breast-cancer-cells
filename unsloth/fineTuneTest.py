@@ -47,7 +47,7 @@ llama31_prompt="""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 {}<|eot_id|>"""
 from datasets import load_dataset
-dataset = load_dataset("buybluepants/BreastCancerCellsMRI", split = "train")
+dataset = load_dataset("buybluepants/JSON_BreastCancerPatientsMRIs", split = "train")
 
 def formatting_prompts_func(examples):
     instructions = examples["instruction"]

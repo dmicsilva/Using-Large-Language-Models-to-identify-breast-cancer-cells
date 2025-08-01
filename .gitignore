@@ -18,6 +18,7 @@
 
 # Datasets
 /datasets/Breast Cancer Patients MRI's
+/datasets/JSON_Breast Cancer Patients MRI's
 
 # Document writing (LaTeX)
 /document
@@ -26,6 +27,7 @@
 /latex
 
 # Unsloth
+/unsloth/unsloth_compiled_cache
 /unsloth_compiled_cache
 /sentencepiece
 /scripts/__pycache__

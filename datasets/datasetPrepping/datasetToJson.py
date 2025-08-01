@@ -24,7 +24,7 @@ def image_to_base64(image_path):
 
     return base64_string
 
-def save_to_json(base64_string, cancer_existance, output_dir):
+def save_to_json(base64_string, cancer_existance, output_dir, category, subcategory):
     """
     Save the Base64 encoded string to a JSON file.
 
@@ -44,12 +44,21 @@ def save_to_json(base64_string, cancer_existance, output_dir):
     }
 
     # Save the metadata to a JSON file
-    output_path = os.path.join(output_dir, f"metadata_{os.path.basename(os.path.splitext(image_path)[0])}.json")
+    output_path = os.path.join(output_dir, category, subcategory, f"{os.path.basename(os.path.splitext(image_path)[0])}.json")
     with open(output_path, 'w') as f:
         json.dump(metadata, f, indent=4)
 
 # Specify the directories
-input_dir = input("Enter the root directory: ")
+input_dir = '/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/Breast Cancer Patients MRI\'s'
+
+# Create output directories recursively
+
+output_subdirs = [os.path.join(f"JSON_{os.path.basename(input_dir)}", "train", "Healthy"), os.path.join(f"JSON_{os.path.basename(input_dir)}", "train", "Sick"), os.path.join(f"JSON_{os.path.basename(input_dir)}", "validation", "Healthy"), os.path.join(f"JSON_{os.path.basename(input_dir)}", "validation", "Sick")]
+for subdir in output_subdirs:
+    try:
+        os.makedirs(subdir)
+    except FileExistsError:
+        pass
 
 # Cycle through all the subdirectories and their images
 for category in os.listdir(input_dir):
@@ -62,4 +71,4 @@ for category in os.listdir(input_dir):
         for file in os.listdir(os.path.join(input_dir, category, subcategory)):
             image_path = os.path.join(input_dir, category, subcategory, file)
             base64_string = image_to_base64(image_path)
-            save_to_json(base64_string, cancer_existance, os.path.join(input_dir, f"metadata_{subcategory}"))
+            save_to_json(base64_string, cancer_existance, os.path.join(f"JSON_{os.path.basename(input_dir)}"), category, subcategory)
