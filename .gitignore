@@ -19,6 +19,10 @@
 # Datasets
 /datasets/Breast Cancer Patients MRI's
 /datasets/JSON_Breast Cancer Patients MRI's
+/datasets/breast-cancer-cell-segmentation-histopathology
+/datasets/breast-cancer-detection-mammogram
+/datasets/BrEaST-Lesions_USG-images_and_masks
+/datasets/BCD_Dataset-thermogram
 
 # Document writing (LaTeX)
 /document

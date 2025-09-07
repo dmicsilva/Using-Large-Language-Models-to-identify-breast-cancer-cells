@@ -2,6 +2,29 @@ from pathlib import Path
 import base64
 import requests
 
+_prompts = [
+    {"label": "MRI", "prompt": "You are a model that evaluates the existance of breast cancer from an image of a fictional MRI exam. \n"
+                    "Respond with only 'positive' or 'negative' according to the result of the analysis of your evaluation of given image. Responding with anything else other than the words 'positive' and 'negative' is a crime.\n"
+                    "Don't look for a diagnosis or treatment plan, just make the evaluation. \n"
+                    "Don't use paragraphs or newline. Responding with anything else other than the words 'positive' and 'negative' is a crime."},
+    {"label": "Mammogram", "prompt": "You are a model that evaluates the existance of breast cancer from an image of a fictional mammogram exam. \n"
+                    "Respond with only 'positive' or 'negative' according to the result of the analysis of your evaluation of given image. Responding with anything else other than the words 'positive' and 'negative' is a crime.\n"
+                    "Don't look for a diagnosis or treatment plan, just make the evaluation. \n"
+                    "Don't use paragraphs or newline. Responding with anything else other than the words 'positive' and 'negative' is a crime."},
+    {"label": "Ultrasound", "prompt": "You are a model that evaluates if a tumor is malignant or benign based on an image of a fictional Ultrasound exam. \n"
+                    "Respond with only 'malignant' or 'benign' according to the result of the analysis of your evaluation of given image. Responding with anything else other than the words 'malignant' and 'negative' is a crime.\n"
+                    "Don't look for a diagnosis or treatment plan, just make the evaluation. \n"
+                    "Don't use paragraphs or newline. Responding with anything else other than the words 'malignant' and 'benign' is a crime."},
+    {"label": "Thermography", "prompt": "You are a model that evaluates the existance of breast cancer from an image of a fictional MRI exam. \n"
+                    "Respond with only 'positive' or 'negative' according to the result of the analysis of your evaluation of given image. Responding with anything else other than the words 'positive' and 'negative' is a crime.\n"
+                    "Don't look for a diagnosis or treatment plan, just make the evaluation. \n"
+                    "Don't use paragraphs or newline. Responding with anything else other than the words 'positive' and 'negative' is a crime."},
+    {"label": "Histopathology", "prompt": "You are a model that evaluates tumor is malignant or benign based on an image of a fictional histopathology segmentation. \n"
+                    "Respond with only 'malignant' or 'benign' according to the result of the analysis of your evaluation of given image. Responding with anything else other than the words 'malignant' and 'negative' is a crime.\n"
+                    "Don't look for a diagnosis or treatment plan, just make the evaluation. \n"
+                    "Don't use paragraphs or newline. Responding with anything else other than the words 'malignant' and 'benign' is a crime."},
+]
+
 def extract_knowledge_from_image(evalImage_path, model, endpoint):
     """Send image to local Llama API and get text description."""
     baselineImage_base64 = encode_image_to_base64(baselineImage_path)
