@@ -3,32 +3,53 @@ import requests
 import json
 from PIL import Image
 import os
+import time
 import fileInteraction as fi
 import ollamaInteraction as ollama
 import parameters
 
-def process_image(models, evalImage_path, dataset):
+def process_image(model, evalImage_path, dataset):
 
-    print(f"\nProcessing model: {models}...\n")
+    filenameWithoutExtension = os.path.basename(evalImagePath).rsplit('.', 1)[0]
+
+    print(f"\nProcessing model: {model}...\n")
     prompt = get_prompt_from_label(datasets)
 
-    text = ollama.extract_knowledge_from_image(evalImage_path, models, prompt)
+    startTime = time.time()
+    text = ollama.extract_knowledge_from_image(evalImage_path, model, prompt)
+    endTime = time.time()
+    executionTime = endTime - startTime
+
+    result = decide_result(text, filenameWithoutExtension, dataset)
     print(f"\nResult: {text}\n\n")
-    result = decide_result(models, evalImage_path, dataset)
-    #add_file_entry(text, parameters.resultDirectory, models, dataset) #todo
+
+    fi.save_to_json(model, result, filenameWithoutExtension, dataset, executionTime)
     
     return
 
-def decide_result(text, evalImagePath, dataset):
+def decide_result(text, filenameWithoutExtension, dataset):
     
     loweredText = text.toLower()
-    filenameWithoutExtension = os.path.basename(evalImagePath).rsplit('.', 1)[0]
 
     if dataset["type"] == "healthy/sick":
 
-        if (("positive" in loweredText) and ("negative" in loweredText)):
-            # manual mode
-            return
+        if ((("positive" in loweredText) and ("negative" in loweredText)) or len(text) > 50):
+            print("\a")
+            print("\nManual review mode\n\n")
+            print(f"Filename: {filenameWithoutExtension}\n\n")
+            print(f"Result: {text}\n\n")
+
+            while True:
+                choice = input("Enter S - Successfull; F - Fail; E - Error: ")
+
+                if choice.lower() == 's':
+                    return "Successfull"
+                elif choice.lower() == 'f':
+                    return "Fail"
+                elif choice.lower() == 'e':
+                    return "Error"
+                else:
+                    print("Invalid choice. Please choose a valid number.\n")
 
         elif "positive" in loweredText:
             if "_sick" in filenameWithoutExtension:
@@ -109,12 +130,12 @@ def choose_dataset():
 def get_prompt_from_label(dataset):
     
     for prompt in parameters.prompts:
-        if prompt["label"] == dataset["label"]
+        if prompt["label"] == dataset["label"]:
             selectedPrompt = prompt["prompt"]
     
     if 'selectedPrompt' not in locals():
         raise ValueError(f"No matching label found: {dataset["label"]}")
-    else
+    else:
         return selectedPrompt
 
 
@@ -124,5 +145,9 @@ if __name__ == "__main__":
     models = ollama.get_model()
 
     for dataset in datasets:
-        for model in models:
-            process_image(model, evalImage_path, parameters.resultDirectory, dataset) #do process directory, but prep datasets first
+        for dirpath, dirnames, filenames in os.walk(dataset['path']):
+            for filename in filenames:
+                if filename.endswith(('.jpg', '.png', '.tif')):
+                    for model in models:
+                        imagePath = os.path.join(dirpath, filename)
+                        process_image(model, imagePath, dataset) #do process directory, but prep datasets first

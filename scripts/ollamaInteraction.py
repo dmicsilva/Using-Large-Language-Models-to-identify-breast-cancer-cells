@@ -30,10 +30,8 @@ def extract_knowledge_from_image(evalImage_path, model, prompt):
 
 def get_model():
 
-    localGetModelEndpoint = "http://localhost:11434/api/tags" #redo
-
     try:
-        localGetModelResponse = requests.get(localGetModelEndpoint)
+        localGetModelResponse = requests.get(parameters.getModelEndpoint)
 
         if localGetModelResponse.status_code == 200:
             models = localGetModelResponse.json()["models"]

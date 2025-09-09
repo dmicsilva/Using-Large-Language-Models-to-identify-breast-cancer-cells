@@ -1,4 +1,5 @@
 endpoint = "http://localhost:11434/api/chat"
+getModelEndpoint = "http://localhost:11434/api/tags"
 
 directories = [
     {"label": "MRI", "path": "/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/datasetPrepping/mriDataset", "type": "healthy/sick"},
