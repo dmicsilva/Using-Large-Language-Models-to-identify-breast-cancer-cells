@@ -1,7 +1,7 @@
 from pathlib import Path
 import base64
 import requests
-from moondreamImageCompare import process_image as moondream_process_image
+#from moondreamImageCompare import process_image as moondream_process_image
 
 endpoint = "http://localhost:11434/api/chat"
 
@@ -192,6 +192,7 @@ if __name__ == "__main__":
     baselineImage_path = Path('/home/buybluepants/Documents/Thesis/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/Breast Cancer Patients MRI\'s/validation/Sick/S_75.jpg')
     evalImage_path = Path('/home/buybluepants/Documents/Thesis/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/Breast Cancer Patients MRI\'s/validation/Healthy/S_75.jpg')
     resultFile_path = Path('/home/buybluepants/Documents/Thesis/Using-Large-Language-Models-to-identify-breast-cancer-cells/tempTests/GT0CompareS75_Sick_W_S75_Healthy.txt')
+    test = encode_image_to_base64(baselineImage_path)
     models = get_model()
     process_directory(models, baselineImage_path, evalImage_path, resultFile_path)
     sort_model_entries(resultFile_path)

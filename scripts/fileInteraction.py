@@ -7,7 +7,7 @@ import parameters
 
 def encode_image_to_base64(image_path):
     
-    if image_path.endswith(('.tif', '.tiff')):
+    if str(image_path).endswith(('.tif', '.tiff')):
         img = cv2.imread(image_path)
         return base64.b64encode(cv2.imencode('.tif', img)[1]).decode('utf-8') ##check
     else:
@@ -24,19 +24,19 @@ def save_to_json(model, result, imageFilename, dataset, executionTime):
     filename = os.path.join(parameters.resultDirectory, filename)
 
     if not os.path.exists(filename):
-        initial_data = {
+        data = {
             "totalInferences": 0,
             "totalTime": "0s",
-            "filename": []
+            "inference": []
         }
         with open(filename, 'w') as f:
-            json.dump(initial_data, f, indent=4)
+            json.dump(data, f, indent=4)
 
     else:
         with open(filename, 'r') as f:
             data = json.load(f)
 
-    data['filename'].append({
+    data['inference'].append({
         "name": imageFilename,
         "model": model,
         "result": result,
@@ -44,7 +44,10 @@ def save_to_json(model, result, imageFilename, dataset, executionTime):
     })
 
     data['totalInferences'] += 1
-    data['totalTime'] = f"{float(data['totalTime'].split('s')[0]) + {executionTime}:.2f}s"
+
+    initialTime = float(data['totalTime'].split('s')[0])
+    incrementedTime = initialTime + executionTime
+    data['totalTime'] = f"{incrementedTime:.2f}s"
 
     with open(filename, 'w') as f:
         json.dump(data, f, indent=4)

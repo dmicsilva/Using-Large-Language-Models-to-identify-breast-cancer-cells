@@ -2,10 +2,11 @@ from pathlib import Path
 import base64
 import requests
 import parameters
+import fileInteraction as fi
 
 def extract_knowledge_from_image(evalImage_path, model, prompt):
-    baselineImage_base64 = encode_image_to_base64(baselineImage_path)
-    evalImage_base64 = encode_image_to_base64(evalImage_path)
+
+    evalImage_base64 = fi.encode_image_to_base64(evalImage_path)
 
     payload = {
         "model": model,
