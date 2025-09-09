@@ -8,7 +8,7 @@ def encode_image_to_base64(image_path):
     
     if image_path.endswith(('.tif', '.tiff')):
         img = cv2.imread(image_path)
-        return base64_string = base64.b64encode(cv2.imencode('.tiff', img)[1]).decode('utf-8') ##check
+        return base64_string = base64.b64encode(cv2.imencode('.tif', img)[1]).decode('utf-8') ##check
     else:
         return base64.b64encode(image_path.read_bytes()).decode('utf-8')
 
