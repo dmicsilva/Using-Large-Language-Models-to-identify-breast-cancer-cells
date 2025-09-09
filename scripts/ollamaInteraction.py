@@ -4,7 +4,6 @@ import requests
 import parameters
 
 def extract_knowledge_from_image(evalImage_path, model, prompt):
-    """Send image to local Llama API and get text description."""
     baselineImage_base64 = encode_image_to_base64(baselineImage_path)
     evalImage_base64 = encode_image_to_base64(evalImage_path)
 
@@ -47,12 +46,10 @@ def get_model():
             modelNameList = [model['name'] for model in models]
             choice = input("\nChoose a model: ")
             
-            # Run all models
             if choice.lower() == 'a':
                 return modelNameList
-            # Run chosen model
             elif 1 <= int(choice) <= len(modelNameList):
-                localModel = models[int(choice) - 1]["name"]
+                localModel = [models[int(choice) - 1]["name"]]
                 return localModel
             else:
                 print("Invalid choice")

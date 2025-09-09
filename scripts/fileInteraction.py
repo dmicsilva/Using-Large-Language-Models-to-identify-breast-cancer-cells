@@ -22,6 +22,3 @@ def save_to_json(filename, evalResult, output_dir, category, subcategory):
     output_path = os.path.join(output_dir, category, subcategory, f"{os.path.basename(os.path.splitext(image_path)[0])}.json")
     with open(output_path, 'w') as f:
         json.dump(metadata, f, indent=4)
-
-def cycle_directory(directory):
-    return
