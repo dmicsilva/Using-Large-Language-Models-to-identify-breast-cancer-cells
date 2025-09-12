@@ -11,13 +11,14 @@ load_in_4bit = True # Use 4bit quantization to reduce memory usage. Can be False
 
 
 model, tokenizer = FastLanguageModel.from_pretrained(
-    #model_name = "unsloth/DeepSeek-R1-Distill-Qwen-1.5B-unsloth-bnb-4bit",
-    model_name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+    # model_name = "unsloth/DeepSeek-R1-Distill-Qwen-1.5B-unsloth-bnb-4bit",
+    # model_name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+    model_name = "meta-llama/Llama-3.2-1B",
     max_seq_length = max_seq_length,
     dtype = dtype,
     load_in_4bit = load_in_4bit,
     # token = "hf_...", # use one if using gated models like meta-llama/Llama-2-7b-hf
-    token = "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"
+    # token = "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"
 )
 
 
@@ -47,7 +48,7 @@ llama31_prompt="""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 {}<|eot_id|>"""
 from datasets import load_dataset
-dataset = load_dataset("buybluepants/JSON_BreastCancerPatientsMRIs", split = "train")
+dataset = load_dataset("buybluepants/BreastCancerCellsMRI", split = "train")
 
 def formatting_prompts_func(examples):
     instructions = examples["instruction"]
@@ -101,8 +102,8 @@ trainer_stats = trainer.train()
 ### Saving, loading finetuned models
 To save the final model as LoRA adapters, either use Huggingface's `push_to_hub` for an online save or `save_pretrained` for a local save.
 """
-model.save_pretrained("Finetune_Deepseek_1.5B") # Local saving
-tokenizer.save_pretrained("Finetune_Deepseek_1.5B")
+model.save_pretrained("Finetuned_Llama3.2") # Local saving
+tokenizer.save_pretrained("Finetuned_Llama3.2")
 
 # Save to 8bit Q8_0
 if True: model.save_pretrained_gguf("model", tokenizer, quantization_method = [ "q8_0"])
@@ -115,7 +116,7 @@ dtype = None # None for auto detection. Float16 for Tesla T4, V100, Bfloat16 for
 load_in_4bit = True # Use 4bit quantization to reduce memory usage. Can be False.
 
 model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name = "Finetune_Deepseek_1.5B", # YOUR MODEL YOU USED FOR TRAINING
+    model_name = "Finetune_LLama3.2", # YOUR MODEL YOU USED FOR TRAINING
     max_seq_length = max_seq_length,
     dtype = dtype,
     load_in_4bit = load_in_4bit,

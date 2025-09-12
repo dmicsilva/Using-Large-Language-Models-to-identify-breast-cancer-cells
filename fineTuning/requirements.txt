@@ -7,3 +7,4 @@ xformers
 sentencepiece
 transformers
 huggingface_hub
+cmake

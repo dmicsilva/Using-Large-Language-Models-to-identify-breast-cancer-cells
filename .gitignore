@@ -31,7 +31,7 @@
 /latex
 
 # Unsloth
-/unsloth/unsloth_compiled_cache
+/fineTuning/unsloth_compiled_cache
 /unsloth_compiled_cache
 /sentencepiece
 /scripts/__pycache__

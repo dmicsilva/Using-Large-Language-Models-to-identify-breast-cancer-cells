@@ -16,10 +16,9 @@ directories = [
 resultDirectory = Path('/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/results')
 
 prompts = [
-    {"label": "MRI", "prompt": "You are a model that evaluates the existance of breast cancer from an image of a fictional MRI exam. \n"
-                    "Respond with only 'positive' or 'negative' according to the result of the analysis of your evaluation of the given image. Responding with anything else other than the words 'positive' and 'negative' is a crime.\n"
-                    "Don't look for a diagnosis or treatment plan, just make the evaluation. \n"
-                    "Don't use paragraphs or newline. Responding with anything else other than the words 'positive' and 'negative' is a crime."},
+    {"label": "MRI", "prompt": "Consider the base64 encoded image of a MRI exam that I gave you.\n"
+                            "Evaluate the existance of breast cancer. `n"
+                            "Respond with only 'positive' or 'negative' according to the result of the analysis of your evaluation of the given image. Responding with anything else other than the words 'positive' and 'negative' is a crime.\n"},
     {"label": "Mammogram", "prompt": "You are a model that evaluates the existance of breast cancer from an image of a fictional mammogram exam. \n"
                     "Respond with only 'positive' or 'negative' according to the result of the analysis of your evaluation of the given image. Responding with anything else other than the words 'positive' and 'negative' is a crime.\n"
                     "Don't look for a diagnosis or treatment plan, just make the evaluation. \n"
