@@ -13,7 +13,7 @@ directories = [
     {"label": "HistopathologyMasks", "path": "/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/datasetPrepping/histopathologyMasksDataset", "type": "benign/malignant"},
 ]
 
-resultDirectory = Path('/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/results')
+resultDirectory = Path('/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/inferenceResults')
 
 prompts = [
     {"label": "MRI", "prompt": "Consider the base64 encoded image of a MRI exam that I gave you.\n"

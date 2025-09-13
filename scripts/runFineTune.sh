@@ -1,0 +1,1 @@
+docker run --rm --gpus=all -v fineTuning/:/app -it unsloth /bin/bash -c "python runGeneralFineTune.py"
