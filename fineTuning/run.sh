@@ -1,1 +1,1 @@
-docker run --rm --gpus=all -v .:/app -it cuda-py311-tuner
+docker run --rm --gpus=all -v .:/app -it unsloth /bin/bash -c "python runGeneralFineTune.py"

@@ -32,6 +32,9 @@
 
 # Unsloth
 /fineTuning/unsloth_compiled_cache
+/fineTuning/HistopathologyFinetuned_Llama-3.2-3B-Instruct
+/fineTuning/outputs
+/fineTuning/__pycache__
 /unsloth_compiled_cache
 /sentencepiece
 /scripts/__pycache__

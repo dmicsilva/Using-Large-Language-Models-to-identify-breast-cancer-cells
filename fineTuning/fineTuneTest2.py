@@ -65,7 +65,7 @@ def format_chat_template(row):
 dataset = dataset["train"].map(
     format_chat_template,
     num_proc= 4,
-)
+    )
 dataset["text"][2]
 
 

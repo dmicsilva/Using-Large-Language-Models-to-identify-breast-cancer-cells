@@ -1,0 +1,702 @@
+{
+    "totalInferences": 116,
+    "totalTime": "77.88s",
+    "inference": [
+        {
+            "name": "ytma10_010704_malignant1_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 3.938755512237549
+        },
+        {
+            "name": "ytma10_010704_malignant2_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.491757869720459
+        },
+        {
+            "name": "ytma10_010704_malignant3_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.4477729797363281
+        },
+        {
+            "name": "ytma12_010804_malignant1_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.7277812957763672
+        },
+        {
+            "name": "ytma12_010804_malignant2_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.6218528747558594
+        },
+        {
+            "name": "ytma12_010804_malignant3_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.6541748046875
+        },
+        {
+            "name": "ytma23_022103_malignant1_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.5537304878234863
+        },
+        {
+            "name": "ytma23_022103_malignant2_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.6711292266845703
+        },
+        {
+            "name": "ytma23_022103_malignant3_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.23211669921875
+        },
+        {
+            "name": "ytma49_042003_malignant1_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.37362217903137207
+        },
+        {
+            "name": "ytma49_042003_malignant2_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.2946343421936035
+        },
+        {
+            "name": "ytma49_042003_malignant3_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.39885592460632324
+        },
+        {
+            "name": "ytma49_042203_malignant1_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.2667546272277832
+        },
+        {
+            "name": "ytma49_042203_malignant2_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.37464404106140137
+        },
+        {
+            "name": "ytma49_042203_malignant3_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.316103458404541
+        },
+        {
+            "name": "ytma49_042403_malignant1_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.3672475814819336
+        },
+        {
+            "name": "ytma49_042403_malignant2_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.24046015739440918
+        },
+        {
+            "name": "ytma49_042403_malignant3_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.3140420913696289
+        },
+        {
+            "name": "ytma49_072303_malignant1_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.23845577239990234
+        },
+        {
+            "name": "ytma49_072303_malignant2_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.23564600944519043
+        },
+        {
+            "name": "ytma49_111003_malignant1_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.41031503677368164
+        },
+        {
+            "name": "ytma49_111003_malignant2_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.6585495471954346
+        },
+        {
+            "name": "ytma49_111003_malignant3_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.4439718723297119
+        },
+        {
+            "name": "ytma49_111303_malignant1_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.25749754905700684
+        },
+        {
+            "name": "ytma49_111303_malignant2_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.9325437545776367
+        },
+        {
+            "name": "ytma49_111303_malignant3_ccd_malignant",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.24004006385803223
+        },
+        {
+            "name": "ytma10_010704_benign1_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.3811476230621338
+        },
+        {
+            "name": "ytma10_010704_benign2_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.22279596328735352
+        },
+        {
+            "name": "ytma10_010704_benign3_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 1.8027069568634033
+        },
+        {
+            "name": "ytma12_010804_benign1_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.29207396507263184
+        },
+        {
+            "name": "ytma12_010804_benign2_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.6100256443023682
+        },
+        {
+            "name": "ytma12_010804_benign3_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.2259373664855957
+        },
+        {
+            "name": "ytma23_022103_benign1_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.41472816467285156
+        },
+        {
+            "name": "ytma23_022103_benign2_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.21205520629882812
+        },
+        {
+            "name": "ytma23_022103_benign3_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.32187390327453613
+        },
+        {
+            "name": "ytma49_042003_benign1_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.25443291664123535
+        },
+        {
+            "name": "ytma49_042003_benign2_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.24593901634216309
+        },
+        {
+            "name": "ytma49_042003_benign3_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.22895550727844238
+        },
+        {
+            "name": "ytma49_042203_benign1_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.25144267082214355
+        },
+        {
+            "name": "ytma49_042203_benign2_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.22385501861572266
+        },
+        {
+            "name": "ytma49_042203_benign3_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.25321459770202637
+        },
+        {
+            "name": "ytma49_042403_benign1_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.2894566059112549
+        },
+        {
+            "name": "ytma49_042403_benign2_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.22936606407165527
+        },
+        {
+            "name": "ytma49_042403_benign3_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.4404611587524414
+        },
+        {
+            "name": "ytma49_072303_benign1_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.24190092086791992
+        },
+        {
+            "name": "ytma49_072303_benign2_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.2773902416229248
+        },
+        {
+            "name": "ytma49_111003_benign1_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.2608969211578369
+        },
+        {
+            "name": "ytma49_111003_benign2_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.42887377738952637
+        },
+        {
+            "name": "ytma49_111003_benign3_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.2319471836090088
+        },
+        {
+            "name": "ytma49_111303_benign1_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.8292293548583984
+        },
+        {
+            "name": "ytma49_111303_benign2_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.24934983253479004
+        },
+        {
+            "name": "ytma49_111303_benign3_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.2466285228729248
+        },
+        {
+            "name": "ytma55_030603_benign1_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.3938479423522949
+        },
+        {
+            "name": "ytma55_030603_benign2_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.23749542236328125
+        },
+        {
+            "name": "ytma55_030603_benign3_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.1836857795715332
+        },
+        {
+            "name": "ytma55_030603_benign4_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.9621701240539551
+        },
+        {
+            "name": "ytma55_030603_benign5_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 1.4548535346984863
+        },
+        {
+            "name": "ytma55_030603_benign6_ccd_benign",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.415285587310791
+        },
+        {
+            "name": "ytma10_010704_malignant1_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 5.575171947479248
+        },
+        {
+            "name": "ytma10_010704_malignant2_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 2.222803831100464
+        },
+        {
+            "name": "ytma10_010704_malignant3_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.8730406761169434
+        },
+        {
+            "name": "ytma12_010804_malignant1_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.6674268245697021
+        },
+        {
+            "name": "ytma12_010804_malignant2_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.5358591079711914
+        },
+        {
+            "name": "ytma12_010804_malignant3_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.8636777400970459
+        },
+        {
+            "name": "ytma23_022103_malignant1_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.9133069515228271
+        },
+        {
+            "name": "ytma23_022103_malignant2_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.6504952907562256
+        },
+        {
+            "name": "ytma23_022103_malignant3_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.5202200412750244
+        },
+        {
+            "name": "ytma49_042003_malignant1_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.6835222244262695
+        },
+        {
+            "name": "ytma49_042003_malignant2_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.5864481925964355
+        },
+        {
+            "name": "ytma49_042003_malignant3_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.725128173828125
+        },
+        {
+            "name": "ytma49_042203_malignant1_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.6569290161132812
+        },
+        {
+            "name": "ytma49_042203_malignant2_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.5682792663574219
+        },
+        {
+            "name": "ytma49_042203_malignant3_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.7047395706176758
+        },
+        {
+            "name": "ytma49_042403_malignant1_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.6234703063964844
+        },
+        {
+            "name": "ytma49_042403_malignant2_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.5264987945556641
+        },
+        {
+            "name": "ytma49_042403_malignant3_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.785792350769043
+        },
+        {
+            "name": "ytma49_072303_malignant1_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.6037197113037109
+        },
+        {
+            "name": "ytma49_072303_malignant2_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.8427774906158447
+        },
+        {
+            "name": "ytma49_111003_malignant1_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.841109037399292
+        },
+        {
+            "name": "ytma49_111003_malignant2_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.5804233551025391
+        },
+        {
+            "name": "ytma49_111003_malignant3_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.7701401710510254
+        },
+        {
+            "name": "ytma49_111303_malignant1_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.5104584693908691
+        },
+        {
+            "name": "ytma49_111303_malignant2_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.6630387306213379
+        },
+        {
+            "name": "ytma49_111303_malignant3_ccd_malignant",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.608015775680542
+        },
+        {
+            "name": "ytma10_010704_benign1_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.7559702396392822
+        },
+        {
+            "name": "ytma10_010704_benign2_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.709331750869751
+        },
+        {
+            "name": "ytma10_010704_benign3_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.6158688068389893
+        },
+        {
+            "name": "ytma12_010804_benign1_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.7876224517822266
+        },
+        {
+            "name": "ytma12_010804_benign2_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.7633042335510254
+        },
+        {
+            "name": "ytma12_010804_benign3_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.6927096843719482
+        },
+        {
+            "name": "ytma23_022103_benign1_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 3.0826432704925537
+        },
+        {
+            "name": "ytma23_022103_benign2_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.7006192207336426
+        },
+        {
+            "name": "ytma23_022103_benign3_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.6448395252227783
+        },
+        {
+            "name": "ytma49_042003_benign1_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.6900107860565186
+        },
+        {
+            "name": "ytma49_042003_benign2_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.5303552150726318
+        },
+        {
+            "name": "ytma49_042003_benign3_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 2.7015693187713623
+        },
+        {
+            "name": "ytma49_042203_benign1_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.7968189716339111
+        },
+        {
+            "name": "ytma49_042203_benign2_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.6727285385131836
+        },
+        {
+            "name": "ytma49_042203_benign3_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.5154542922973633
+        },
+        {
+            "name": "ytma49_042403_benign1_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.7673001289367676
+        },
+        {
+            "name": "ytma49_042403_benign2_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.6175625324249268
+        },
+        {
+            "name": "ytma49_042403_benign3_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.7962195873260498
+        },
+        {
+            "name": "ytma49_072303_benign1_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.6330890655517578
+        },
+        {
+            "name": "ytma49_072303_benign2_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.7576825618743896
+        },
+        {
+            "name": "ytma49_111003_benign1_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.7128217220306396
+        },
+        {
+            "name": "ytma49_111003_benign2_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.5934233665466309
+        },
+        {
+            "name": "ytma49_111003_benign3_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.6346762180328369
+        },
+        {
+            "name": "ytma49_111303_benign1_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.6641783714294434
+        },
+        {
+            "name": "ytma49_111303_benign2_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.6706979274749756
+        },
+        {
+            "name": "ytma49_111303_benign3_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.6404032707214355
+        },
+        {
+            "name": "ytma55_030603_benign1_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.6255314350128174
+        },
+        {
+            "name": "ytma55_030603_benign2_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.6473569869995117
+        },
+        {
+            "name": "ytma55_030603_benign3_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.6683874130249023
+        },
+        {
+            "name": "ytma55_030603_benign4_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.6682722568511963
+        },
+        {
+            "name": "ytma55_030603_benign5_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.5051388740539551
+        },
+        {
+            "name": "ytma55_030603_benign6_ccd_benign",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.5293440818786621
+        }
+    ]
+}
