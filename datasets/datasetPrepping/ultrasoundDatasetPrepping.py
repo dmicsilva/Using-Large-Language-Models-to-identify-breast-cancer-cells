@@ -1,8 +1,9 @@
 import pandas as pd
 import os
 
-df = pd.read_excel('/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/datasetPrepping/BrEaST-Lesions-USG-clinical-data-Dec-15-2023.xlsx')
-base_directory_path = '/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/BrEaST-Lesions_USG-images_and_masks'
+classificationSheetPath = os.path.join(cwd, 'datasets/datasetPrepping', 'BrEaST-Lesions-USG-clinical-data-Dec-15-2023.xlsx')
+df = pd.read_excel(classificationSheetPath)
+base_directory_path = os.path.join(cwd, 'datasets/BrEaST-Lesions_USG-images_and_masks')
 
 if not os.path.exists(base_directory_path):
     print(f"Directory {base_directory_path} does not exist.")

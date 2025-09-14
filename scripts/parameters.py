@@ -7,16 +7,16 @@ endpoint = "http://localhost:11434/api/chat"
 getModelEndpoint = "http://localhost:11434/api/tags"
 
 directories = [
-    {"label": "MRI", "path": "/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/datasetPrepping/mriDataset", "type": "healthy/sick"},
-    {"label": "Mammogram", "path": "/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/datasetPrepping/mammogramDataset", "type": "healthy/sick"},
-    {"label": "Ultrasound", "path": "/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/datasetPrepping/ultrasoundDataset", "type": "benign/malignant"},
-    {"label": "UltrasoundMasks", "path": "/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/datasetPrepping/ultrasoundMasksDataset", "type": "benign/malignant"},
-    {"label": "Thermography", "path": "/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/datasetPrepping/thermogramDataset", "type": "healthy/sick"},
-    {"label": "Histopathology", "path": "/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/datasetPrepping/histopathologyDataset", "type": "benign/malignant"},
-    {"label": "HistopathologyMasks", "path": "/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/datasets/datasetPrepping/histopathologyMasksDataset", "type": "benign/malignant"},
+    {"label": "MRI", "path": os.path.join(cwd, 'datasets/datasetPrepping/mriDataset'), "type": "healthy/sick"},
+    {"label": "Mammogram", "path": os.path.join(cwd, 'datasets/datasetPrepping/mammogramDataset'), "type": "healthy/sick"},
+    {"label": "Ultrasound", "path": os.path.join(cwd, 'datasets/datasetPrepping/ultrasoundDataset'), "type": "benign/malignant"},
+    {"label": "UltrasoundMasks", "path": os.path.join(cwd, 'datasets/datasetPrepping/ultrasoundMasksDataset'), "type": "benign/malignant"},
+    {"label": "Thermography", "path": os.path.join(cwd, 'datasets/datasetPrepping/thermogramDataset'), "type": "healthy/sick"},
+    {"label": "Histopathology", "path": os.path.join(cwd, 'datasets/datasetPrepping/histopathologyDataset'), "type": "benign/malignant"},
+    {"label": "HistopathologyMasks", "path": os.path.join(cwd, 'datasets/datasetPrepping/histopathologyMasksDataset'), "type": "benign/malignant"},
 ]
 
-resultDirectory = Path('/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/inferenceResults')
+resultDirectory = os.path.join(cwd, 'inferenceResults')
 statisticsDirectory = os.path.join(cwd, 'inferenceStatistics')
 
 prompts = [
