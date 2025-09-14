@@ -64,7 +64,7 @@ def decide_result(text, filenameWithoutExtension, dataset):
 
     elif dataset['type'] == "benign/malignant":
 
-        if ("can't help" in loweredText or "provide" in loweredText) and not (("positive" in loweredText) or ("negative" in loweredText)):
+        if ("can't help" in loweredText or "provide" in loweredText) and not (("malignant" in loweredText) or ("benign" in loweredText)):
             return "Error"
 
         if ((("malignant" in loweredText) and ("benign" in loweredText)) or len(text) > 200):
@@ -159,6 +159,10 @@ if __name__ == "__main__":
         for model in models:
             for dirpath, dirnames, filenames in os.walk(dataset['path']):
                 for filename in filenames:
-                    if filename.endswith(('.jpg', '.png', '.tif')):          
-                        imagePath = Path(os.path.join(dirpath, filename))
-                        process_image(model, imagePath, dataset)
+                    if filename.endswith(('.jpg', '.png', '.tif')):
+                        if (not fi.check_entry_existance(dataset, model, filename)):    
+                            imagePath = Path(os.path.join(dirpath, filename))
+                            process_image(model, imagePath, dataset)
+                        else:
+                            print("Image already analyzed for this dataset ({dataset}) -> {filename}")
+                        

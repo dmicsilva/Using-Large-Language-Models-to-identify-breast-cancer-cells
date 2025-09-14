@@ -54,37 +54,20 @@ def save_to_json(model, result, imageFilename, dataset, executionTime):
 
     return
 
-def deep_merge(a: dict, b: dict) -> dict:
-    for k, v in b.items():
-        if (
-            k in a
-            and isinstance(a[k], dict)
-            and isinstance(v, dict)
-        ):
-            deep_merge(a[k], v)
-        else:
-            a[k] = v
-    return a
+def check_entry_existance(dataset, model, filename):
+    
+    datasetFilename = f"{dataset}_infereces.json"
 
-def add_or_append(dest: dict, new: dict, *, list_key: str | None = None) -> dict:
-    """
-    * Add every key/value from `new` into `dest`.
-    * If a key already exists:
-        - If it maps to a list and `list_key` is that key,
-          append the new value to the list.
-        - Otherwise, **do nothing** – we preserve the old value.
-    """
-    for k, v in new.items():
-        if k in dest:
-            # Special case: we want to append to a list
-            if list_key and k == list_key and isinstance(dest[k], list):
-                dest[k].append(v)
-            else:
-                # Key exists → keep the old value
-                pass
-        else:
-            dest[k] = v
-    return dest
+    with open(datasetFilename, 'r') as f:
+        data = json.load(f)
+
+    for item in data['inference']:
+        if item['model'] == model:
+            if item['name'] == filename:
+                return True
+
+    return False
+
 
 def save_statistics_to_json(selectedDataset, data):
     
