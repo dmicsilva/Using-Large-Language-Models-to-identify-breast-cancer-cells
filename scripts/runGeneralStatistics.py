@@ -1,6 +1,7 @@
 from pathlib import Path
 import os
 import json
+import fileInteraction as fi
 
 _inferenceFilesPath = "inferenceResults/"
 
@@ -50,7 +51,7 @@ def get_models_from_inference_files(selectedDataset):
         return false
 
 
-def extract_model_statistics(selecteDataset, model):
+def extract_model_statistics(selectedDataset, model):
     
     filePath = f"{_inferenceFilesPath}{selectedDataset}"
     
@@ -84,11 +85,78 @@ def extract_model_statistics(selecteDataset, model):
                 trueNegatives += 1
                 successfullCounter += 1
             elif item['result'] == 'Fail' and isPositiveOrMalignant:
+                falsePositives += 1
+                failCounter +=1
+            elif item['result'] == 'Fail' and not isPositiveOrMalignant:
+                falseNegatives += 1
+                failCounter += 1
+            elif item['result'] == 'Error' and isPositiveOrMalignant:
+                errorOnPositiveOrMalignant += 1
+                errorCounter += 1
+            elif item['result'] == 'Error' and not isPositiveOrMalignant:
+                errorOnNegativeOrBenign += 1
+                errorCounter += 1
+            else:
+                print("Case not handled")
 
             totalCounter += 1
             timeCounter += item['responseTime']
+    
+    precision = truePositives / (truePositives + falsePositives + errorOnPositiveOrMalignant) if (truePositives + falsePositives + errorOnPositiveOrMalignant) > 0 else 0
+    specificity = trueNegatives / (trueNegatives + falsePositives + errorOnPositiveOrMalignant) if (trueNegatives + falsePositives + errorOnPositiveOrMalignant) > 0 else 0
+    recall = truePositives / (truePositives + falseNegatives + errorOnNegativeOrBenign) if (truePositives + falseNegatives + errorOnNegativeOrBenign) > 0 else 0
+    f1_score = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0
+    accuracy = (truePositives + trueNegatives) / totalCounter
 
+    successRate = successfullCounter / totalCounter
+    failRate = failCounter / totalCounter
+    errorRate = errorCounter / totalCounter
+    errorOnPositiveOrMalignantRate = errorOnPositiveOrMalignant / totalCounter
+    errorOnNegativeOrBenignRate = errorOnNegativeOrBenign / totalCounter
 
+    falsePositiveRate = falsePositives / (falsePositives + trueNegatives + errorOnPositiveOrMalignant) if (falsePositives + trueNegatives + errorOnPositiveOrMalignant) > 0 else 0
+    falseNegativeRate = falseNegatives / (falseNegatives + truePositives + errorOnNegativeOrBenign) if (falseNegatives + truePositives + errorOnNegativeOrBenign) > 0 else 0
+
+    print(f"{selectedDataset} Inference Statistics on model {model}\n")
+    print(f"Precision: {precision:.4f}\nSpecificity: {specificity:.4f}\nRecall: {recall:.4f}\nF1 Score: {f1_score:.4f}\nAccuracy: {accuracy:.4f}\n")
+    print(f"Success Rate: {successRate:.4f}\nFail Rate: {failRate:.4f}\nError Rate: {errorRate:.4f}\n")
+    print(f"Error on positive/malignant Rate: {errorOnPositiveOrMalignantRate:.4f}\nError on negative/benign Rate: {errorOnNegativeOrBenignRate:.4f}\n")
+    print(f"False positive Rate: {falsePositiveRate:.4f}\nFalseNegativeRate: {falseNegativeRate:.4f}\n")
+    print(f"{timeCounter:.2f}s")
+
+    data = {
+        "model": model,
+        "totalInferences": totalCounter,
+        "totalTime": f"{timeCounter:.2f}s",
+        "statistics": [
+            {"mainMetrics": [],
+            "mainRates": [],
+            "otherRates": []}
+        ]
+    }
+
+    data["statistics"][0]["mainMetrics"].append({
+        "precision": precision,
+        "specificity": specificity,
+        "recall": recall,
+        "f1_score": f1_score,
+        "accuracy": accuracy,
+    })
+
+    data["statistics"][0]["mainRates"].append({
+        "success_rate": successRate,
+        "fail_rate": failRate,
+        "error_rate": errorRate,
+    })
+
+    data["statistics"][0]["otherRates"].append({
+        "error_on_positive_or_malignant_rate": errorOnPositiveOrMalignantRate,
+        "error_on_negative_or_benign_rate": errorOnNegativeOrBenignRate,
+        "false_positive_rate": falsePositiveRate,
+        "false_negative_rate": falseNegativeRate
+    })
+
+    fi.save_statistics_to_json(selectedDataset, data)
 
     return
 

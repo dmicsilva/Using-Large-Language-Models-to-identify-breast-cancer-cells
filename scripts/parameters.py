@@ -1,4 +1,7 @@
 from pathlib import Path
+import os
+
+cwd = os.getcwd()
 
 endpoint = "http://localhost:11434/api/chat"
 getModelEndpoint = "http://localhost:11434/api/tags"
@@ -14,6 +17,7 @@ directories = [
 ]
 
 resultDirectory = Path('/home/buybluepants/Documents/Using-Large-Language-Models-to-identify-breast-cancer-cells/inferenceResults')
+statisticsDirectory = os.path.join(cwd, 'inferenceStatistics')
 
 prompts = [
     {"label": "MRI", "prompt": "Consider the base64 encoded image of a MRI exam that I gave you.\n"

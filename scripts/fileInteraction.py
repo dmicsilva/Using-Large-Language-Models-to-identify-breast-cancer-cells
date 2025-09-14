@@ -53,3 +53,30 @@ def save_to_json(model, result, imageFilename, dataset, executionTime):
         json.dump(data, f, indent=4)
 
     return
+
+def save_statistics_to_json(selectedDataset, data):
+    
+    filename = f"{selectedDataset.split('_')[0]}_statistics.json"
+
+    if not os.path.exists(parameters.statisticsDirectory):
+        os.makedirs(parameters.statisticsDirectory)
+    
+    filename = os.path.join(parameters.statisticsDirectory, filename)
+
+    if not os.path.exists(filename):
+        with open(filename, 'w') as f:
+            json.dump(data, f, indent=4)
+        return
+    
+    else:
+        with open(filename, 'r') as f:
+            existingData = json.load(f)
+        newData = existingData.copy()
+        newData.update(data)
+        with open(filename, 'w') as f:
+            json.dump(newData, f, indent=4)
+
+    return
+
+        
+    
