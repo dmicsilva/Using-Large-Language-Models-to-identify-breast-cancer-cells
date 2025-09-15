@@ -54,6 +54,23 @@ def get_models_from_inference_files(selectedDataset):
 def extract_model_statistics(selectedDataset, model):
     
     filePath = f"{_inferenceFilesPath}{selectedDataset}"
+
+    if os.path.exists(_inferenceFilesPath):
+        with open(filePath) as f:
+            data = json.load(f)
+        
+        ignoreModel = False
+        for item in data:
+            if item['model'] == model:
+                ignoreModel = True
+        
+        if ignoreModel:
+            print(f"Statistics already extracted for {model} from dataset {selectedDataset}")
+            return
+
+    else:
+        with open(filePath) as f:
+            data = json.load(f)
     
     truePositives = 0 
     falsePositives = 0
@@ -69,8 +86,6 @@ def extract_model_statistics(selectedDataset, model):
     totalCounter = 0
     timeCounter = 0
 
-    with open(filePath) as f:
-        data = json.load(f)
 
     for item in data['inference']:
         if item['model'] == model:
@@ -97,7 +112,7 @@ def extract_model_statistics(selectedDataset, model):
                 errorOnNegativeOrBenign += 1
                 errorCounter += 1
             else:
-                print("Case not handled")
+                print(f"Case not handled -> {item['name']} on dataset {selectedDataset} on model {model}")
 
             totalCounter += 1
             timeCounter += item['responseTime']

@@ -1,0 +1,1542 @@
+{
+    "totalInferences": 256,
+    "totalTime": "9071.07s",
+    "inference": [
+        {
+            "name": "case005_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.47979164123535
+        },
+        {
+            "name": "case007_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.69501757621765
+        },
+        {
+            "name": "case008_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.86313796043396
+        },
+        {
+            "name": "case010_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.72160053253174
+        },
+        {
+            "name": "case011_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.68926000595093
+        },
+        {
+            "name": "case012_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.627070903778076
+        },
+        {
+            "name": "case013_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.64551138877869
+        },
+        {
+            "name": "case026_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.69271206855774
+        },
+        {
+            "name": "case027_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.0602240562439
+        },
+        {
+            "name": "case032_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.749160051345825
+        },
+        {
+            "name": "case034_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.572638273239136
+        },
+        {
+            "name": "case035_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.47089195251465
+        },
+        {
+            "name": "case046_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.610739946365356
+        },
+        {
+            "name": "case050_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.50686001777649
+        },
+        {
+            "name": "case053_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.53330993652344
+        },
+        {
+            "name": "case055_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.82254123687744
+        },
+        {
+            "name": "case058_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.4973669052124
+        },
+        {
+            "name": "case060_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.40675926208496
+        },
+        {
+            "name": "case063_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.50260043144226
+        },
+        {
+            "name": "case066_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.50536274909973
+        },
+        {
+            "name": "case067_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.531028509140015
+        },
+        {
+            "name": "case072_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.55426359176636
+        },
+        {
+            "name": "case075_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 37.273109674453735
+        },
+        {
+            "name": "case076_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 37.75748658180237
+        },
+        {
+            "name": "case079_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.91904377937317
+        },
+        {
+            "name": "case082_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.26905155181885
+        },
+        {
+            "name": "case086_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.63321232795715
+        },
+        {
+            "name": "case087_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.81988573074341
+        },
+        {
+            "name": "case088_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.87926530838013
+        },
+        {
+            "name": "case089_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.61023306846619
+        },
+        {
+            "name": "case090_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 38.52249765396118
+        },
+        {
+            "name": "case094_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.413787603378296
+        },
+        {
+            "name": "case099_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.57913517951965
+        },
+        {
+            "name": "case101_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.810587644577026
+        },
+        {
+            "name": "case102_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.04508328437805
+        },
+        {
+            "name": "case103_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 37.37152099609375
+        },
+        {
+            "name": "case105_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.323214054107666
+        },
+        {
+            "name": "case106_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.299941301345825
+        },
+        {
+            "name": "case107_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.73831605911255
+        },
+        {
+            "name": "case109_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.36129140853882
+        },
+        {
+            "name": "case111_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 37.54875826835632
+        },
+        {
+            "name": "case112_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 37.33901810646057
+        },
+        {
+            "name": "case113_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 37.05602312088013
+        },
+        {
+            "name": "case114_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.995739698410034
+        },
+        {
+            "name": "case117_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 37.04778504371643
+        },
+        {
+            "name": "case121_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.73236441612244
+        },
+        {
+            "name": "case125_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 37.09028697013855
+        },
+        {
+            "name": "case127_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.98530983924866
+        },
+        {
+            "name": "case128_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.64372229576111
+        },
+        {
+            "name": "case130_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 37.29640340805054
+        },
+        {
+            "name": "case132_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.54143524169922
+        },
+        {
+            "name": "case133_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.8079948425293
+        },
+        {
+            "name": "case144_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.816872119903564
+        },
+        {
+            "name": "case145_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.55592703819275
+        },
+        {
+            "name": "case147_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.094287157058716
+        },
+        {
+            "name": "case148_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.31519341468811
+        },
+        {
+            "name": "case149_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.76590871810913
+        },
+        {
+            "name": "case150_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.37768054008484
+        },
+        {
+            "name": "case153_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.78782844543457
+        },
+        {
+            "name": "case154_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.794299364089966
+        },
+        {
+            "name": "case158_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.871015310287476
+        },
+        {
+            "name": "case160_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.83751583099365
+        },
+        {
+            "name": "case164_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.845773220062256
+        },
+        {
+            "name": "case170_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.90185832977295
+        },
+        {
+            "name": "case172_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.881489992141724
+        },
+        {
+            "name": "case173_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.96068549156189
+        },
+        {
+            "name": "case174_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.72848057746887
+        },
+        {
+            "name": "case176_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.6432740688324
+        },
+        {
+            "name": "case190_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.75752091407776
+        },
+        {
+            "name": "case195_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.83394908905029
+        },
+        {
+            "name": "case198_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.57820010185242
+        },
+        {
+            "name": "case199_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.454604148864746
+        },
+        {
+            "name": "case205_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.480637073516846
+        },
+        {
+            "name": "case206_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.505027770996094
+        },
+        {
+            "name": "case211_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.51441049575806
+        },
+        {
+            "name": "case212_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.39839434623718
+        },
+        {
+            "name": "case218_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.39140439033508
+        },
+        {
+            "name": "case219_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.58208727836609
+        },
+        {
+            "name": "case221_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.72970414161682
+        },
+        {
+            "name": "case225_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.530911922454834
+        },
+        {
+            "name": "case226_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.602566957473755
+        },
+        {
+            "name": "case227_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.43840932846069
+        },
+        {
+            "name": "case228_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.62873363494873
+        },
+        {
+            "name": "case230_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.48423671722412
+        },
+        {
+            "name": "case233_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.386863231658936
+        },
+        {
+            "name": "case234_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.35202074050903
+        },
+        {
+            "name": "case238_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.45228672027588
+        },
+        {
+            "name": "case239_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.255980014801025
+        },
+        {
+            "name": "case243_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.48308539390564
+        },
+        {
+            "name": "case244_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.52504825592041
+        },
+        {
+            "name": "case245_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.45981788635254
+        },
+        {
+            "name": "case247_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.55530047416687
+        },
+        {
+            "name": "case248_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.57656002044678
+        },
+        {
+            "name": "case249_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.47036361694336
+        },
+        {
+            "name": "case250_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.49450659751892
+        },
+        {
+            "name": "case251_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.55993151664734
+        },
+        {
+            "name": "case254_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.89149475097656
+        },
+        {
+            "name": "case255_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.486013412475586
+        },
+        {
+            "name": "case001_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.496734380722046
+        },
+        {
+            "name": "case002_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.900946378707886
+        },
+        {
+            "name": "case003_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 36.92050790786743
+        },
+        {
+            "name": "case004_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 36.30726218223572
+        },
+        {
+            "name": "case006_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 36.04312586784363
+        },
+        {
+            "name": "case009_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.67366313934326
+        },
+        {
+            "name": "case014_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.86161160469055
+        },
+        {
+            "name": "case015_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.832048416137695
+        },
+        {
+            "name": "case016_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.972965717315674
+        },
+        {
+            "name": "case017_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.843639612197876
+        },
+        {
+            "name": "case018_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.722700119018555
+        },
+        {
+            "name": "case019_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 36.45640563964844
+        },
+        {
+            "name": "case020_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.66621232032776
+        },
+        {
+            "name": "case021_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.479464292526245
+        },
+        {
+            "name": "case022_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.59982442855835
+        },
+        {
+            "name": "case023_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.39168190956116
+        },
+        {
+            "name": "case024_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.549498558044434
+        },
+        {
+            "name": "case025_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.55212378501892
+        },
+        {
+            "name": "case028_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.488182067871094
+        },
+        {
+            "name": "case029_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.259719133377075
+        },
+        {
+            "name": "case030_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.26962852478027
+        },
+        {
+            "name": "case031_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.52777361869812
+        },
+        {
+            "name": "case033_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.51855754852295
+        },
+        {
+            "name": "case036_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.30938124656677
+        },
+        {
+            "name": "case037_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.54373049736023
+        },
+        {
+            "name": "case038_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.497936964035034
+        },
+        {
+            "name": "case039_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.44320106506348
+        },
+        {
+            "name": "case040_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.480825662612915
+        },
+        {
+            "name": "case041_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.49380707740784
+        },
+        {
+            "name": "case042_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.486021757125854
+        },
+        {
+            "name": "case043_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.49353861808777
+        },
+        {
+            "name": "case044_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 36.080262899398804
+        },
+        {
+            "name": "case047_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 39.66965436935425
+        },
+        {
+            "name": "case048_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 0.3852536678314209
+        },
+        {
+            "name": "case049_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 36.431687355041504
+        },
+        {
+            "name": "case051_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 11.880035877227783
+        },
+        {
+            "name": "case052_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 4.3691089153289795
+        },
+        {
+            "name": "case054_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.56902098655701
+        },
+        {
+            "name": "case056_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 36.144158363342285
+        },
+        {
+            "name": "case057_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.893941164016724
+        },
+        {
+            "name": "case059_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.81261229515076
+        },
+        {
+            "name": "case062_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 38.46447992324829
+        },
+        {
+            "name": "case064_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.48241591453552
+        },
+        {
+            "name": "case065_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.54508590698242
+        },
+        {
+            "name": "case068_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.448320150375366
+        },
+        {
+            "name": "case069_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.547452211380005
+        },
+        {
+            "name": "case070_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.688228607177734
+        },
+        {
+            "name": "case071_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.47742056846619
+        },
+        {
+            "name": "case073_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.58269715309143
+        },
+        {
+            "name": "case074_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 36.32210946083069
+        },
+        {
+            "name": "case077_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.279340744018555
+        },
+        {
+            "name": "case078_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.53523874282837
+        },
+        {
+            "name": "case080_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.520148515701294
+        },
+        {
+            "name": "case081_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.313780546188354
+        },
+        {
+            "name": "case083_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.35247349739075
+        },
+        {
+            "name": "case084_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.223716020584106
+        },
+        {
+            "name": "case085_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.482983350753784
+        },
+        {
+            "name": "case091_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.252474308013916
+        },
+        {
+            "name": "case092_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.34975790977478
+        },
+        {
+            "name": "case093_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.387731313705444
+        },
+        {
+            "name": "case095_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.42469263076782
+        },
+        {
+            "name": "case096_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.805365562438965
+        },
+        {
+            "name": "case097_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.39772129058838
+        },
+        {
+            "name": "case098_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.493935346603394
+        },
+        {
+            "name": "case100_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.73011136054993
+        },
+        {
+            "name": "case104_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.867510080337524
+        },
+        {
+            "name": "case108_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 37.595025300979614
+        },
+        {
+            "name": "case110_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 37.049726724624634
+        },
+        {
+            "name": "case115_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 36.96716523170471
+        },
+        {
+            "name": "case116_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.832282304763794
+        },
+        {
+            "name": "case118_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.71789216995239
+        },
+        {
+            "name": "case119_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.877495527267456
+        },
+        {
+            "name": "case120_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.83166742324829
+        },
+        {
+            "name": "case122_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.79864263534546
+        },
+        {
+            "name": "case123_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.68687891960144
+        },
+        {
+            "name": "case124_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 36.06328058242798
+        },
+        {
+            "name": "case126_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.78773498535156
+        },
+        {
+            "name": "case129_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.710477352142334
+        },
+        {
+            "name": "case131_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.878772020339966
+        },
+        {
+            "name": "case134_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.75624442100525
+        },
+        {
+            "name": "case135_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.485135555267334
+        },
+        {
+            "name": "case136_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.4600613117218
+        },
+        {
+            "name": "case137_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.30217671394348
+        },
+        {
+            "name": "case138_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.527764081954956
+        },
+        {
+            "name": "case139_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.39684820175171
+        },
+        {
+            "name": "case140_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.4970006942749
+        },
+        {
+            "name": "case141_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.45352649688721
+        },
+        {
+            "name": "case142_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.46955108642578
+        },
+        {
+            "name": "case143_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.292736768722534
+        },
+        {
+            "name": "case146_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.429789543151855
+        },
+        {
+            "name": "case151_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.52297067642212
+        },
+        {
+            "name": "case152_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.391658782958984
+        },
+        {
+            "name": "case155_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.456435680389404
+        },
+        {
+            "name": "case156_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.42544889450073
+        },
+        {
+            "name": "case157_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.469022035598755
+        },
+        {
+            "name": "case159_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.48076772689819
+        },
+        {
+            "name": "case161_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.50132393836975
+        },
+        {
+            "name": "case162_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.447717905044556
+        },
+        {
+            "name": "case163_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.259172677993774
+        },
+        {
+            "name": "case165_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.81348204612732
+        },
+        {
+            "name": "case166_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.999751329422
+        },
+        {
+            "name": "case167_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.63097405433655
+        },
+        {
+            "name": "case168_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.62005424499512
+        },
+        {
+            "name": "case169_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.709959983825684
+        },
+        {
+            "name": "case171_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.5724310874939
+        },
+        {
+            "name": "case175_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.70885920524597
+        },
+        {
+            "name": "case177_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.489378452301025
+        },
+        {
+            "name": "case178_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.513649463653564
+        },
+        {
+            "name": "case179_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 36.04385948181152
+        },
+        {
+            "name": "case180_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.68590569496155
+        },
+        {
+            "name": "case181_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.515389919281006
+        },
+        {
+            "name": "case182_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.49122595787048
+        },
+        {
+            "name": "case183_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.45401191711426
+        },
+        {
+            "name": "case184_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.46042799949646
+        },
+        {
+            "name": "case185_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.44698739051819
+        },
+        {
+            "name": "case186_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.38889455795288
+        },
+        {
+            "name": "case187_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.539260387420654
+        },
+        {
+            "name": "case188_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.33224153518677
+        },
+        {
+            "name": "case189_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.31376361846924
+        },
+        {
+            "name": "case191_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.50615739822388
+        },
+        {
+            "name": "case192_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.479928970336914
+        },
+        {
+            "name": "case193_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.43356370925903
+        },
+        {
+            "name": "case194_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.33405065536499
+        },
+        {
+            "name": "case196_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.46237230300903
+        },
+        {
+            "name": "case197_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.46418356895447
+        },
+        {
+            "name": "case200_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.423656940460205
+        },
+        {
+            "name": "case201_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.34957456588745
+        },
+        {
+            "name": "case202_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.41912889480591
+        },
+        {
+            "name": "case203_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.42299556732178
+        },
+        {
+            "name": "case204_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.31820249557495
+        },
+        {
+            "name": "case207_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.52435302734375
+        },
+        {
+            "name": "case208_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.44189500808716
+        },
+        {
+            "name": "case210_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.27019166946411
+        },
+        {
+            "name": "case214_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.213481187820435
+        },
+        {
+            "name": "case215_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.39540076255798
+        },
+        {
+            "name": "case216_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.42149782180786
+        },
+        {
+            "name": "case217_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.31853747367859
+        },
+        {
+            "name": "case220_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.49056553840637
+        },
+        {
+            "name": "case222_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.36767935752869
+        },
+        {
+            "name": "case223_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.48466873168945
+        },
+        {
+            "name": "case224_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.279764890670776
+        },
+        {
+            "name": "case229_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.444029331207275
+        },
+        {
+            "name": "case231_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.43756985664368
+        },
+        {
+            "name": "case232_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.34958291053772
+        },
+        {
+            "name": "case235_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.52847456932068
+        },
+        {
+            "name": "case236_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.28462624549866
+        },
+        {
+            "name": "case237_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.3989520072937
+        },
+        {
+            "name": "case240_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.53836274147034
+        },
+        {
+            "name": "case241_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.42560076713562
+        },
+        {
+            "name": "case242_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.45814538002014
+        },
+        {
+            "name": "case246_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.08769369125366
+        },
+        {
+            "name": "case252_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.337945222854614
+        },
+        {
+            "name": "case253_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.383222341537476
+        },
+        {
+            "name": "case256_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.44337701797485
+        },
+        {
+            "name": "case045_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.369415521621704
+        },
+        {
+            "name": "case061_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.43163061141968
+        },
+        {
+            "name": "case209_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.411078214645386
+        },
+        {
+            "name": "case213_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.58686137199402
+        }
+    ]
+}

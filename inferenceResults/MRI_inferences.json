@@ -1,0 +1,5052 @@
+{
+    "totalInferences": 859,
+    "totalTime": "7453.46s",
+    "inference": [
+        {
+            "name": "S_10_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.26497745513916
+        },
+        {
+            "name": "S_19_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.467655658721924
+        },
+        {
+            "name": "S_2_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.593592405319214
+        },
+        {
+            "name": "S_21_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.65197443962097
+        },
+        {
+            "name": "S_22_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 38.039693117141724
+        },
+        {
+            "name": "S_24_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 37.16766095161438
+        },
+        {
+            "name": "S_25_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 36.95038342475891
+        },
+        {
+            "name": "S_26_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 36.60931849479675
+        },
+        {
+            "name": "S_27_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.87682485580444
+        },
+        {
+            "name": "S_28_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.64250135421753
+        },
+        {
+            "name": "S_30_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.59393310546875
+        },
+        {
+            "name": "S_32_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.799442291259766
+        },
+        {
+            "name": "S_33_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.839218616485596
+        },
+        {
+            "name": "S_34_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.474100828170776
+        },
+        {
+            "name": "S_37_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.729066610336304
+        },
+        {
+            "name": "S_38_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.60798406600952
+        },
+        {
+            "name": "S_41_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 36.1032280921936
+        },
+        {
+            "name": "S_43_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.53787875175476
+        },
+        {
+            "name": "S_44_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.33482813835144
+        },
+        {
+            "name": "S_45_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.35752320289612
+        },
+        {
+            "name": "S_46_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.44033741950989
+        },
+        {
+            "name": "S_47_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.41297149658203
+        },
+        {
+            "name": "S_48_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.30615949630737
+        },
+        {
+            "name": "S_49_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.408565521240234
+        },
+        {
+            "name": "S_51_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.39662981033325
+        },
+        {
+            "name": "S_52_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.44492983818054
+        },
+        {
+            "name": "S_54_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.3514621257782
+        },
+        {
+            "name": "S_55_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.45515561103821
+        },
+        {
+            "name": "S_58_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.33093571662903
+        },
+        {
+            "name": "S_6_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.43334412574768
+        },
+        {
+            "name": "S_61_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.45376110076904
+        },
+        {
+            "name": "S_64_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.38921928405762
+        },
+        {
+            "name": "S_66_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.39170742034912
+        },
+        {
+            "name": "S_67_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.41801381111145
+        },
+        {
+            "name": "S_68_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.37059712409973
+        },
+        {
+            "name": "S_7_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.45689249038696
+        },
+        {
+            "name": "S_72_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.38730335235596
+        },
+        {
+            "name": "S_75_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.494192123413086
+        },
+        {
+            "name": "S_8_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.287097215652466
+        },
+        {
+            "name": "S_9_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.26544785499573
+        },
+        {
+            "name": "S_12_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.115365982055664
+        },
+        {
+            "name": "S_34_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.338621854782104
+        },
+        {
+            "name": "S_35_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.28170347213745
+        },
+        {
+            "name": "S_36_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.38081955909729
+        },
+        {
+            "name": "S_37_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.39127016067505
+        },
+        {
+            "name": "S_38_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.46722197532654
+        },
+        {
+            "name": "S_39_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.19315695762634
+        },
+        {
+            "name": "S_40_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.507861614227295
+        },
+        {
+            "name": "S_41_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.5670804977417
+        },
+        {
+            "name": "S_42_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.38946580886841
+        },
+        {
+            "name": "S_43_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.37969660758972
+        },
+        {
+            "name": "S_44_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.32638907432556
+        },
+        {
+            "name": "S_45_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.3202543258667
+        },
+        {
+            "name": "S_46_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.25593400001526
+        },
+        {
+            "name": "S_47_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.16985321044922
+        },
+        {
+            "name": "S_48_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.283106088638306
+        },
+        {
+            "name": "S_49_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.45377588272095
+        },
+        {
+            "name": "S_50_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.27684831619263
+        },
+        {
+            "name": "S_51_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.163169145584106
+        },
+        {
+            "name": "S_52_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.34616780281067
+        },
+        {
+            "name": "S_53_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.39291000366211
+        },
+        {
+            "name": "S_54_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.429685831069946
+        },
+        {
+            "name": "S_55_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.41666650772095
+        },
+        {
+            "name": "S_56_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.444984436035156
+        },
+        {
+            "name": "S_57_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.40341377258301
+        },
+        {
+            "name": "S_60_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.227171182632446
+        },
+        {
+            "name": "S_61_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.46602010726929
+        },
+        {
+            "name": "S_63_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.308369159698486
+        },
+        {
+            "name": "S_64_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.33723735809326
+        },
+        {
+            "name": "S_65_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.455811738967896
+        },
+        {
+            "name": "S_66_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.38498616218567
+        },
+        {
+            "name": "S_67_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.407877683639526
+        },
+        {
+            "name": "S_68_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.3872447013855
+        },
+        {
+            "name": "S_69_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.15801215171814
+        },
+        {
+            "name": "S_70_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.262547731399536
+        },
+        {
+            "name": "S_71_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.294448375701904
+        },
+        {
+            "name": "S_72_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.57244825363159
+        },
+        {
+            "name": "S_73_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.27068591117859
+        },
+        {
+            "name": "S_74_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.446080446243286
+        },
+        {
+            "name": "S_75_sick",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.38876724243164
+        },
+        {
+            "name": "S_10_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 5.050203561782837
+        },
+        {
+            "name": "S_19_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 3.785691499710083
+        },
+        {
+            "name": "S_2_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 2.411405324935913
+        },
+        {
+            "name": "S_21_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 4.11576509475708
+        },
+        {
+            "name": "S_22_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 2.192016363143921
+        },
+        {
+            "name": "S_24_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 3.2333199977874756
+        },
+        {
+            "name": "S_25_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 3.8708436489105225
+        },
+        {
+            "name": "S_26_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 3.863765001296997
+        },
+        {
+            "name": "S_27_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 4.948689937591553
+        },
+        {
+            "name": "S_28_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 3.4330196380615234
+        },
+        {
+            "name": "S_30_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 2.7806077003479004
+        },
+        {
+            "name": "S_32_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Error",
+            "responseTime": 2.907411575317383
+        },
+        {
+            "name": "S_33_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 3.205172538757324
+        },
+        {
+            "name": "S_34_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 3.919074296951294
+        },
+        {
+            "name": "S_37_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 2.958057165145874
+        },
+        {
+            "name": "S_38_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 8.648825407028198
+        },
+        {
+            "name": "S_41_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 1.7233340740203857
+        },
+        {
+            "name": "S_43_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 3.4837067127227783
+        },
+        {
+            "name": "S_44_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 6.339187860488892
+        },
+        {
+            "name": "S_45_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 3.5595972537994385
+        },
+        {
+            "name": "S_46_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 5.5757458209991455
+        },
+        {
+            "name": "S_47_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 2.633413791656494
+        },
+        {
+            "name": "S_48_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 3.554647922515869
+        },
+        {
+            "name": "S_49_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 2.8249051570892334
+        },
+        {
+            "name": "S_51_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 6.276293039321899
+        },
+        {
+            "name": "S_52_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 2.2154862880706787
+        },
+        {
+            "name": "S_54_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 3.1931817531585693
+        },
+        {
+            "name": "S_55_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 3.6639974117279053
+        },
+        {
+            "name": "S_58_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 6.439494848251343
+        },
+        {
+            "name": "S_6_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 2.924123525619507
+        },
+        {
+            "name": "S_61_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 3.840360403060913
+        },
+        {
+            "name": "S_64_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 2.8956544399261475
+        },
+        {
+            "name": "S_66_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 5.274418592453003
+        },
+        {
+            "name": "S_67_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 4.259954214096069
+        },
+        {
+            "name": "S_68_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 3.297391414642334
+        },
+        {
+            "name": "S_7_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 3.8488526344299316
+        },
+        {
+            "name": "S_72_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 3.4238197803497314
+        },
+        {
+            "name": "S_75_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 5.199328422546387
+        },
+        {
+            "name": "S_8_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 4.816175222396851
+        },
+        {
+            "name": "S_9_healthy",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 4.620739936828613
+        },
+        {
+            "name": "S_12_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 7.301487684249878
+        },
+        {
+            "name": "S_34_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 3.1321818828582764
+        },
+        {
+            "name": "S_35_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 4.745022296905518
+        },
+        {
+            "name": "S_36_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 2.833437204360962
+        },
+        {
+            "name": "S_37_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 5.164289474487305
+        },
+        {
+            "name": "S_38_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 2.5905487537384033
+        },
+        {
+            "name": "S_39_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 3.055675983428955
+        },
+        {
+            "name": "S_40_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 3.9010672569274902
+        },
+        {
+            "name": "S_41_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 3.224487781524658
+        },
+        {
+            "name": "S_42_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 6.351075649261475
+        },
+        {
+            "name": "S_43_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 5.870829105377197
+        },
+        {
+            "name": "S_44_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 2.0156478881835938
+        },
+        {
+            "name": "S_45_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 4.544774055480957
+        },
+        {
+            "name": "S_46_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 7.291818380355835
+        },
+        {
+            "name": "S_47_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 3.2971794605255127
+        },
+        {
+            "name": "S_48_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 3.0792319774627686
+        },
+        {
+            "name": "S_49_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 4.340764760971069
+        },
+        {
+            "name": "S_50_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 7.189738035202026
+        },
+        {
+            "name": "S_51_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 3.52390456199646
+        },
+        {
+            "name": "S_52_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 6.69733452796936
+        },
+        {
+            "name": "S_53_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 4.259101867675781
+        },
+        {
+            "name": "S_54_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 3.7533979415893555
+        },
+        {
+            "name": "S_55_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 5.192683219909668
+        },
+        {
+            "name": "S_56_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 4.6972150802612305
+        },
+        {
+            "name": "S_57_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 2.282148838043213
+        },
+        {
+            "name": "S_60_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 6.25153660774231
+        },
+        {
+            "name": "S_61_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 6.304377555847168
+        },
+        {
+            "name": "S_63_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 4.503597736358643
+        },
+        {
+            "name": "S_64_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 6.352127313613892
+        },
+        {
+            "name": "S_65_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 3.2808189392089844
+        },
+        {
+            "name": "S_66_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 3.932271957397461
+        },
+        {
+            "name": "S_67_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 4.42249059677124
+        },
+        {
+            "name": "S_68_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 4.20647668838501
+        },
+        {
+            "name": "S_69_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 2.8803443908691406
+        },
+        {
+            "name": "S_70_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 3.1485249996185303
+        },
+        {
+            "name": "S_71_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 5.7300286293029785
+        },
+        {
+            "name": "S_72_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 2.364321231842041
+        },
+        {
+            "name": "S_73_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 3.6614136695861816
+        },
+        {
+            "name": "S_74_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Successfull",
+            "responseTime": 3.570966958999634
+        },
+        {
+            "name": "S_75_sick",
+            "model": "deepseek-r1:1.5b",
+            "result": "Fail",
+            "responseTime": 2.0417399406433105
+        },
+        {
+            "name": "S_10_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 32.4789023399353
+        },
+        {
+            "name": "S_19_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 32.032158851623535
+        },
+        {
+            "name": "S_2_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 16.27461338043213
+        },
+        {
+            "name": "S_21_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 38.31422829627991
+        },
+        {
+            "name": "S_22_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 19.718507766723633
+        },
+        {
+            "name": "S_24_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.894432067871094
+        },
+        {
+            "name": "S_25_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 36.471752882003784
+        },
+        {
+            "name": "S_26_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 48.23712921142578
+        },
+        {
+            "name": "S_27_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.823779821395874
+        },
+        {
+            "name": "S_28_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 30.584884643554688
+        },
+        {
+            "name": "S_30_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 18.925461292266846
+        },
+        {
+            "name": "S_32_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 29.868555545806885
+        },
+        {
+            "name": "S_33_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 23.3452205657959
+        },
+        {
+            "name": "S_34_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.527260541915894
+        },
+        {
+            "name": "S_37_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 18.4638512134552
+        },
+        {
+            "name": "S_38_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.225653171539307
+        },
+        {
+            "name": "S_41_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 23.229838132858276
+        },
+        {
+            "name": "S_43_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 24.30059814453125
+        },
+        {
+            "name": "S_44_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.745128393173218
+        },
+        {
+            "name": "S_45_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 23.040514945983887
+        },
+        {
+            "name": "S_46_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 10.233292818069458
+        },
+        {
+            "name": "S_47_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.75602436065674
+        },
+        {
+            "name": "S_48_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 24.813586235046387
+        },
+        {
+            "name": "S_49_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 17.51670789718628
+        },
+        {
+            "name": "S_51_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.761318922042847
+        },
+        {
+            "name": "S_52_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.23169469833374
+        },
+        {
+            "name": "S_54_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 25.53230381011963
+        },
+        {
+            "name": "S_55_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 27.180126428604126
+        },
+        {
+            "name": "S_58_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.75313377380371
+        },
+        {
+            "name": "S_6_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.361055850982666
+        },
+        {
+            "name": "S_61_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 23.053594827651978
+        },
+        {
+            "name": "S_64_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.465376138687134
+        },
+        {
+            "name": "S_66_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 40.3145706653595
+        },
+        {
+            "name": "S_67_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 23.046887397766113
+        },
+        {
+            "name": "S_68_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.241881847381592
+        },
+        {
+            "name": "S_7_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 37.239415884017944
+        },
+        {
+            "name": "S_72_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 26.11181330680847
+        },
+        {
+            "name": "S_75_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 36.45974397659302
+        },
+        {
+            "name": "S_8_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 16.233055114746094
+        },
+        {
+            "name": "S_9_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 36.04739475250244
+        },
+        {
+            "name": "S_12_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.176393747329712
+        },
+        {
+            "name": "S_34_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 20.857831239700317
+        },
+        {
+            "name": "S_35_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 32.24624490737915
+        },
+        {
+            "name": "S_36_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 39.03179693222046
+        },
+        {
+            "name": "S_37_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.266429901123047
+        },
+        {
+            "name": "S_38_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.757279872894287
+        },
+        {
+            "name": "S_39_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.7618670463562
+        },
+        {
+            "name": "S_40_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 32.02692008018494
+        },
+        {
+            "name": "S_41_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 27.486735343933105
+        },
+        {
+            "name": "S_42_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 49.60060667991638
+        },
+        {
+            "name": "S_43_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 18.76712417602539
+        },
+        {
+            "name": "S_44_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 16.243582725524902
+        },
+        {
+            "name": "S_45_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 25.966090202331543
+        },
+        {
+            "name": "S_46_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.291577339172363
+        },
+        {
+            "name": "S_47_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 27.227172374725342
+        },
+        {
+            "name": "S_48_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 51.886868953704834
+        },
+        {
+            "name": "S_49_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 30.458067178726196
+        },
+        {
+            "name": "S_50_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.655735731124878
+        },
+        {
+            "name": "S_51_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 26.207626342773438
+        },
+        {
+            "name": "S_52_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 29.413798809051514
+        },
+        {
+            "name": "S_53_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 26.574661016464233
+        },
+        {
+            "name": "S_54_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 16.125645399093628
+        },
+        {
+            "name": "S_55_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 50.97384691238403
+        },
+        {
+            "name": "S_56_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.66951036453247
+        },
+        {
+            "name": "S_57_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 27.62203884124756
+        },
+        {
+            "name": "S_60_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.890013694763184
+        },
+        {
+            "name": "S_61_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 21.944631576538086
+        },
+        {
+            "name": "S_63_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 22.12727975845337
+        },
+        {
+            "name": "S_64_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 20.438069105148315
+        },
+        {
+            "name": "S_65_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 18.87428307533264
+        },
+        {
+            "name": "S_66_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 54.22790336608887
+        },
+        {
+            "name": "S_67_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 28.74842357635498
+        },
+        {
+            "name": "S_68_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 25.25696301460266
+        },
+        {
+            "name": "S_69_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 27.300597429275513
+        },
+        {
+            "name": "S_70_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 24.507248401641846
+        },
+        {
+            "name": "S_71_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 19.022374629974365
+        },
+        {
+            "name": "S_72_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 36.53954601287842
+        },
+        {
+            "name": "S_73_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 38.3331778049469
+        },
+        {
+            "name": "S_74_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 37.948779344558716
+        },
+        {
+            "name": "S_75_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 37.57539129257202
+        },
+        {
+            "name": "S_10_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 4.8295207023620605
+        },
+        {
+            "name": "S_19_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.23894786834716797
+        },
+        {
+            "name": "S_2_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.38624072074890137
+        },
+        {
+            "name": "S_21_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.20685935020446777
+        },
+        {
+            "name": "S_22_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.22542643547058105
+        },
+        {
+            "name": "S_24_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.220963716506958
+        },
+        {
+            "name": "S_25_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.254133939743042
+        },
+        {
+            "name": "S_26_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.24857735633850098
+        },
+        {
+            "name": "S_27_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.2599945068359375
+        },
+        {
+            "name": "S_28_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.27576541900634766
+        },
+        {
+            "name": "S_30_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.249406099319458
+        },
+        {
+            "name": "S_32_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.3387598991394043
+        },
+        {
+            "name": "S_33_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.21904873847961426
+        },
+        {
+            "name": "S_34_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.23685812950134277
+        },
+        {
+            "name": "S_37_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.24158382415771484
+        },
+        {
+            "name": "S_38_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.2607460021972656
+        },
+        {
+            "name": "S_41_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.2518484592437744
+        },
+        {
+            "name": "S_43_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.23709487915039062
+        },
+        {
+            "name": "S_44_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.2536602020263672
+        },
+        {
+            "name": "S_45_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.31778812408447266
+        },
+        {
+            "name": "S_46_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.29203104972839355
+        },
+        {
+            "name": "S_47_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.27315306663513184
+        },
+        {
+            "name": "S_48_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.2810478210449219
+        },
+        {
+            "name": "S_49_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.25226426124572754
+        },
+        {
+            "name": "S_51_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.23846912384033203
+        },
+        {
+            "name": "S_52_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.2930412292480469
+        },
+        {
+            "name": "S_54_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.25275468826293945
+        },
+        {
+            "name": "S_55_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.2924525737762451
+        },
+        {
+            "name": "S_58_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.2917008399963379
+        },
+        {
+            "name": "S_6_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.2876555919647217
+        },
+        {
+            "name": "S_61_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.2918722629547119
+        },
+        {
+            "name": "S_64_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.26169252395629883
+        },
+        {
+            "name": "S_66_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.2696349620819092
+        },
+        {
+            "name": "S_67_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.24192380905151367
+        },
+        {
+            "name": "S_68_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.2629241943359375
+        },
+        {
+            "name": "S_7_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.24633479118347168
+        },
+        {
+            "name": "S_72_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.2717118263244629
+        },
+        {
+            "name": "S_75_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.26781153678894043
+        },
+        {
+            "name": "S_8_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.30298900604248047
+        },
+        {
+            "name": "S_9_healthy",
+            "model": "qwen2.5:7b",
+            "result": "Successfull",
+            "responseTime": 0.29722094535827637
+        },
+        {
+            "name": "S_12_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.6288115978240967
+        },
+        {
+            "name": "S_34_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.24909615516662598
+        },
+        {
+            "name": "S_35_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.22246074676513672
+        },
+        {
+            "name": "S_36_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.2174971103668213
+        },
+        {
+            "name": "S_37_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.22850704193115234
+        },
+        {
+            "name": "S_38_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.2747797966003418
+        },
+        {
+            "name": "S_39_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.23812127113342285
+        },
+        {
+            "name": "S_40_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.2537806034088135
+        },
+        {
+            "name": "S_41_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.21756362915039062
+        },
+        {
+            "name": "S_42_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.293842077255249
+        },
+        {
+            "name": "S_43_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.23888611793518066
+        },
+        {
+            "name": "S_44_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.23891448974609375
+        },
+        {
+            "name": "S_45_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.35355067253112793
+        },
+        {
+            "name": "S_46_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.25353217124938965
+        },
+        {
+            "name": "S_47_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.27045536041259766
+        },
+        {
+            "name": "S_48_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.25511980056762695
+        },
+        {
+            "name": "S_49_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.22047066688537598
+        },
+        {
+            "name": "S_50_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.2284393310546875
+        },
+        {
+            "name": "S_51_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.2489922046661377
+        },
+        {
+            "name": "S_52_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.23408889770507812
+        },
+        {
+            "name": "S_53_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.2456800937652588
+        },
+        {
+            "name": "S_54_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.2669367790222168
+        },
+        {
+            "name": "S_55_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.2516160011291504
+        },
+        {
+            "name": "S_56_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.25983119010925293
+        },
+        {
+            "name": "S_57_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.26965975761413574
+        },
+        {
+            "name": "S_60_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.35411763191223145
+        },
+        {
+            "name": "S_61_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.2805488109588623
+        },
+        {
+            "name": "S_63_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.28542065620422363
+        },
+        {
+            "name": "S_64_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.28711605072021484
+        },
+        {
+            "name": "S_65_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.29116201400756836
+        },
+        {
+            "name": "S_66_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.28954315185546875
+        },
+        {
+            "name": "S_67_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.28166842460632324
+        },
+        {
+            "name": "S_68_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.2463359832763672
+        },
+        {
+            "name": "S_69_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.28417181968688965
+        },
+        {
+            "name": "S_70_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.2545180320739746
+        },
+        {
+            "name": "S_71_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.38823366165161133
+        },
+        {
+            "name": "S_72_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.2616763114929199
+        },
+        {
+            "name": "S_73_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.2589912414550781
+        },
+        {
+            "name": "S_74_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.2560005187988281
+        },
+        {
+            "name": "S_75_sick",
+            "model": "qwen2.5:7b",
+            "result": "Fail",
+            "responseTime": 0.28017449378967285
+        },
+        {
+            "name": "S_10_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 4.625874280929565
+        },
+        {
+            "name": "S_19_healthy",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.153120756149292
+        },
+        {
+            "name": "S_2_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.28068995475769043
+        },
+        {
+            "name": "S_21_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.14893269538879395
+        },
+        {
+            "name": "S_22_healthy",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.13746118545532227
+        },
+        {
+            "name": "S_24_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.168961763381958
+        },
+        {
+            "name": "S_25_healthy",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.14140868186950684
+        },
+        {
+            "name": "S_26_healthy",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.1470646858215332
+        },
+        {
+            "name": "S_27_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.14604830741882324
+        },
+        {
+            "name": "S_28_healthy",
+            "model": "openchat:7b",
+            "result": "Error",
+            "responseTime": 1.0013720989227295
+        },
+        {
+            "name": "S_30_healthy",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.14754605293273926
+        },
+        {
+            "name": "S_32_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.1725904941558838
+        },
+        {
+            "name": "S_33_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.16304516792297363
+        },
+        {
+            "name": "S_34_healthy",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.20612430572509766
+        },
+        {
+            "name": "S_37_healthy",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.16991853713989258
+        },
+        {
+            "name": "S_38_healthy",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.18372106552124023
+        },
+        {
+            "name": "S_41_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.18813729286193848
+        },
+        {
+            "name": "S_43_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.14771795272827148
+        },
+        {
+            "name": "S_44_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.1880626678466797
+        },
+        {
+            "name": "S_45_healthy",
+            "model": "openchat:7b",
+            "result": "Error",
+            "responseTime": 0.7733058929443359
+        },
+        {
+            "name": "S_46_healthy",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.17658019065856934
+        },
+        {
+            "name": "S_47_healthy",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.16702699661254883
+        },
+        {
+            "name": "S_48_healthy",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.2500169277191162
+        },
+        {
+            "name": "S_49_healthy",
+            "model": "openchat:7b",
+            "result": "Error",
+            "responseTime": 0.3833456039428711
+        },
+        {
+            "name": "S_51_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.13761162757873535
+        },
+        {
+            "name": "S_52_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.1391925811767578
+        },
+        {
+            "name": "S_54_healthy",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.1617739200592041
+        },
+        {
+            "name": "S_55_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.1645805835723877
+        },
+        {
+            "name": "S_58_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.14763307571411133
+        },
+        {
+            "name": "S_6_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.16330742835998535
+        },
+        {
+            "name": "S_61_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.12513208389282227
+        },
+        {
+            "name": "S_64_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.34218788146972656
+        },
+        {
+            "name": "S_66_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.12415933609008789
+        },
+        {
+            "name": "S_67_healthy",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.13663744926452637
+        },
+        {
+            "name": "S_68_healthy",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.14300107955932617
+        },
+        {
+            "name": "S_7_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.1773679256439209
+        },
+        {
+            "name": "S_72_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.21529459953308105
+        },
+        {
+            "name": "S_75_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.19516634941101074
+        },
+        {
+            "name": "S_8_healthy",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.1867978572845459
+        },
+        {
+            "name": "S_9_healthy",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.26203036308288574
+        },
+        {
+            "name": "S_12_sick",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.1669316291809082
+        },
+        {
+            "name": "S_34_sick",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.12242650985717773
+        },
+        {
+            "name": "S_35_sick",
+            "model": "openchat:7b",
+            "result": "Error",
+            "responseTime": 0.417255163192749
+        },
+        {
+            "name": "S_36_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.11890006065368652
+        },
+        {
+            "name": "S_37_sick",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.11569356918334961
+        },
+        {
+            "name": "S_38_sick",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.18475985527038574
+        },
+        {
+            "name": "S_39_sick",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.19593381881713867
+        },
+        {
+            "name": "S_40_sick",
+            "model": "openchat:7b",
+            "result": "Error",
+            "responseTime": 1.0053727626800537
+        },
+        {
+            "name": "S_41_sick",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.1471099853515625
+        },
+        {
+            "name": "S_42_sick",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.1433718204498291
+        },
+        {
+            "name": "S_43_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.13860821723937988
+        },
+        {
+            "name": "S_44_sick",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.15988874435424805
+        },
+        {
+            "name": "S_45_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.18712782859802246
+        },
+        {
+            "name": "S_46_sick",
+            "model": "openchat:7b",
+            "result": "Error",
+            "responseTime": 0.3808891773223877
+        },
+        {
+            "name": "S_47_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.28881406784057617
+        },
+        {
+            "name": "S_48_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.15006184577941895
+        },
+        {
+            "name": "S_49_sick",
+            "model": "openchat:7b",
+            "result": "Error",
+            "responseTime": 0.26082658767700195
+        },
+        {
+            "name": "S_50_sick",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.19362378120422363
+        },
+        {
+            "name": "S_51_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.1437690258026123
+        },
+        {
+            "name": "S_52_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.14555835723876953
+        },
+        {
+            "name": "S_53_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.18742942810058594
+        },
+        {
+            "name": "S_54_sick",
+            "model": "openchat:7b",
+            "result": "Error",
+            "responseTime": 0.3277454376220703
+        },
+        {
+            "name": "S_55_sick",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.12612152099609375
+        },
+        {
+            "name": "S_56_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.15556955337524414
+        },
+        {
+            "name": "S_57_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.18755578994750977
+        },
+        {
+            "name": "S_60_sick",
+            "model": "openchat:7b",
+            "result": "Error",
+            "responseTime": 1.0609261989593506
+        },
+        {
+            "name": "S_61_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.16406822204589844
+        },
+        {
+            "name": "S_63_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.19159889221191406
+        },
+        {
+            "name": "S_64_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.14131927490234375
+        },
+        {
+            "name": "S_65_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.13776254653930664
+        },
+        {
+            "name": "S_66_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.16571450233459473
+        },
+        {
+            "name": "S_67_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.1768629550933838
+        },
+        {
+            "name": "S_68_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.18464231491088867
+        },
+        {
+            "name": "S_69_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.17765283584594727
+        },
+        {
+            "name": "S_70_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.1571967601776123
+        },
+        {
+            "name": "S_71_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.12486600875854492
+        },
+        {
+            "name": "S_72_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.12816143035888672
+        },
+        {
+            "name": "S_73_sick",
+            "model": "openchat:7b",
+            "result": "Successfull",
+            "responseTime": 0.1524512767791748
+        },
+        {
+            "name": "S_74_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.17431378364562988
+        },
+        {
+            "name": "S_75_sick",
+            "model": "openchat:7b",
+            "result": "Fail",
+            "responseTime": 0.12107348442077637
+        },
+        {
+            "name": "S_10_healthy",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 7.3044822216033936
+        },
+        {
+            "name": "S_19_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 0.7587025165557861
+        },
+        {
+            "name": "S_2_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 6.656425476074219
+        },
+        {
+            "name": "S_21_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 7.507753849029541
+        },
+        {
+            "name": "S_22_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 2.4595115184783936
+        },
+        {
+            "name": "S_24_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 8.073375225067139
+        },
+        {
+            "name": "S_25_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 0.668175458908081
+        },
+        {
+            "name": "S_26_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 3.1879003047943115
+        },
+        {
+            "name": "S_27_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 5.730579853057861
+        },
+        {
+            "name": "S_28_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.9378604888916016
+        },
+        {
+            "name": "S_30_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 2.798539400100708
+        },
+        {
+            "name": "S_32_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 10.3870530128479
+        },
+        {
+            "name": "S_33_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 5.491481304168701
+        },
+        {
+            "name": "S_34_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 5.9722607135772705
+        },
+        {
+            "name": "S_37_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 5.7113282680511475
+        },
+        {
+            "name": "S_38_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 4.155824661254883
+        },
+        {
+            "name": "S_41_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 3.728212356567383
+        },
+        {
+            "name": "S_43_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 1.342803955078125
+        },
+        {
+            "name": "S_44_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.3546926975250244
+        },
+        {
+            "name": "S_45_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.1786887645721436
+        },
+        {
+            "name": "S_46_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 0.5179226398468018
+        },
+        {
+            "name": "S_47_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.415581464767456
+        },
+        {
+            "name": "S_48_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 5.3110504150390625
+        },
+        {
+            "name": "S_49_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 11.311372518539429
+        },
+        {
+            "name": "S_51_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 1.370178461074829
+        },
+        {
+            "name": "S_52_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 3.2229340076446533
+        },
+        {
+            "name": "S_54_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.279144763946533
+        },
+        {
+            "name": "S_55_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.8508639335632324
+        },
+        {
+            "name": "S_58_healthy",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 1.497842788696289
+        },
+        {
+            "name": "S_6_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 6.221322774887085
+        },
+        {
+            "name": "S_61_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 3.3036563396453857
+        },
+        {
+            "name": "S_64_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 0.694429874420166
+        },
+        {
+            "name": "S_66_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 3.044703722000122
+        },
+        {
+            "name": "S_67_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 1.1689040660858154
+        },
+        {
+            "name": "S_68_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 0.8440694808959961
+        },
+        {
+            "name": "S_7_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 5.380913734436035
+        },
+        {
+            "name": "S_72_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 8.278576374053955
+        },
+        {
+            "name": "S_75_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.247046709060669
+        },
+        {
+            "name": "S_8_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 4.168563604354858
+        },
+        {
+            "name": "S_9_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.4716606140136719
+        },
+        {
+            "name": "S_12_sick",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 1.0789637565612793
+        },
+        {
+            "name": "S_34_sick",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 6.219266414642334
+        },
+        {
+            "name": "S_35_sick",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 4.28838586807251
+        },
+        {
+            "name": "S_36_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 17.56624436378479
+        },
+        {
+            "name": "S_37_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 10.402871131896973
+        },
+        {
+            "name": "S_38_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 5.302165269851685
+        },
+        {
+            "name": "S_39_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.261573314666748
+        },
+        {
+            "name": "S_40_sick",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 5.854461669921875
+        },
+        {
+            "name": "S_41_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 6.459624528884888
+        },
+        {
+            "name": "S_42_sick",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 1.2567484378814697
+        },
+        {
+            "name": "S_43_sick",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 6.534886837005615
+        },
+        {
+            "name": "S_44_sick",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 3.792957067489624
+        },
+        {
+            "name": "S_45_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 5.990374565124512
+        },
+        {
+            "name": "S_46_sick",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 8.71833848953247
+        },
+        {
+            "name": "S_47_sick",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 7.842684984207153
+        },
+        {
+            "name": "S_48_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.2627673149108887
+        },
+        {
+            "name": "S_49_sick",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 2.1792285442352295
+        },
+        {
+            "name": "S_50_sick",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 6.658766269683838
+        },
+        {
+            "name": "S_51_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.088735818862915
+        },
+        {
+            "name": "S_52_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 3.0586142539978027
+        },
+        {
+            "name": "S_53_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 3.1902196407318115
+        },
+        {
+            "name": "S_54_sick",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 6.725747346878052
+        },
+        {
+            "name": "S_55_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.8755764961242676
+        },
+        {
+            "name": "S_56_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.5916409492492676
+        },
+        {
+            "name": "S_57_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.603646993637085
+        },
+        {
+            "name": "S_60_sick",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 16.50221872329712
+        },
+        {
+            "name": "S_61_sick",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 6.216528654098511
+        },
+        {
+            "name": "S_63_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 8.472723245620728
+        },
+        {
+            "name": "S_64_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 4.407019853591919
+        },
+        {
+            "name": "S_65_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 0.9564614295959473
+        },
+        {
+            "name": "S_66_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 10.108945608139038
+        },
+        {
+            "name": "S_67_sick",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 9.860583305358887
+        },
+        {
+            "name": "S_68_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 5.4543962478637695
+        },
+        {
+            "name": "S_69_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.6175189018249512
+        },
+        {
+            "name": "S_70_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.5247085094451904
+        },
+        {
+            "name": "S_71_sick",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 3.0504918098449707
+        },
+        {
+            "name": "S_72_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 6.209250450134277
+        },
+        {
+            "name": "S_73_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.889197826385498
+        },
+        {
+            "name": "S_74_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.6779658794403076
+        },
+        {
+            "name": "S_75_sick",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.1709132194519043
+        },
+        {
+            "name": "S_10_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 5.654106616973877
+        },
+        {
+            "name": "S_19_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.411358594894409
+        },
+        {
+            "name": "S_2_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 0.3303706645965576
+        },
+        {
+            "name": "S_21_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 0.6421833038330078
+        },
+        {
+            "name": "S_22_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 3.4762344360351562
+        },
+        {
+            "name": "S_24_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 0.5154972076416016
+        },
+        {
+            "name": "S_25_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.1028544902801514
+        },
+        {
+            "name": "S_26_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.0492773056030273
+        },
+        {
+            "name": "S_27_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.223568916320801
+        },
+        {
+            "name": "S_28_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 3.4716074466705322
+        },
+        {
+            "name": "S_30_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 1.8569960594177246
+        },
+        {
+            "name": "S_32_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 12.36715030670166
+        },
+        {
+            "name": "S_33_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.4015145301818848
+        },
+        {
+            "name": "S_34_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.361400604248047
+        },
+        {
+            "name": "S_37_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.0761046409606934
+        },
+        {
+            "name": "S_38_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 4.196631193161011
+        },
+        {
+            "name": "S_41_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 4.420229911804199
+        },
+        {
+            "name": "S_43_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 0.891629695892334
+        },
+        {
+            "name": "S_44_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 1.996842384338379
+        },
+        {
+            "name": "S_45_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 8.307223558425903
+        },
+        {
+            "name": "S_46_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 5.814271688461304
+        },
+        {
+            "name": "S_47_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 0.43550658226013184
+        },
+        {
+            "name": "S_48_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 1.9722566604614258
+        },
+        {
+            "name": "S_49_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 0.3908827304840088
+        },
+        {
+            "name": "S_51_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 0.45024585723876953
+        },
+        {
+            "name": "S_52_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 3.794295310974121
+        },
+        {
+            "name": "S_54_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 0.3114326000213623
+        },
+        {
+            "name": "S_55_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.279317617416382
+        },
+        {
+            "name": "S_58_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 0.4351768493652344
+        },
+        {
+            "name": "S_6_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 0.4001345634460449
+        },
+        {
+            "name": "S_61_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 7.5214574337005615
+        },
+        {
+            "name": "S_64_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 1.8745403289794922
+        },
+        {
+            "name": "S_66_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 0.4039328098297119
+        },
+        {
+            "name": "S_67_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.0847957134246826
+        },
+        {
+            "name": "S_68_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 7.125448226928711
+        },
+        {
+            "name": "S_7_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 0.3366060256958008
+        },
+        {
+            "name": "S_72_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.583315849304199
+        },
+        {
+            "name": "S_75_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 1.1723966598510742
+        },
+        {
+            "name": "S_8_healthy",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 1.9967734813690186
+        },
+        {
+            "name": "S_9_healthy",
+            "model": "granite3.3:8b",
+            "result": "Successfull",
+            "responseTime": 0.38298988342285156
+        },
+        {
+            "name": "S_12_sick",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.6646597385406494
+        },
+        {
+            "name": "S_34_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 7.497913837432861
+        },
+        {
+            "name": "S_35_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 5.880201578140259
+        },
+        {
+            "name": "S_36_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.410541296005249
+        },
+        {
+            "name": "S_37_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.26654624938964844
+        },
+        {
+            "name": "S_38_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.44832873344421387
+        },
+        {
+            "name": "S_39_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 6.708498239517212
+        },
+        {
+            "name": "S_40_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.4578375816345215
+        },
+        {
+            "name": "S_41_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.7325973510742188
+        },
+        {
+            "name": "S_42_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.32621169090270996
+        },
+        {
+            "name": "S_43_sick",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 5.346048831939697
+        },
+        {
+            "name": "S_44_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.4625837802886963
+        },
+        {
+            "name": "S_45_sick",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.111083984375
+        },
+        {
+            "name": "S_46_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.2771933078765869
+        },
+        {
+            "name": "S_47_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.3191862106323242
+        },
+        {
+            "name": "S_48_sick",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 11.247877359390259
+        },
+        {
+            "name": "S_49_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.8036966323852539
+        },
+        {
+            "name": "S_50_sick",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 6.422609806060791
+        },
+        {
+            "name": "S_51_sick",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.0618109703063965
+        },
+        {
+            "name": "S_52_sick",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.066272020339966
+        },
+        {
+            "name": "S_53_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 8.32762861251831
+        },
+        {
+            "name": "S_54_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.42949986457824707
+        },
+        {
+            "name": "S_55_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.2853689193725586
+        },
+        {
+            "name": "S_56_sick",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.863234043121338
+        },
+        {
+            "name": "S_57_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.3496665954589844
+        },
+        {
+            "name": "S_60_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.454819917678833
+        },
+        {
+            "name": "S_61_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.4673154354095459
+        },
+        {
+            "name": "S_63_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.43135643005371094
+        },
+        {
+            "name": "S_64_sick",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.0379323959350586
+        },
+        {
+            "name": "S_65_sick",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 1.8490335941314697
+        },
+        {
+            "name": "S_66_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.5420827865600586
+        },
+        {
+            "name": "S_67_sick",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 2.5474045276641846
+        },
+        {
+            "name": "S_68_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.464709997177124
+        },
+        {
+            "name": "S_69_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.3257150650024414
+        },
+        {
+            "name": "S_70_sick",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 1.9420554637908936
+        },
+        {
+            "name": "S_71_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.6470005512237549
+        },
+        {
+            "name": "S_72_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 3.533590316772461
+        },
+        {
+            "name": "S_73_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.39375758171081543
+        },
+        {
+            "name": "S_74_sick",
+            "model": "granite3.3:8b",
+            "result": "Error",
+            "responseTime": 15.40137267112732
+        },
+        {
+            "name": "S_75_sick",
+            "model": "granite3.3:8b",
+            "result": "Fail",
+            "responseTime": 0.462909460067749
+        },
+        {
+            "name": "S_10_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 11.161098718643188
+        },
+        {
+            "name": "S_19_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.25200891494751
+        },
+        {
+            "name": "S_2_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 6.2625391483306885
+        },
+        {
+            "name": "S_21_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 6.563465356826782
+        },
+        {
+            "name": "S_22_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 6.5610058307647705
+        },
+        {
+            "name": "S_24_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 8.896658897399902
+        },
+        {
+            "name": "S_25_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 10.815065860748291
+        },
+        {
+            "name": "S_26_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.91699743270874
+        },
+        {
+            "name": "S_27_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 4.728415489196777
+        },
+        {
+            "name": "S_28_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 5.506985425949097
+        },
+        {
+            "name": "S_30_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 6.411159992218018
+        },
+        {
+            "name": "S_32_healthy",
+            "model": "falcon3:7b",
+            "result": "Fail",
+            "responseTime": 0.27686095237731934
+        },
+        {
+            "name": "S_33_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 4.819764137268066
+        },
+        {
+            "name": "S_34_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.617388725280762
+        },
+        {
+            "name": "S_37_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 6.43132472038269
+        },
+        {
+            "name": "S_38_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 6.544248104095459
+        },
+        {
+            "name": "S_41_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 6.563791275024414
+        },
+        {
+            "name": "S_43_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 5.69250750541687
+        },
+        {
+            "name": "S_44_healthy",
+            "model": "falcon3:7b",
+            "result": "Fail",
+            "responseTime": 0.40855956077575684
+        },
+        {
+            "name": "S_45_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.008281707763672
+        },
+        {
+            "name": "S_46_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 3.0668551921844482
+        },
+        {
+            "name": "S_47_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 1.3964285850524902
+        },
+        {
+            "name": "S_48_healthy",
+            "model": "falcon3:7b",
+            "result": "Fail",
+            "responseTime": 0.30333662033081055
+        },
+        {
+            "name": "S_49_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 8.161480903625488
+        },
+        {
+            "name": "S_51_healthy",
+            "model": "falcon3:7b",
+            "result": "Fail",
+            "responseTime": 0.23611187934875488
+        },
+        {
+            "name": "S_52_healthy",
+            "model": "falcon3:7b",
+            "result": "Fail",
+            "responseTime": 0.2943146228790283
+        },
+        {
+            "name": "S_54_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.195403337478638
+        },
+        {
+            "name": "S_55_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 5.411245822906494
+        },
+        {
+            "name": "S_58_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 4.798269510269165
+        },
+        {
+            "name": "S_6_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.360365867614746
+        },
+        {
+            "name": "S_61_healthy",
+            "model": "falcon3:7b",
+            "result": "Fail",
+            "responseTime": 0.23412728309631348
+        },
+        {
+            "name": "S_64_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 5.324292898178101
+        },
+        {
+            "name": "S_66_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 5.175167083740234
+        },
+        {
+            "name": "S_67_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 8.329973697662354
+        },
+        {
+            "name": "S_68_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 4.3290181159973145
+        },
+        {
+            "name": "S_7_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.318000078201294
+        },
+        {
+            "name": "S_72_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 6.391819000244141
+        },
+        {
+            "name": "S_75_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 5.748493194580078
+        },
+        {
+            "name": "S_8_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 2.180870294570923
+        },
+        {
+            "name": "S_9_healthy",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 5.865900278091431
+        },
+        {
+            "name": "S_12_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.664631366729736
+        },
+        {
+            "name": "S_34_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 3.719705104827881
+        },
+        {
+            "name": "S_35_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 6.094017267227173
+        },
+        {
+            "name": "S_36_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 8.148664951324463
+        },
+        {
+            "name": "S_37_sick",
+            "model": "falcon3:7b",
+            "result": "Successfull",
+            "responseTime": 0.4506676197052002
+        },
+        {
+            "name": "S_38_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 4.8341758251190186
+        },
+        {
+            "name": "S_39_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 8.788007736206055
+        },
+        {
+            "name": "S_40_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.357227563858032
+        },
+        {
+            "name": "S_41_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 6.924367189407349
+        },
+        {
+            "name": "S_42_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 3.8048622608184814
+        },
+        {
+            "name": "S_43_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.376580715179443
+        },
+        {
+            "name": "S_44_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 4.636029958724976
+        },
+        {
+            "name": "S_45_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 6.493659257888794
+        },
+        {
+            "name": "S_46_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 5.96692156791687
+        },
+        {
+            "name": "S_47_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 6.530790328979492
+        },
+        {
+            "name": "S_48_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 4.569573402404785
+        },
+        {
+            "name": "S_49_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 5.7391557693481445
+        },
+        {
+            "name": "S_50_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.133568286895752
+        },
+        {
+            "name": "S_51_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 4.485985517501831
+        },
+        {
+            "name": "S_52_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.5778117179870605
+        },
+        {
+            "name": "S_53_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.314330816268921
+        },
+        {
+            "name": "S_54_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 3.578458070755005
+        },
+        {
+            "name": "S_55_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 8.861547708511353
+        },
+        {
+            "name": "S_56_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 6.821534872055054
+        },
+        {
+            "name": "S_57_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 5.413962364196777
+        },
+        {
+            "name": "S_60_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.1268603801727295
+        },
+        {
+            "name": "S_61_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 5.9224748611450195
+        },
+        {
+            "name": "S_63_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 5.52358603477478
+        },
+        {
+            "name": "S_64_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 6.562014818191528
+        },
+        {
+            "name": "S_65_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 3.8507890701293945
+        },
+        {
+            "name": "S_66_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 4.366515636444092
+        },
+        {
+            "name": "S_67_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 6.09400200843811
+        },
+        {
+            "name": "S_68_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 3.4863827228546143
+        },
+        {
+            "name": "S_69_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 5.244735479354858
+        },
+        {
+            "name": "S_70_sick",
+            "model": "falcon3:7b",
+            "result": "Successfull",
+            "responseTime": 0.3134429454803467
+        },
+        {
+            "name": "S_71_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 5.6678221225738525
+        },
+        {
+            "name": "S_72_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 8.893387079238892
+        },
+        {
+            "name": "S_73_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.864345073699951
+        },
+        {
+            "name": "S_74_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.936213254928589
+        },
+        {
+            "name": "S_75_sick",
+            "model": "falcon3:7b",
+            "result": "Error",
+            "responseTime": 7.596029043197632
+        },
+        {
+            "name": "S_10_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 5.937357664108276
+        },
+        {
+            "name": "S_19_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.33002352714538574
+        },
+        {
+            "name": "S_2_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.31844210624694824
+        },
+        {
+            "name": "S_21_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3173236846923828
+        },
+        {
+            "name": "S_22_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.34827160835266113
+        },
+        {
+            "name": "S_24_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.30212998390197754
+        },
+        {
+            "name": "S_25_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3219938278198242
+        },
+        {
+            "name": "S_26_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.2907545566558838
+        },
+        {
+            "name": "S_27_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3065669536590576
+        },
+        {
+            "name": "S_28_healthy",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3142201900482178
+        },
+        {
+            "name": "S_30_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.44551658630371094
+        },
+        {
+            "name": "S_32_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.318148136138916
+        },
+        {
+            "name": "S_33_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3325674533843994
+        },
+        {
+            "name": "S_34_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3731675148010254
+        },
+        {
+            "name": "S_37_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3193509578704834
+        },
+        {
+            "name": "S_38_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3874967098236084
+        },
+        {
+            "name": "S_41_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3687763214111328
+        },
+        {
+            "name": "S_43_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.404019832611084
+        },
+        {
+            "name": "S_44_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.38614559173583984
+        },
+        {
+            "name": "S_45_healthy",
+            "model": "olmo2:7b",
+            "result": "Error",
+            "responseTime": 8.860640287399292
+        },
+        {
+            "name": "S_46_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.42188334465026855
+        },
+        {
+            "name": "S_47_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3858826160430908
+        },
+        {
+            "name": "S_48_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3954801559448242
+        },
+        {
+            "name": "S_49_healthy",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3351621627807617
+        },
+        {
+            "name": "S_51_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3976445198059082
+        },
+        {
+            "name": "S_52_healthy",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.7965743541717529
+        },
+        {
+            "name": "S_54_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3568897247314453
+        },
+        {
+            "name": "S_55_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3543074131011963
+        },
+        {
+            "name": "S_58_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.4943397045135498
+        },
+        {
+            "name": "S_6_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.4007861614227295
+        },
+        {
+            "name": "S_61_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3316376209259033
+        },
+        {
+            "name": "S_64_healthy",
+            "model": "olmo2:7b",
+            "result": "Error",
+            "responseTime": 14.787022352218628
+        },
+        {
+            "name": "S_66_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.34616732597351074
+        },
+        {
+            "name": "S_67_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.32929277420043945
+        },
+        {
+            "name": "S_68_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.37627673149108887
+        },
+        {
+            "name": "S_7_healthy",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.37091064453125
+        },
+        {
+            "name": "S_72_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.37395763397216797
+        },
+        {
+            "name": "S_75_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3545868396759033
+        },
+        {
+            "name": "S_8_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.49718618392944336
+        },
+        {
+            "name": "S_9_healthy",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.3767383098602295
+        },
+        {
+            "name": "S_12_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.35049986839294434
+        },
+        {
+            "name": "S_34_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3878440856933594
+        },
+        {
+            "name": "S_35_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3619387149810791
+        },
+        {
+            "name": "S_36_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.463914155960083
+        },
+        {
+            "name": "S_37_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3932631015777588
+        },
+        {
+            "name": "S_38_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3493812084197998
+        },
+        {
+            "name": "S_39_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.30638694763183594
+        },
+        {
+            "name": "S_40_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3522002696990967
+        },
+        {
+            "name": "S_41_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.48810887336730957
+        },
+        {
+            "name": "S_42_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.33247828483581543
+        },
+        {
+            "name": "S_43_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3758835792541504
+        },
+        {
+            "name": "S_44_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3483312129974365
+        },
+        {
+            "name": "S_45_sick",
+            "model": "olmo2:7b",
+            "result": "Error",
+            "responseTime": 12.407228469848633
+        },
+        {
+            "name": "S_46_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3406963348388672
+        },
+        {
+            "name": "S_47_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.4131441116333008
+        },
+        {
+            "name": "S_48_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3974759578704834
+        },
+        {
+            "name": "S_49_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.41011619567871094
+        },
+        {
+            "name": "S_50_sick",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.4781012535095215
+        },
+        {
+            "name": "S_51_sick",
+            "model": "olmo2:7b",
+            "result": "Error",
+            "responseTime": 8.557595491409302
+        },
+        {
+            "name": "S_52_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3487112522125244
+        },
+        {
+            "name": "S_53_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3953530788421631
+        },
+        {
+            "name": "S_54_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3927278518676758
+        },
+        {
+            "name": "S_55_sick",
+            "model": "olmo2:7b",
+            "result": "Error",
+            "responseTime": 10.238991975784302
+        },
+        {
+            "name": "S_56_sick",
+            "model": "olmo2:7b",
+            "result": "Error",
+            "responseTime": 3.7209343910217285
+        },
+        {
+            "name": "S_57_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.43985438346862793
+        },
+        {
+            "name": "S_60_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.32617664337158203
+        },
+        {
+            "name": "S_61_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3180410861968994
+        },
+        {
+            "name": "S_63_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3218090534210205
+        },
+        {
+            "name": "S_64_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.31952905654907227
+        },
+        {
+            "name": "S_65_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3928487300872803
+        },
+        {
+            "name": "S_66_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3878912925720215
+        },
+        {
+            "name": "S_67_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.32800793647766113
+        },
+        {
+            "name": "S_68_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.35023045539855957
+        },
+        {
+            "name": "S_69_sick",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.35362696647644043
+        },
+        {
+            "name": "S_70_sick",
+            "model": "olmo2:7b",
+            "result": "Error",
+            "responseTime": 15.141639232635498
+        },
+        {
+            "name": "S_71_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.32298779487609863
+        },
+        {
+            "name": "S_72_sick",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.396625280380249
+        },
+        {
+            "name": "S_73_sick",
+            "model": "olmo2:7b",
+            "result": "Successfull",
+            "responseTime": 0.35439538955688477
+        },
+        {
+            "name": "S_74_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.27744221687316895
+        },
+        {
+            "name": "S_75_sick",
+            "model": "olmo2:7b",
+            "result": "Fail",
+            "responseTime": 0.3513312339782715
+        },
+        {
+            "name": "S_10_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 2.9012014865875244
+        },
+        {
+            "name": "S_19_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.11462783813476562
+        },
+        {
+            "name": "S_2_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.0969233512878418
+        },
+        {
+            "name": "S_21_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.1076509952545166
+        },
+        {
+            "name": "S_22_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10192155838012695
+        },
+        {
+            "name": "S_24_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.12810635566711426
+        },
+        {
+            "name": "S_25_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.12574076652526855
+        },
+        {
+            "name": "S_26_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10700607299804688
+        },
+        {
+            "name": "S_27_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.11648726463317871
+        },
+        {
+            "name": "S_28_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.11298108100891113
+        },
+        {
+            "name": "S_30_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.11256217956542969
+        },
+        {
+            "name": "S_32_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.11195707321166992
+        },
+        {
+            "name": "S_33_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.11015152931213379
+        },
+        {
+            "name": "S_34_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.11473894119262695
+        },
+        {
+            "name": "S_37_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10778594017028809
+        },
+        {
+            "name": "S_38_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10299110412597656
+        },
+        {
+            "name": "S_41_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10160708427429199
+        },
+        {
+            "name": "S_43_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.12956929206848145
+        },
+        {
+            "name": "S_44_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10381579399108887
+        },
+        {
+            "name": "S_45_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.11731195449829102
+        },
+        {
+            "name": "S_46_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10588407516479492
+        },
+        {
+            "name": "S_47_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.11011576652526855
+        },
+        {
+            "name": "S_48_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.11389946937561035
+        },
+        {
+            "name": "S_49_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.1059272289276123
+        },
+        {
+            "name": "S_51_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10948896408081055
+        },
+        {
+            "name": "S_52_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10396957397460938
+        },
+        {
+            "name": "S_54_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.11439800262451172
+        },
+        {
+            "name": "S_55_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10507512092590332
+        },
+        {
+            "name": "S_58_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10997867584228516
+        },
+        {
+            "name": "S_6_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.1345360279083252
+        },
+        {
+            "name": "S_61_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.1120905876159668
+        },
+        {
+            "name": "S_64_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.1012413501739502
+        },
+        {
+            "name": "S_66_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.116790771484375
+        },
+        {
+            "name": "S_67_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.09918069839477539
+        },
+        {
+            "name": "S_68_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10771894454956055
+        },
+        {
+            "name": "S_7_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.11083698272705078
+        },
+        {
+            "name": "S_72_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10575127601623535
+        },
+        {
+            "name": "S_75_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.09886050224304199
+        },
+        {
+            "name": "S_8_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10920429229736328
+        },
+        {
+            "name": "S_9_healthy",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.12835192680358887
+        },
+        {
+            "name": "S_12_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.12062239646911621
+        },
+        {
+            "name": "S_34_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.11514639854431152
+        },
+        {
+            "name": "S_35_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.11136817932128906
+        },
+        {
+            "name": "S_36_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.10760831832885742
+        },
+        {
+            "name": "S_37_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.1022636890411377
+        },
+        {
+            "name": "S_38_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10173988342285156
+        },
+        {
+            "name": "S_39_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.13202810287475586
+        },
+        {
+            "name": "S_40_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.12374186515808105
+        },
+        {
+            "name": "S_41_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.11183786392211914
+        },
+        {
+            "name": "S_42_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.10861992835998535
+        },
+        {
+            "name": "S_43_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.12394309043884277
+        },
+        {
+            "name": "S_44_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.11299800872802734
+        },
+        {
+            "name": "S_45_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.10602736473083496
+        },
+        {
+            "name": "S_46_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.11301016807556152
+        },
+        {
+            "name": "S_47_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.11123347282409668
+        },
+        {
+            "name": "S_48_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.11021161079406738
+        },
+        {
+            "name": "S_49_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.11192059516906738
+        },
+        {
+            "name": "S_50_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.12271857261657715
+        },
+        {
+            "name": "S_51_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.10789227485656738
+        },
+        {
+            "name": "S_52_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.10066604614257812
+        },
+        {
+            "name": "S_53_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.1111607551574707
+        },
+        {
+            "name": "S_54_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.10931897163391113
+        },
+        {
+            "name": "S_55_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.12814545631408691
+        },
+        {
+            "name": "S_56_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.1077871322631836
+        },
+        {
+            "name": "S_57_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.13730692863464355
+        },
+        {
+            "name": "S_60_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.10358238220214844
+        },
+        {
+            "name": "S_61_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.11672806739807129
+        },
+        {
+            "name": "S_63_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.10280251502990723
+        },
+        {
+            "name": "S_64_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.10955190658569336
+        },
+        {
+            "name": "S_65_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.11874556541442871
+        },
+        {
+            "name": "S_66_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.10998964309692383
+        },
+        {
+            "name": "S_67_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.1040353775024414
+        },
+        {
+            "name": "S_68_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Fail",
+            "responseTime": 0.102752685546875
+        },
+        {
+            "name": "S_69_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.11919617652893066
+        },
+        {
+            "name": "S_70_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.1125645637512207
+        },
+        {
+            "name": "S_71_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.11290693283081055
+        },
+        {
+            "name": "S_72_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.1123356819152832
+        },
+        {
+            "name": "S_73_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.11668777465820312
+        },
+        {
+            "name": "S_74_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.12123847007751465
+        },
+        {
+            "name": "S_75_sick",
+            "model": "qwen2.5:0.5b",
+            "result": "Successfull",
+            "responseTime": 0.1081702709197998
+        },
+        {
+            "name": "S_10_healthy",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 8.49292540550232
+        },
+        {
+            "name": "S_19_healthy",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 3.4238460063934326
+        },
+        {
+            "name": "S_2_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 3.408304214477539
+        },
+        {
+            "name": "S_21_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 21.915786266326904
+        },
+        {
+            "name": "S_22_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 8.465353012084961
+        },
+        {
+            "name": "S_24_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 4.918919324874878
+        },
+        {
+            "name": "S_25_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 0.08226895332336426
+        },
+        {
+            "name": "S_26_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 1.544823169708252
+        },
+        {
+            "name": "S_27_healthy",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 0.08750724792480469
+        },
+        {
+            "name": "S_28_healthy",
+            "model": "phi3:3.8b",
+            "result": "Error",
+            "responseTime": 0.12071847915649414
+        },
+        {
+            "name": "S_30_healthy",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 10.732452869415283
+        },
+        {
+            "name": "S_32_healthy",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 3.010765552520752
+        },
+        {
+            "name": "S_33_healthy",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 4.2329864501953125
+        },
+        {
+            "name": "S_34_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 0.07874369621276855
+        },
+        {
+            "name": "S_37_healthy",
+            "model": "phi3:3.8b",
+            "result": "Error",
+            "responseTime": 0.2101728916168213
+        },
+        {
+            "name": "S_38_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 2.6198248863220215
+        },
+        {
+            "name": "S_41_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 0.7795712947845459
+        },
+        {
+            "name": "S_43_healthy",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 4.728964805603027
+        },
+        {
+            "name": "S_44_healthy",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 0.08884334564208984
+        },
+        {
+            "name": "S_45_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 3.006439447402954
+        },
+        {
+            "name": "S_46_healthy",
+            "model": "phi3:3.8b",
+            "result": "Error",
+            "responseTime": 0.5417323112487793
+        },
+        {
+            "name": "S_47_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 0.374650239944458
+        },
+        {
+            "name": "S_48_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 8.068831443786621
+        },
+        {
+            "name": "S_49_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 0.07304120063781738
+        },
+        {
+            "name": "S_51_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 2.3737854957580566
+        },
+        {
+            "name": "S_52_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 6.195349454879761
+        },
+        {
+            "name": "S_54_healthy",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 59.664084911346436
+        },
+        {
+            "name": "S_55_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 0.07048892974853516
+        },
+        {
+            "name": "S_58_healthy",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 174.43945622444153
+        },
+        {
+            "name": "S_6_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 13.754302740097046
+        },
+        {
+            "name": "S_61_healthy",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 7.356853723526001
+        },
+        {
+            "name": "S_64_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 5.8462975025177
+        },
+        {
+            "name": "S_66_healthy",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 42.70767021179199
+        },
+        {
+            "name": "S_67_healthy",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 4.926015853881836
+        },
+        {
+            "name": "S_68_healthy",
+            "model": "phi3:3.8b",
+            "result": "Error",
+            "responseTime": 24.979541778564453
+        },
+        {
+            "name": "S_7_healthy",
+            "model": "phi3:3.8b",
+            "result": "Error",
+            "responseTime": 9.2847421169281
+        },
+        {
+            "name": "S_72_healthy",
+            "model": "phi3:3.8b",
+            "result": "Error",
+            "responseTime": 16.41501784324646
+        },
+        {
+            "name": "S_75_healthy",
+            "model": "phi3:3.8b",
+            "result": "Error",
+            "responseTime": 11.08456563949585
+        },
+        {
+            "name": "S_8_healthy",
+            "model": "phi3:3.8b",
+            "result": "Error",
+            "responseTime": 13.413973093032837
+        },
+        {
+            "name": "S_9_healthy",
+            "model": "phi3:3.8b",
+            "result": "Error",
+            "responseTime": 8.624895572662354
+        },
+        {
+            "name": "S_12_sick",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 6.4633049964904785
+        }
+    ]
+}

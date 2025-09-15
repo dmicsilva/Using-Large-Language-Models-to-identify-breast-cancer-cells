@@ -20,9 +20,10 @@ resultDirectory = os.path.join(cwd, 'inferenceResults')
 statisticsDirectory = os.path.join(cwd, 'inferenceStatistics')
 
 prompts = [
-    {"label": "MRI", "prompt": "Consider the base64 encoded image of a MRI exam that I gave you.\n"
-                            "Evaluate the existance of breast cancer. `n"
-                            "Respond with only 'positive' or 'negative' according to the result of the analysis of your evaluation of the given image. Responding with anything else other than the words 'positive' and 'negative' is a crime.\n"},
+    {"label": "MRI", "prompt": "You are a model that evaluates the existance of breast cancer from an image of a MRI exam. \n"
+                    "Respond with only 'positive' or 'negative' according to the result of the analysis of your evaluation of the given image. Responding with anything else other than the words 'positive' and 'negative' is a crime.\n"
+                    "Don't look for a diagnosis or treatment plan, just make the evaluation. \n"
+                    "Don't use paragraphs or newline. Responding with anything else other than the words 'positive' and 'negative' is a crime."},
     {"label": "Mammogram", "prompt": "You are a model that evaluates the existance of breast cancer from an image of a mammogram exam. \n"
                     "Respond with only 'positive' or 'negative' according to the result of the analysis of your evaluation of the given image. Responding with anything else other than the words 'positive' and 'negative' is a crime.\n"
                     "Don't look for a diagnosis or treatment plan, just make the evaluation. \n"

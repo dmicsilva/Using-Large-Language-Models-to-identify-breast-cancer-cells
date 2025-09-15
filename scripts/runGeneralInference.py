@@ -186,13 +186,64 @@ def get_prompt_from_label(dataset):
         return selectedPrompt
 
 
+def get_fileCount_from_dataset(dataset):
+
+    count = 0
+    for dirpath, dirnames, filenames in os.walk(dataset['path']):
+        for filename in filenames:
+            if filename.endswith(('.jpg', '.png', '.tif')):
+                count += 1
+    return count
+
+
+def printProgressBar(iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█', printEnd = "\r"):
+
+    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
+    filledLength = int(length * iteration // total)
+    bar = fill * filledLength + '-' * (length - filledLength)
+    print(f'\033[38;5;208m\r{prefix} |{bar}| {percent}% {suffix}\033[0m', end = printEnd)
+    if iteration == total: 
+        print()
+
+
+def get_estimated_time(dataset, model, currentFileCount, totalFileCount):
+
+    datasetFilename = f"{dataset['label']}_inferences.json"
+    datasetResultsFilePath = os.path.join(parameters.cwd, 'inferenceResults', datasetFilename)
+
+    if not os.path.exists(datasetResultsFilePath):
+        return "--:--:--"
+
+    with open(datasetResultsFilePath, 'r') as f:
+        data = json.load(f)
+
+    if (data['inference'][-1]['model'] == model):
+        filesLeft = totalFileCount - currentFileCount
+        estimatedTime = filesLeft * data['inference'][-1]['responseTime']
+        formattedTime = time.strftime('%H:%M:%S', time.gmtime(estimatedTime))
+        return formattedTime
+    else:
+        return "--:--:--"
+
+
+def print_progress(currentFileCount, totalFileCount, dataset, model):
+    
+    currentProgress = currentFileCount / totalFileCount
+    print(f"\033[38;5;208mDataset analysis progress: {currentFileCount} / {totalFileCount}\033[0m")
+    print(f"\033[38;5;208mEstimated end time for dataset {dataset['label']}: {get_estimated_time(dataset, model, currentFileCount, totalFileCount)}h\033[0m")
+    printProgressBar(currentFileCount, totalFileCount, prefix = 'Progress:', suffix = 'Complete', length = 50)
+    return
+
+    
 if __name__ == "__main__":
 
     datasets = choose_dataset()
     models = ollama.get_model()
 
     for dataset in datasets:
+        totalFileCount = get_fileCount_from_dataset(dataset)
         for model in models:
+            currentFileCount = 0
             for dirpath, dirnames, filenames in os.walk(dataset['path']):
                 for filename in filenames:
                     if filename.endswith(('.jpg', '.png', '.tif')):
@@ -200,5 +251,8 @@ if __name__ == "__main__":
                             imagePath = Path(os.path.join(dirpath, filename))
                             process_image(model, imagePath, dataset)
                         else:
-                            print(f"\nImage already analyzed for this dataset ({dataset['label']}) -> {filename}\n")
+                            print(f"\n\nImage already analyzed for this dataset ({dataset['label']}) -> {filename}\n")
+                        
+                        currentFileCount += 1
+                        print_progress(currentFileCount, totalFileCount, dataset, model)
                         

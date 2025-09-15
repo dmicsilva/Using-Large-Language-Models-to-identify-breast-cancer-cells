@@ -1,0 +1,1578 @@
+{
+    "totalInferences": 262,
+    "totalTime": "9293.05s",
+    "inference": [
+        {
+            "name": "T0001.1.1.S.2012-10-08.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 38.42572259902954
+        },
+        {
+            "name": "T0002.1.1.S.2012-10-08.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.555537939071655
+        },
+        {
+            "name": "T0004.1.1.S.2012-10-17.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.31478691101074
+        },
+        {
+            "name": "T0005.1.1.S.2012-10-17.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.516157388687134
+        },
+        {
+            "name": "T0006.1.1.S.2012-10-17.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.666512966156006
+        },
+        {
+            "name": "T0007.1.1.S.2012-10-24.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.6595356464386
+        },
+        {
+            "name": "T0008.1.1.S.2012-10-24.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.57712984085083
+        },
+        {
+            "name": "T0009.1.2.S.2012-10-24.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.619014263153076
+        },
+        {
+            "name": "T0010.1.1.S.2012-10-24.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.604955196380615
+        },
+        {
+            "name": "T0011.1.1.S.2012-10-24.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.508055686950684
+        },
+        {
+            "name": "T0012.1.1.S.2012-10-26.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.84773540496826
+        },
+        {
+            "name": "T0013.1.1.S.2012-10-26.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.61122536659241
+        },
+        {
+            "name": "T0015.1.1.S.2012-10-26.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.59467172622681
+        },
+        {
+            "name": "T0016.1.1.S.2012-10-31.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.33689022064209
+        },
+        {
+            "name": "T0017.1.1.S.2012-10-26.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.469768047332764
+        },
+        {
+            "name": "T0018.1.1.S.2012-10-31.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.51964235305786
+        },
+        {
+            "name": "T0019.1.1.S.2012-10-31.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.49877166748047
+        },
+        {
+            "name": "T0020.1.1.S.2012-10-31.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.50421452522278
+        },
+        {
+            "name": "T0021.1.1.S.2012-10-31.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.57468581199646
+        },
+        {
+            "name": "T0022.1.1.S.2012-10-31.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.60211730003357
+        },
+        {
+            "name": "T0023.1.1.S.2012-10-31.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.47263050079346
+        },
+        {
+            "name": "T0024.1.1.S.2012-10-31.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.54920983314514
+        },
+        {
+            "name": "T0026.1.1.S.2012-10-29.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.70268368721008
+        },
+        {
+            "name": "T0028.1.1.S.2012-10-29.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.3269157409668
+        },
+        {
+            "name": "T0030.1.1.S.2012-10-29.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.56673741340637
+        },
+        {
+            "name": "T0031.1.1.S.2012-10-19.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.66642475128174
+        },
+        {
+            "name": "T0032.1.1.S.2012-10-29.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.571786642074585
+        },
+        {
+            "name": "T0034.1.1.S.2012-11-29.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.47866702079773
+        },
+        {
+            "name": "T0035.1.1.S.2012-10-29.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.50035524368286
+        },
+        {
+            "name": "T0036.1.1.D.2012-09-29.04_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.45987010002136
+        },
+        {
+            "name": "T0037.1.1.D.2012-10-29.04_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.429553747177124
+        },
+        {
+            "name": "T0038.1.1.D.2012-10-29.02_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.514870166778564
+        },
+        {
+            "name": "T0040.1.1.S.2012-11-09.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.662843227386475
+        },
+        {
+            "name": "T0041.1.1.S.2012-11-14.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.51336479187012
+        },
+        {
+            "name": "T0042.1.1.S.2012-11-14.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.50523257255554
+        },
+        {
+            "name": "T0043.1.1.S.2012-11-14.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.51120400428772
+        },
+        {
+            "name": "T0044.1.1.S.2012-11-14.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.528613805770874
+        },
+        {
+            "name": "T0045.1.1.S.2012-11-14.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.45353555679321
+        },
+        {
+            "name": "T0046.1.1.S.2012-11-14.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.484864711761475
+        },
+        {
+            "name": "T0047.1.1.D.2012-11-07.01_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.52161383628845
+        },
+        {
+            "name": "T0048.1.1.D.2012-11-07.01_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.513484954833984
+        },
+        {
+            "name": "T0049.1.1.S.2012-11-07.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.645790100097656
+        },
+        {
+            "name": "T0050.1.1.S.2012-11-07.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.40106177330017
+        },
+        {
+            "name": "T0051.1.1.S.2012-11-07.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.4456729888916
+        },
+        {
+            "name": "T0052.1.1.S.2012-11-07.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.36739206314087
+        },
+        {
+            "name": "T0055.1.1.S.2012-11-19.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.49044108390808
+        },
+        {
+            "name": "T0057.1.1.S.2012-11-19.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.633962631225586
+        },
+        {
+            "name": "T0058.1.1.S.2012-11-19.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.48773503303528
+        },
+        {
+            "name": "T0060.1.1.S.2012-11-19.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.59589076042175
+        },
+        {
+            "name": "T0061.1.1.S.2012-11-19.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.43548607826233
+        },
+        {
+            "name": "T0062.1.1.S.2012-11-19.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.507851362228394
+        },
+        {
+            "name": "T0063.2.1.S.2014-01-28.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.50365710258484
+        },
+        {
+            "name": "T0064.1.1.S.2012-11-21.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.53716206550598
+        },
+        {
+            "name": "T0066.1.1.S.2012-11-21.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.37480425834656
+        },
+        {
+            "name": "T0067.1.1.S.2012-11-21.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.79180693626404
+        },
+        {
+            "name": "T0068.1.1.S.2012-11-21.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.56357288360596
+        },
+        {
+            "name": "T0069.1.1.D.2012-11-21.01_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.52257061004639
+        },
+        {
+            "name": "T0070.1.1.S.2012-11-21.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.614267110824585
+        },
+        {
+            "name": "T0071.1.1.S.2012-12-03.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.60451054573059
+        },
+        {
+            "name": "T0072.1.1.S.2012-12-03.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.61015772819519
+        },
+        {
+            "name": "T0073.1.1.S.2012-12-03.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.44226431846619
+        },
+        {
+            "name": "T0075.1.1.S.2012-12-03.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.643553018569946
+        },
+        {
+            "name": "T0080.1.1.S.2012-11-30.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.626729011535645
+        },
+        {
+            "name": "T0086.1.1.D.2012-11-12.01_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.54399061203003
+        },
+        {
+            "name": "T0087.1.1.S.2012-11-12.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.49274182319641
+        },
+        {
+            "name": "T0088.1.1.S.2012-11-12.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.6682345867157
+        },
+        {
+            "name": "T0089.1.1.S.2012-11-12.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.82546043395996
+        },
+        {
+            "name": "T0090.1.1.S.2012-11-12.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.51000928878784
+        },
+        {
+            "name": "T0091.1.1.S.2012-11-12.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.331632137298584
+        },
+        {
+            "name": "T0092.1.1.S.2012-12-07.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.46608328819275
+        },
+        {
+            "name": "T0093.1.1.S.2012-12-07.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.35920786857605
+        },
+        {
+            "name": "T0094.1.1.S.2012-12-07.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.28976082801819
+        },
+        {
+            "name": "T0095.1.1.S.2012-12-07.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.51258659362793
+        },
+        {
+            "name": "T0096.1.1.S.2012-11-09.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.37674832344055
+        },
+        {
+            "name": "T0097.1.1.S.2012-11-09.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.39908719062805
+        },
+        {
+            "name": "T0098.1.1.S.2012-11-09.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.46482038497925
+        },
+        {
+            "name": "T0099.1.1.S.2012-11-09.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.564584255218506
+        },
+        {
+            "name": "T0100.1.1.S.2012-11-09.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.54692983627319
+        },
+        {
+            "name": "T0104.1.1.S.2012-11-30.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.47856521606445
+        },
+        {
+            "name": "T0105.1.1.S.2012-11-30.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.81361985206604
+        },
+        {
+            "name": "T0106.1.1.S.2012-11-28.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.52515983581543
+        },
+        {
+            "name": "T0107.1.1.S.2012-11-28.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.589240074157715
+        },
+        {
+            "name": "T0109.1.1.S.2012-11-28.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.604407787323
+        },
+        {
+            "name": "T0110.1.1.S.2012-11-28.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.593807220458984
+        },
+        {
+            "name": "T0111.1.1.S.2012-11-28.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.30956292152405
+        },
+        {
+            "name": "T0112.1.1.S.2012-11-07.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.46742630004883
+        },
+        {
+            "name": "T0113.1.1.S.2013-01-15.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.47438049316406
+        },
+        {
+            "name": "T0114.1.1.S.2013-01-15.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.34886050224304
+        },
+        {
+            "name": "T0115.1.1.S.2013-01-16.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.63240838050842
+        },
+        {
+            "name": "T0116.1.1.S.2013-01-16.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.59184455871582
+        },
+        {
+            "name": "T0121.1.1.S.2013-01-21.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.5869562625885
+        },
+        {
+            "name": "T0125.1.1.S.2013-01-21.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.400104999542236
+        },
+        {
+            "name": "T0126.1.1.S.2013-01-22.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.548758029937744
+        },
+        {
+            "name": "T0127.1.1.S.2013-01-22.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.46362805366516
+        },
+        {
+            "name": "T0143.1.1.S.2013-01-25.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.47669076919556
+        },
+        {
+            "name": "T0144.1.1.S.2013-01-29.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.71653938293457
+        },
+        {
+            "name": "T0145.1.1.S.2013-01-29.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.41039776802063
+        },
+        {
+            "name": "T0146.1.1.S.2013-01-29.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.62325191497803
+        },
+        {
+            "name": "T0147.1.1.S.2013-01-29.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 36.021140336990356
+        },
+        {
+            "name": "T0148.1.1.S.2013-01-29.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.36904311180115
+        },
+        {
+            "name": "T0149.1.1.S.2013-01-28.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.860440731048584
+        },
+        {
+            "name": "T0150.1.1.S.2013-01-28.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.46818399429321
+        },
+        {
+            "name": "T0151.1.1.S.2013-01-28.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.62344169616699
+        },
+        {
+            "name": "T0152.1.1.S.2013-02-01.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.64601135253906
+        },
+        {
+            "name": "T0153.1.1.S.2013-02-01.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.32697653770447
+        },
+        {
+            "name": "T0154.1.1.S.2013-02-01.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 0.3561537265777588
+        },
+        {
+            "name": "T0156.1.1.S.2013-02-18.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.61077165603638
+        },
+        {
+            "name": "T0158.1.1.S.2013-02-18.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.484450817108154
+        },
+        {
+            "name": "T0159.1.1.S.2013-02-22.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.43118238449097
+        },
+        {
+            "name": "T0160.1.1.S.2013-02-22.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.39830565452576
+        },
+        {
+            "name": "T0161.1.1.S.2013-02-22.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.60544729232788
+        },
+        {
+            "name": "T0162.1.1.S.2013-02-19.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.498841285705566
+        },
+        {
+            "name": "T0163.1.1.S.2013-02-19.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.59388470649719
+        },
+        {
+            "name": "T0164.1.1.S.2013-02-19.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.489654541015625
+        },
+        {
+            "name": "T0165.1.1.S.2013-03-06.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.82066750526428
+        },
+        {
+            "name": "T0166.1.1.S.2013-01-14.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.45805215835571
+        },
+        {
+            "name": "T0168.1.1.S.2013-04-08.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.633254051208496
+        },
+        {
+            "name": "T0169.1.1.S.2013-04-08.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.62514114379883
+        },
+        {
+            "name": "T0170.1.1.S.2013-04-08.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.633503675460815
+        },
+        {
+            "name": "T0171.1.1.S.2013-03-18.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.46469521522522
+        },
+        {
+            "name": "T0172.1.1.S.2013-03-18.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.570555210113525
+        },
+        {
+            "name": "T0173.1.1.S.2013-03-18.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.468982219696045
+        },
+        {
+            "name": "T0174.1.1.S.2013-03-20.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.36582064628601
+        },
+        {
+            "name": "T0176.1.1.S.2013-03-20.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.344253063201904
+        },
+        {
+            "name": "T0177.1.1.S.2013-03-20.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.39279079437256
+        },
+        {
+            "name": "T0182.1.1.S.2013-05-24.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.44940495491028
+        },
+        {
+            "name": "T0184.1.1.S.2013-05-24.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.40523147583008
+        },
+        {
+            "name": "T0188.1.1.S.2013-08-12.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.47191023826599
+        },
+        {
+            "name": "T0189.1.1.S.2013-09-30.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.809054136276245
+        },
+        {
+            "name": "T0190.1.1.S.2013-09-30.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.581132888793945
+        },
+        {
+            "name": "T0191.1.1.S.2013-09-06.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.44028568267822
+        },
+        {
+            "name": "T0193.1.1.S.2013-10-02.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.416316509246826
+        },
+        {
+            "name": "T0194.1.1.S.2013-10-02.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.4837281703949
+        },
+        {
+            "name": "T0195.1.1.S.2013-10-07.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.37981915473938
+        },
+        {
+            "name": "T0196.1.1.S.2013-10-07.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.582321882247925
+        },
+        {
+            "name": "T0197.1.1.S.2013-10-07.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.618754148483276
+        },
+        {
+            "name": "T0199.1.1.S.2013-10-07.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.45214343070984
+        },
+        {
+            "name": "T0200.1.1.S.2013-10-07.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.27318239212036
+        },
+        {
+            "name": "T0201.1.1.S.2013-10-28.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.4892954826355
+        },
+        {
+            "name": "T0206.1.1.S.2013-10-18.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.45216250419617
+        },
+        {
+            "name": "T0208.1.1.S.2013-10-28.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.54819416999817
+        },
+        {
+            "name": "T0211.1.1.D.2013-11-08.04_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.377684354782104
+        },
+        {
+            "name": "T0212.1.1.D.2013-11-08.04_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.31189680099487
+        },
+        {
+            "name": "T0216.1.1.S.2013-11-11.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.766154050827026
+        },
+        {
+            "name": "T0217.1.1.S.2013-11-11.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.5462429523468
+        },
+        {
+            "name": "T0218.1.1.S.2013-11-11.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.57780385017395
+        },
+        {
+            "name": "T0220.1.1.S.2013-11-18.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.504087686538696
+        },
+        {
+            "name": "T0221.1.1.S.2013-11-18.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.4840612411499
+        },
+        {
+            "name": "T0222.1.1.S.2013-11-18.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.607701539993286
+        },
+        {
+            "name": "T0224.1.1.S.2013-11-18.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.516225814819336
+        },
+        {
+            "name": "T0225.1.1.S.2013-11-18.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.58439874649048
+        },
+        {
+            "name": "T0226.1.1.S.2013-11-18.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.34670615196228
+        },
+        {
+            "name": "T0233.1.1.S.2013-12-11.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.42013597488403
+        },
+        {
+            "name": "T0234.1.1.S.2013-12-11.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.848583459854126
+        },
+        {
+            "name": "T0235.1.1.S.2014-05-21.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.470574378967285
+        },
+        {
+            "name": "T0236.1.1.S.2014-05-21.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.46093034744263
+        },
+        {
+            "name": "T0237.1.1.S.2014-05-21.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.51602554321289
+        },
+        {
+            "name": "T0238.1.1.S.2014-05-21.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.45578336715698
+        },
+        {
+            "name": "T0239.1.1.S.2014-05-26.00_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.65811324119568
+        },
+        {
+            "name": "T0243.1.1.D.2014-04-15.01_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.55181646347046
+        },
+        {
+            "name": "T0244.1.1.D.2014-05-06.04_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.50598406791687
+        },
+        {
+            "name": "T0272.1.1.D.2015-03-13.02_healthy",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.59809422492981
+        },
+        {
+            "name": "T0138.2.1.D.2013-09-06.02_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.51233792304993
+        },
+        {
+            "name": "T0179.1.1.S.2013-08-16.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.45374250411987
+        },
+        {
+            "name": "T0180.1.1.S.2013-08-16.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.31490755081177
+        },
+        {
+            "name": "T0181.1.1.S.2013-08-16.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.44076156616211
+        },
+        {
+            "name": "T0192.1.1.S.2013-09-06.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.31315803527832
+        },
+        {
+            "name": "T0198.2.1.S.2014-11-11.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.498589754104614
+        },
+        {
+            "name": "T0202.1.1.S.2013-10-11.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.67806053161621
+        },
+        {
+            "name": "T0203.1.1.S.2013-10-11.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.65101766586304
+        },
+        {
+            "name": "T0204.1.1.S.2013-10-11.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.53955793380737
+        },
+        {
+            "name": "T0209.1.1.S.2013-11-08.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.45639705657959
+        },
+        {
+            "name": "T0210.1.1.S.2013-11-08.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.494263648986816
+        },
+        {
+            "name": "T0213.1.1.S.2013-11-08.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.551979541778564
+        },
+        {
+            "name": "T0240.1.1.S.2014-07-18.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.368889570236206
+        },
+        {
+            "name": "T0241.1.1.S.2014-07-18.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.35262441635132
+        },
+        {
+            "name": "T0242.1.1.S.2014-07-25.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.4881489276886
+        },
+        {
+            "name": "T0245.1.1.S.2014-08-22.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.47620487213135
+        },
+        {
+            "name": "T0246.1.1.S.2014-08-22.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.54042911529541
+        },
+        {
+            "name": "T0255.1.1.S.2014-10-10.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.56177067756653
+        },
+        {
+            "name": "T0256.1.1.S.2014-10-10.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.6362624168396
+        },
+        {
+            "name": "T0257.1.1.S.2014-10-17.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.462472915649414
+        },
+        {
+            "name": "T0258.1.1.S.2014-10-17.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.75764775276184
+        },
+        {
+            "name": "T0259.1.1.S.2014-11-07.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.579596281051636
+        },
+        {
+            "name": "T0260.1.1.S.2014-11-11.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.38214683532715
+        },
+        {
+            "name": "T0261.1.1.S.2014-11-11.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.58079433441162
+        },
+        {
+            "name": "T0263.1.1.S.2014-12-12.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.505091190338135
+        },
+        {
+            "name": "T0264.1.1.S.2015-01-16.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.44909453392029
+        },
+        {
+            "name": "T0266.1.1.S.2015-01-16.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.347644090652466
+        },
+        {
+            "name": "T0267.1.5.S.2015-01-16.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.44810438156128
+        },
+        {
+            "name": "T0268.1.1.D.2015-01-23.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.35821032524109
+        },
+        {
+            "name": "T0269.1.1.D.2015-01-23.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.40151524543762
+        },
+        {
+            "name": "T0269.1.1.S.2015-01-23.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.62247681617737
+        },
+        {
+            "name": "T0270.1.1.S.2015-01-30.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.32681393623352
+        },
+        {
+            "name": "T0271.1.1.S.2015-01-27.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.50318384170532
+        },
+        {
+            "name": "T0273.1.1.S.2015-03-13.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.54760503768921
+        },
+        {
+            "name": "T0274.1.1.S.2015-03-13.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.5197536945343
+        },
+        {
+            "name": "T0277.1.1.S.2015-03-20.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.36582851409912
+        },
+        {
+            "name": "T0278.1.1.S.2015-03-20.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.345637798309326
+        },
+        {
+            "name": "T0281.1.1.S.2015-05-22.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.52004361152649
+        },
+        {
+            "name": "T0282.1.1.S.2015-07-20.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.599541902542114
+        },
+        {
+            "name": "T0283.1.1.S.2015-05-22.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.69803214073181
+        },
+        {
+            "name": "T0286.1.1.S.2015-05-22.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.51876521110535
+        },
+        {
+            "name": "T0287.1.1.S.2015-07-20.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.38775038719177
+        },
+        {
+            "name": "T0312.1.1.S.2019-11-13.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.622424364089966
+        },
+        {
+            "name": "T0316.1.1.S.2018-05-23.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.76271343231201
+        },
+        {
+            "name": "T0318.1.1.S.2019-08-28.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.59385371208191
+        },
+        {
+            "name": "T0319.1.1.S.2019-10-23.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.95769476890564
+        },
+        {
+            "name": "T0320.1.2.S.2019-09-19.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.46422100067139
+        },
+        {
+            "name": "T0322.1.1.S.2019-11-13.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.57966709136963
+        },
+        {
+            "name": "T0326.1.1.S.2019-04-24.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.280434131622314
+        },
+        {
+            "name": "T0328.1.1.S.2020-01-20.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.8836669921875
+        },
+        {
+            "name": "T0330.1.1.S.2020-02-26.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.303670167922974
+        },
+        {
+            "name": "T0337.2.1.S.2019-11-13.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.393436431884766
+        },
+        {
+            "name": "T0338.1.1.S.2020-01-22.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.15077567100525
+        },
+        {
+            "name": "T0342.1.1.S.2020-01-22.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.568814277648926
+        },
+        {
+            "name": "T0343.1.1.S.2019-04-24.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 37.618048906326294
+        },
+        {
+            "name": "T0344.1.1.S.2019-12-11.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 37.296684980392456
+        },
+        {
+            "name": "T0345.1.1.S.2019-10-23.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.612539529800415
+        },
+        {
+            "name": "T0346.1.1.D.2019-08-28.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.22887706756592
+        },
+        {
+            "name": "T0346.1.1.S.2019-08-28.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.66342782974243
+        },
+        {
+            "name": "T0347.1.1.S.2019-11-13.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.48051953315735
+        },
+        {
+            "name": "T0348.1.1.S.2019-06-26.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.47638273239136
+        },
+        {
+            "name": "T0350.1.1.S.2020-10-14.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.69317412376404
+        },
+        {
+            "name": "T0355.1.1.S.2019-03-27.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.66016745567322
+        },
+        {
+            "name": "T0356.1.1.S.2019-06-26.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.509029150009155
+        },
+        {
+            "name": "T0361.2.1.S.2020-01-22.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.70701742172241
+        },
+        {
+            "name": "T0363.2.1.S.2019-10-23.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.54476523399353
+        },
+        {
+            "name": "T0365.2.1.S.2020-01-22.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.61813998222351
+        },
+        {
+            "name": "T0366.1.1.S.2019-11-13.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.43854212760925
+        },
+        {
+            "name": "T0368.2.1.S.2019-12-11.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.44873666763306
+        },
+        {
+            "name": "T0369.1.1.S.2020-10-14.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.59582781791687
+        },
+        {
+            "name": "T0371.2.1.S.2020-02-19.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.576632022857666
+        },
+        {
+            "name": "T0373.2.1.S.2019-06-26.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.5298535823822
+        },
+        {
+            "name": "T0374.1.1.S.2020-10-27.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.59146571159363
+        },
+        {
+            "name": "T0376.1.1.D.2020-01-30.18_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.667627573013306
+        },
+        {
+            "name": "T0378.2.1.S.2019-09-18.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.63062787055969
+        },
+        {
+            "name": "T0381.2.1.S.2019-08-28.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.614803075790405
+        },
+        {
+            "name": "T0384.2.1.S.2019-08-28.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.58838987350464
+        },
+        {
+            "name": "T0385.1.4.S.2019-08-28.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.63790464401245
+        },
+        {
+            "name": "T0386.1.1.S.2019-11-13.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.51921081542969
+        },
+        {
+            "name": "T0387.1.1.S.2019-09-25.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.52485966682434
+        },
+        {
+            "name": "T0389.2.1.S.2020-01-22.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.63628911972046
+        },
+        {
+            "name": "T0390.1.1.S.2019-01-30.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.75404715538025
+        },
+        {
+            "name": "T0393.2.1.S.2019-04-24.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.58925533294678
+        },
+        {
+            "name": "T0394.1.1.S.2018-05-23.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.40242528915405
+        },
+        {
+            "name": "T0397.2.1.S.2018-05-23.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.62928295135498
+        },
+        {
+            "name": "T0398.1.1.S.2019-01-30.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.52908158302307
+        },
+        {
+            "name": "T0400.1.1.D.2018-05-23.06_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.408710956573486
+        },
+        {
+            "name": "T0401.1.1.S.2019-07-24.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.630815267562866
+        },
+        {
+            "name": "T0402.1.1.S.2018-05-25.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.667267084121704
+        },
+        {
+            "name": "T0407.1.1.S.2019-01-30.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.86282920837402
+        },
+        {
+            "name": "T0408.1.1.S.2019-02-27.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.596388816833496
+        },
+        {
+            "name": "T0409.1.1.S.2019-02-27.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.57320952415466
+        },
+        {
+            "name": "T0410.1.1.S.2019-01-30.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.647616386413574
+        },
+        {
+            "name": "T0411.1.1.S.2019-01-30.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.62881422042847
+        },
+        {
+            "name": "T0413.1.1.S.2019-01-30.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.722299575805664
+        },
+        {
+            "name": "T0415.1.1.S.2019-02-27.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.56436896324158
+        },
+        {
+            "name": "T0418.2.1.S.2019-08-28.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.398799419403076
+        },
+        {
+            "name": "T0422.1.1.S.2019-07-24.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.634573221206665
+        },
+        {
+            "name": "T0424.1.1.S.2019-02-27.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.62318229675293
+        },
+        {
+            "name": "T0425.2.1.S.2020-10-27.00_sick",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.65653038024902
+        }
+    ]
+}

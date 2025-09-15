@@ -1,0 +1,60 @@
+{
+    "totalInferences": 9,
+    "totalTime": "334.46s",
+    "inference": [
+        {
+            "name": "ytma10_010704_malignant1_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 41.62774658203125
+        },
+        {
+            "name": "ytma10_010704_malignant2_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.852386236190796
+        },
+        {
+            "name": "ytma10_010704_malignant3_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.267874240875244
+        },
+        {
+            "name": "ytma12_010804_malignant1_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.19971942901611
+        },
+        {
+            "name": "ytma12_010804_malignant2_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.30039644241333
+        },
+        {
+            "name": "ytma12_010804_malignant3_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.51032257080078
+        },
+        {
+            "name": "ytma23_022103_malignant1_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 37.83046793937683
+        },
+        {
+            "name": "ytma23_022103_malignant2_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.61835193634033
+        },
+        {
+            "name": "ytma23_022103_malignant3_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 37.24702286720276
+        }
+    ]
+}
