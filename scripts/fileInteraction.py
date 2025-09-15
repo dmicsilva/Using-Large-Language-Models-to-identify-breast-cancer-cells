@@ -56,9 +56,10 @@ def save_to_json(model, result, imageFilename, dataset, executionTime):
 
 def check_entry_existance(dataset, model, filename):
     
-    datasetFilename = f"{dataset}_infereces.json"
+    datasetFilename = f"{dataset['label']}_inferences.json"
+    datasetResultsFilePath = os.path.join(parameters.cwd, 'inferenceResults', datasetFilename)
 
-    with open(datasetFilename, 'r') as f:
+    with open(datasetResultsFilePath, 'r') as f:
         data = json.load(f)
 
     for item in data['inference']:

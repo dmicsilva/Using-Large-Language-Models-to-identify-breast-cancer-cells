@@ -35,6 +35,24 @@ def decide_result(text, filenameWithoutExtension, dataset):
 
     if dataset['type'] == "healthy/sick":
         
+        if (loweredText.endswith('positive') and len(text) > 200):
+            if "_sick" in filenameWithoutExtension:
+                return "Successfull"
+            elif "_healthy" in filenameWithoutExtension:
+                return "Fail"
+            else:
+                raise ValueError("No appropriate appendix in filename")
+                return "Error"
+        
+        elif (loweredText.endswith('negative') and len(text) > 200):
+            if "_sick" in filenameWithoutExtension:
+                return "Fail"
+            elif "_healthy" in filenameWithoutExtension:
+                return "Successfull"
+            else:
+                raise ValueError("No appropriate appendix in filename")
+                return "Error"
+
         if ("can't help" in loweredText or "provide" in loweredText) and not (("positive" in loweredText) or ("negative" in loweredText)):
             return "Error"
 
@@ -63,6 +81,24 @@ def decide_result(text, filenameWithoutExtension, dataset):
             return "Error"
 
     elif dataset['type'] == "benign/malignant":
+
+        if (loweredText.endswith('malignant') and len(text) > 200):
+            if "_malignant" in filenameWithoutExtension:
+                return "Successfull"
+            elif "_benign" in filenameWithoutExtension:
+                return "Fail"
+            else:
+                raise ValueError("No appropriate appendix in filename")
+                return "Error"
+        
+        elif (loweredText.endswith('benign') and len(text) > 200):
+            if "_malignant" in filenameWithoutExtension:
+                return "Fail"
+            elif "_benign" in filenameWithoutExtension:
+                return "Successfull"
+            else:
+                raise ValueError("No appropriate appendix in filename")
+                return "Error"
 
         if ("can't help" in loweredText or "provide" in loweredText) and not (("malignant" in loweredText) or ("benign" in loweredText)):
             return "Error"
@@ -160,9 +196,9 @@ if __name__ == "__main__":
             for dirpath, dirnames, filenames in os.walk(dataset['path']):
                 for filename in filenames:
                     if filename.endswith(('.jpg', '.png', '.tif')):
-                        if (not fi.check_entry_existance(dataset, model, filename)):    
+                        if (not fi.check_entry_existance(dataset, model, filename.split('.')[0])):    
                             imagePath = Path(os.path.join(dirpath, filename))
                             process_image(model, imagePath, dataset)
                         else:
-                            print("Image already analyzed for this dataset ({dataset}) -> {filename}")
+                            print(f"\nImage already analyzed for this dataset ({dataset['label']}) -> {filename}\n")
                         
