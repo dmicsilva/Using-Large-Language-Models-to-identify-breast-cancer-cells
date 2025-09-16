@@ -2,15 +2,17 @@ from pathlib import Path
 import os
 import json
 import fileInteraction as fi
+import sys
+import parameters
 
-_inferenceFilesPath = "inferenceResults/"
+parameters.resultDirectory = "inferenceResults/"
 
 def get_datasets_from_inference_files():
     
-    if not os.path.exists(_inferenceFilesPath):
+    if not os.path.exists(parameters.resultDirectory):
         print("Error: Directory does not exist.")
     else:
-        files = [f for f in os.listdir(_inferenceFilesPath) if os.path.isfile(os.path.join(_inferenceFilesPath, f))]
+        files = [f for f in os.listdir(parameters.resultDirectory) if os.path.isfile(os.path.join(parameters.resultDirectory, f))]
         return files
 
 
@@ -25,6 +27,8 @@ def select_datasets(datasets):
 
     if choice.lower() == 'a':
         return datasets
+    elif choice.lower() == 'q':
+        sys.exit()
     elif 1 <= int(choice) <= len(datasets):
         dataset = [datasets[int(choice) - 1]]
         return dataset
@@ -34,7 +38,7 @@ def select_datasets(datasets):
 
 def get_models_from_inference_files(selectedDataset):
 
-    filePath = f"{_inferenceFilesPath}{selectedDataset}"
+    filePath = f"{parameters.resultDirectory}{selectedDataset}"
     with open(filePath) as f:
         data = json.load(f)
     
@@ -53,14 +57,15 @@ def get_models_from_inference_files(selectedDataset):
 
 def extract_model_statistics(selectedDataset, model):
     
-    filePath = f"{_inferenceFilesPath}{selectedDataset}"
+    existingStatisticsFilePath = f"{parameters.statisticsDirectory}{selectedDataset}"
+    filePath = f"{parameters.resultDirectory}{selectedDataset}"
 
-    if os.path.exists(_inferenceFilesPath):
-        with open(filePath) as f:
-            data = json.load(f)
+    if os.path.exists(existingStatisticsFilePath):
+        with open(existingStatisticsFilePath) as f:
+            existingData = json.load(f)
         
         ignoreModel = False
-        for item in data:
+        for item in existingData:
             if item['model'] == model:
                 ignoreModel = True
         
@@ -89,7 +94,7 @@ def extract_model_statistics(selectedDataset, model):
 
     for item in data['inference']:
         if item['model'] == model:
-            if ((item['name'].split('_')[-1].lower() == 'malignant') or (item['name'].split('_')[-1].lower() == 'positive')):
+            if ((item['name'].split('_')[-1].lower() == 'malignant') or (item['name'].split('_')[-1].lower() == 'positive') or (item['name'].split('_')[-1].lower() == 'sick')):
                 isPositiveOrMalignant = True
             else:
                 isPositiveOrMalignant = False

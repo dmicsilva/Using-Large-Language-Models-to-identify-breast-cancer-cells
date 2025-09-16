@@ -35,7 +35,7 @@ def decide_result(text, filenameWithoutExtension, dataset):
 
     if dataset['type'] == "healthy/sick":
         
-        if (loweredText.endswith('positive') and len(text) > 200):
+        if ((loweredText.endswith('positive') or loweredText.startswith('positive') and not (loweredText.endswith('negative') or loweredText.startswith('negative'))) and len(text) > 200):
             if "_sick" in filenameWithoutExtension:
                 return "Successfull"
             elif "_healthy" in filenameWithoutExtension:
@@ -44,7 +44,7 @@ def decide_result(text, filenameWithoutExtension, dataset):
                 raise ValueError("No appropriate appendix in filename")
                 return "Error"
         
-        elif (loweredText.endswith('negative') and len(text) > 200):
+        elif ((loweredText.endswith('negative') or loweredText.startswith('negative') and not (loweredText.endswith('positive') or loweredText.startswith('positive'))) and len(text) > 200):
             if "_sick" in filenameWithoutExtension:
                 return "Fail"
             elif "_healthy" in filenameWithoutExtension:
@@ -82,7 +82,7 @@ def decide_result(text, filenameWithoutExtension, dataset):
 
     elif dataset['type'] == "benign/malignant":
 
-        if (loweredText.endswith('malignant') and len(text) > 200):
+        if ((loweredText.endswith('malignant') or loweredText.startswith('malignant') and not (loweredText.endswith('benign') or loweredText.startswith('benign')) and not '/' in loweredText) and len(text) > 200):
             if "_malignant" in filenameWithoutExtension:
                 return "Successfull"
             elif "_benign" in filenameWithoutExtension:
@@ -91,7 +91,7 @@ def decide_result(text, filenameWithoutExtension, dataset):
                 raise ValueError("No appropriate appendix in filename")
                 return "Error"
         
-        elif (loweredText.endswith('benign') and len(text) > 200):
+        elif ((loweredText.endswith('benign') or loweredText.startswith('benign') and not loweredText.endswith('malignant') or loweredText.startswith('malignant') and not '/' in loweredText) and len(text) > 200):
             if "_malignant" in filenameWithoutExtension:
                 return "Fail"
             elif "_benign" in filenameWithoutExtension:

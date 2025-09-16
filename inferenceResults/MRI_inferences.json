@@ -1,6 +1,6 @@
 {
-    "totalInferences": 859,
-    "totalTime": "7453.46s",
+    "totalInferences": 1138,
+    "totalTime": "8313.08s",
     "inference": [
         {
             "name": "S_10_healthy",
@@ -5047,6 +5047,1680 @@
             "model": "phi3:3.8b",
             "result": "Fail",
             "responseTime": 6.4633049964904785
+        },
+        {
+            "name": "S_34_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 2.6830990314483643
+        },
+        {
+            "name": "S_35_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 11.5462327003479
+        },
+        {
+            "name": "S_36_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 1.055494785308838
+        },
+        {
+            "name": "S_37_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 3.052640914916992
+        },
+        {
+            "name": "S_38_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 5.311813831329346
+        },
+        {
+            "name": "S_39_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 3.2236461639404297
+        },
+        {
+            "name": "S_40_sick",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 0.13308215141296387
+        },
+        {
+            "name": "S_41_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 0.07376360893249512
+        },
+        {
+            "name": "S_42_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 0.0593419075012207
+        },
+        {
+            "name": "S_43_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 3.9433746337890625
+        },
+        {
+            "name": "S_44_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 25.74236536026001
+        },
+        {
+            "name": "S_45_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 0.05779266357421875
+        },
+        {
+            "name": "S_46_sick",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 7.37079119682312
+        },
+        {
+            "name": "S_47_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 9.903706789016724
+        },
+        {
+            "name": "S_48_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 0.06976866722106934
+        },
+        {
+            "name": "S_49_sick",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 1.9975779056549072
+        },
+        {
+            "name": "S_50_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 1.368790626525879
+        },
+        {
+            "name": "S_51_sick",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 296.9131488800049
+        },
+        {
+            "name": "S_52_sick",
+            "model": "phi3:3.8b",
+            "result": "Error",
+            "responseTime": 11.922879695892334
+        },
+        {
+            "name": "S_53_sick",
+            "model": "phi3:3.8b",
+            "result": "Error",
+            "responseTime": 2.067713499069214
+        },
+        {
+            "name": "S_54_sick",
+            "model": "phi3:3.8b",
+            "result": "Error",
+            "responseTime": 7.453649044036865
+        },
+        {
+            "name": "S_55_sick",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 0.7564377784729004
+        },
+        {
+            "name": "S_56_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 0.06630539894104004
+        },
+        {
+            "name": "S_57_sick",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 0.06512928009033203
+        },
+        {
+            "name": "S_60_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 0.05636191368103027
+        },
+        {
+            "name": "S_61_sick",
+            "model": "phi3:3.8b",
+            "result": "Error",
+            "responseTime": 5.3638646602630615
+        },
+        {
+            "name": "S_63_sick",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 2.0915307998657227
+        },
+        {
+            "name": "S_64_sick",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 0.07619452476501465
+        },
+        {
+            "name": "S_65_sick",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 0.11104655265808105
+        },
+        {
+            "name": "S_66_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 16.972387552261353
+        },
+        {
+            "name": "S_67_sick",
+            "model": "phi3:3.8b",
+            "result": "Error",
+            "responseTime": 1.4217357635498047
+        },
+        {
+            "name": "S_68_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 8.553005933761597
+        },
+        {
+            "name": "S_69_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 0.05613231658935547
+        },
+        {
+            "name": "S_70_sick",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 108.00909900665283
+        },
+        {
+            "name": "S_71_sick",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 4.515113115310669
+        },
+        {
+            "name": "S_72_sick",
+            "model": "phi3:3.8b",
+            "result": "Successfull",
+            "responseTime": 1.9737977981567383
+        },
+        {
+            "name": "S_73_sick",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 8.595338106155396
+        },
+        {
+            "name": "S_74_sick",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 2.445162534713745
+        },
+        {
+            "name": "S_75_sick",
+            "model": "phi3:3.8b",
+            "result": "Fail",
+            "responseTime": 2.3237545490264893
+        },
+        {
+            "name": "S_10_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 4.621401309967041
+        },
+        {
+            "name": "S_19_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.1631944179534912
+        },
+        {
+            "name": "S_2_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.3062930107116699
+        },
+        {
+            "name": "S_21_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.628464937210083
+        },
+        {
+            "name": "S_22_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 1.2043426036834717
+        },
+        {
+            "name": "S_24_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.39444637298583984
+        },
+        {
+            "name": "S_25_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.27974534034729004
+        },
+        {
+            "name": "S_26_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.11923456192016602
+        },
+        {
+            "name": "S_27_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.21399664878845215
+        },
+        {
+            "name": "S_28_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.42604517936706543
+        },
+        {
+            "name": "S_30_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.11065888404846191
+        },
+        {
+            "name": "S_32_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.1714334487915039
+        },
+        {
+            "name": "S_33_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.2794983386993408
+        },
+        {
+            "name": "S_34_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.12109756469726562
+        },
+        {
+            "name": "S_37_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.12620043754577637
+        },
+        {
+            "name": "S_38_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.8123862743377686
+        },
+        {
+            "name": "S_41_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.15429925918579102
+        },
+        {
+            "name": "S_43_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.1585674285888672
+        },
+        {
+            "name": "S_44_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.11827707290649414
+        },
+        {
+            "name": "S_45_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.1621561050415039
+        },
+        {
+            "name": "S_46_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.13917851448059082
+        },
+        {
+            "name": "S_47_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 2.2276699542999268
+        },
+        {
+            "name": "S_48_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.20668435096740723
+        },
+        {
+            "name": "S_49_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.31418585777282715
+        },
+        {
+            "name": "S_51_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.11256146430969238
+        },
+        {
+            "name": "S_52_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.5327460765838623
+        },
+        {
+            "name": "S_54_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.11315131187438965
+        },
+        {
+            "name": "S_55_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.14087224006652832
+        },
+        {
+            "name": "S_58_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.11642241477966309
+        },
+        {
+            "name": "S_6_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.13043546676635742
+        },
+        {
+            "name": "S_61_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.8077847957611084
+        },
+        {
+            "name": "S_64_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.12208366394042969
+        },
+        {
+            "name": "S_66_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.3215494155883789
+        },
+        {
+            "name": "S_67_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.885138750076294
+        },
+        {
+            "name": "S_68_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.12279009819030762
+        },
+        {
+            "name": "S_7_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.14761590957641602
+        },
+        {
+            "name": "S_72_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.12014317512512207
+        },
+        {
+            "name": "S_75_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.3417532444000244
+        },
+        {
+            "name": "S_8_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.4981868267059326
+        },
+        {
+            "name": "S_9_healthy",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 0.20776915550231934
+        },
+        {
+            "name": "S_12_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.11332345008850098
+        },
+        {
+            "name": "S_34_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.13163208961486816
+        },
+        {
+            "name": "S_35_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.1073756217956543
+        },
+        {
+            "name": "S_36_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.4030153751373291
+        },
+        {
+            "name": "S_37_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.11818790435791016
+        },
+        {
+            "name": "S_38_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.1404261589050293
+        },
+        {
+            "name": "S_39_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.13320088386535645
+        },
+        {
+            "name": "S_40_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.11587786674499512
+        },
+        {
+            "name": "S_41_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.12186670303344727
+        },
+        {
+            "name": "S_42_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.10474252700805664
+        },
+        {
+            "name": "S_43_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.19866228103637695
+        },
+        {
+            "name": "S_44_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.6419315338134766
+        },
+        {
+            "name": "S_45_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.30108094215393066
+        },
+        {
+            "name": "S_46_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.10666751861572266
+        },
+        {
+            "name": "S_47_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.27339887619018555
+        },
+        {
+            "name": "S_48_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.20334792137145996
+        },
+        {
+            "name": "S_49_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.11308407783508301
+        },
+        {
+            "name": "S_50_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.5638077259063721
+        },
+        {
+            "name": "S_51_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.3918492794036865
+        },
+        {
+            "name": "S_52_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.11241888999938965
+        },
+        {
+            "name": "S_53_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Fail",
+            "responseTime": 2.2071456909179688
+        },
+        {
+            "name": "S_54_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.45928311347961426
+        },
+        {
+            "name": "S_55_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.19004034996032715
+        },
+        {
+            "name": "S_56_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.11518478393554688
+        },
+        {
+            "name": "S_57_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.3496880531311035
+        },
+        {
+            "name": "S_60_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.12283778190612793
+        },
+        {
+            "name": "S_61_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.19263339042663574
+        },
+        {
+            "name": "S_63_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.09175944328308105
+        },
+        {
+            "name": "S_64_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 1.1116468906402588
+        },
+        {
+            "name": "S_65_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.13234186172485352
+        },
+        {
+            "name": "S_66_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.11146187782287598
+        },
+        {
+            "name": "S_67_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.13098812103271484
+        },
+        {
+            "name": "S_68_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.11021184921264648
+        },
+        {
+            "name": "S_69_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Error",
+            "responseTime": 0.9889676570892334
+        },
+        {
+            "name": "S_70_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.13979649543762207
+        },
+        {
+            "name": "S_71_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.31298089027404785
+        },
+        {
+            "name": "S_72_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.11531710624694824
+        },
+        {
+            "name": "S_73_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.1477353572845459
+        },
+        {
+            "name": "S_74_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.10639166831970215
+        },
+        {
+            "name": "S_75_sick",
+            "model": "llama2-uncensored:7b",
+            "result": "Successfull",
+            "responseTime": 0.14223027229309082
+        },
+        {
+            "name": "S_10_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 5.680357217788696
+        },
+        {
+            "name": "S_19_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.22748970985412598
+        },
+        {
+            "name": "S_2_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.2777588367462158
+        },
+        {
+            "name": "S_21_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.2786414623260498
+        },
+        {
+            "name": "S_22_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.2731022834777832
+        },
+        {
+            "name": "S_24_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.2643897533416748
+        },
+        {
+            "name": "S_25_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.24218368530273438
+        },
+        {
+            "name": "S_26_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.2772653102874756
+        },
+        {
+            "name": "S_27_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.25635504722595215
+        },
+        {
+            "name": "S_28_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.27562713623046875
+        },
+        {
+            "name": "S_30_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.27086400985717773
+        },
+        {
+            "name": "S_32_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.2844381332397461
+        },
+        {
+            "name": "S_33_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.22284626960754395
+        },
+        {
+            "name": "S_34_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.2582244873046875
+        },
+        {
+            "name": "S_37_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.3717076778411865
+        },
+        {
+            "name": "S_38_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.26406216621398926
+        },
+        {
+            "name": "S_41_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.26199936866760254
+        },
+        {
+            "name": "S_43_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.21495413780212402
+        },
+        {
+            "name": "S_44_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.2537364959716797
+        },
+        {
+            "name": "S_45_healthy",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2736623287200928
+        },
+        {
+            "name": "S_46_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.251600980758667
+        },
+        {
+            "name": "S_47_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.25377464294433594
+        },
+        {
+            "name": "S_48_healthy",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2719254493713379
+        },
+        {
+            "name": "S_49_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.21440911293029785
+        },
+        {
+            "name": "S_51_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.2841048240661621
+        },
+        {
+            "name": "S_52_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.27863645553588867
+        },
+        {
+            "name": "S_54_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.27758359909057617
+        },
+        {
+            "name": "S_55_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.28398609161376953
+        },
+        {
+            "name": "S_58_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.2827944755554199
+        },
+        {
+            "name": "S_6_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.24474287033081055
+        },
+        {
+            "name": "S_61_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.2530641555786133
+        },
+        {
+            "name": "S_64_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.282012939453125
+        },
+        {
+            "name": "S_66_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.27387332916259766
+        },
+        {
+            "name": "S_67_healthy",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.26688385009765625
+        },
+        {
+            "name": "S_68_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.23720288276672363
+        },
+        {
+            "name": "S_7_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.21773815155029297
+        },
+        {
+            "name": "S_72_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.2728915214538574
+        },
+        {
+            "name": "S_75_healthy",
+            "model": "dolphin3:latest",
+            "result": "Error",
+            "responseTime": 0.49299073219299316
+        },
+        {
+            "name": "S_8_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.24580907821655273
+        },
+        {
+            "name": "S_9_healthy",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.2518031597137451
+        },
+        {
+            "name": "S_12_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.3238184452056885
+        },
+        {
+            "name": "S_34_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2599656581878662
+        },
+        {
+            "name": "S_35_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2718160152435303
+        },
+        {
+            "name": "S_36_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2695186138153076
+        },
+        {
+            "name": "S_37_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2763242721557617
+        },
+        {
+            "name": "S_38_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.3043668270111084
+        },
+        {
+            "name": "S_39_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2803370952606201
+        },
+        {
+            "name": "S_40_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2715160846710205
+        },
+        {
+            "name": "S_41_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.21280384063720703
+        },
+        {
+            "name": "S_42_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2697148323059082
+        },
+        {
+            "name": "S_43_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2801938056945801
+        },
+        {
+            "name": "S_44_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2623615264892578
+        },
+        {
+            "name": "S_45_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.25077271461486816
+        },
+        {
+            "name": "S_46_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.27739572525024414
+        },
+        {
+            "name": "S_47_sick",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.23497915267944336
+        },
+        {
+            "name": "S_48_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.24560546875
+        },
+        {
+            "name": "S_49_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2762331962585449
+        },
+        {
+            "name": "S_50_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2654409408569336
+        },
+        {
+            "name": "S_51_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.27837300300598145
+        },
+        {
+            "name": "S_52_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.27336907386779785
+        },
+        {
+            "name": "S_53_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.28743600845336914
+        },
+        {
+            "name": "S_54_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.28464531898498535
+        },
+        {
+            "name": "S_55_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.27256178855895996
+        },
+        {
+            "name": "S_56_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2887294292449951
+        },
+        {
+            "name": "S_57_sick",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.25221753120422363
+        },
+        {
+            "name": "S_60_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.35663866996765137
+        },
+        {
+            "name": "S_61_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.22115135192871094
+        },
+        {
+            "name": "S_63_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2590165138244629
+        },
+        {
+            "name": "S_64_sick",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.28923964500427246
+        },
+        {
+            "name": "S_65_sick",
+            "model": "dolphin3:latest",
+            "result": "Fail",
+            "responseTime": 0.2831144332885742
+        },
+        {
+            "name": "S_66_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.27666258811950684
+        },
+        {
+            "name": "S_67_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.3787038326263428
+        },
+        {
+            "name": "S_68_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2560279369354248
+        },
+        {
+            "name": "S_69_sick",
+            "model": "dolphin3:latest",
+            "result": "Error",
+            "responseTime": 0.8532016277313232
+        },
+        {
+            "name": "S_70_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.259824275970459
+        },
+        {
+            "name": "S_71_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2699873447418213
+        },
+        {
+            "name": "S_72_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.35079526901245117
+        },
+        {
+            "name": "S_73_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2527191638946533
+        },
+        {
+            "name": "S_74_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.27737903594970703
+        },
+        {
+            "name": "S_75_sick",
+            "model": "dolphin3:latest",
+            "result": "Successfull",
+            "responseTime": 0.2735767364501953
+        },
+        {
+            "name": "S_10_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 6.443702220916748
+        },
+        {
+            "name": "S_19_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 1.695923089981079
+        },
+        {
+            "name": "S_2_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 1.3825747966766357
+        },
+        {
+            "name": "S_21_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.6716439723968506
+        },
+        {
+            "name": "S_22_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.413773775100708
+        },
+        {
+            "name": "S_24_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.358703374862671
+        },
+        {
+            "name": "S_25_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 1.934018611907959
+        },
+        {
+            "name": "S_26_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 1.7670793533325195
+        },
+        {
+            "name": "S_27_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 1.538820743560791
+        },
+        {
+            "name": "S_28_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.064734935760498
+        },
+        {
+            "name": "S_30_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.6112380027770996
+        },
+        {
+            "name": "S_32_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.124680519104004
+        },
+        {
+            "name": "S_33_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 1.3978068828582764
+        },
+        {
+            "name": "S_34_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.8279879093170166
+        },
+        {
+            "name": "S_37_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 1.7631654739379883
+        },
+        {
+            "name": "S_38_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.5584921836853027
+        },
+        {
+            "name": "S_41_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.99873685836792
+        },
+        {
+            "name": "S_43_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.057962417602539
+        },
+        {
+            "name": "S_44_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.1507339477539062
+        },
+        {
+            "name": "S_45_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.3498551845550537
+        },
+        {
+            "name": "S_46_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.4390475749969482
+        },
+        {
+            "name": "S_47_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.5553195476531982
+        },
+        {
+            "name": "S_48_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.6073832511901855
+        },
+        {
+            "name": "S_49_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.7672250270843506
+        },
+        {
+            "name": "S_51_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.704144239425659
+        },
+        {
+            "name": "S_52_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 1.3656282424926758
+        },
+        {
+            "name": "S_54_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 4.108044147491455
+        },
+        {
+            "name": "S_55_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.275017023086548
+        },
+        {
+            "name": "S_58_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.658092975616455
+        },
+        {
+            "name": "S_6_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.3144755363464355
+        },
+        {
+            "name": "S_61_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.5813701152801514
+        },
+        {
+            "name": "S_64_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 1.5410089492797852
+        },
+        {
+            "name": "S_66_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 1.5737414360046387
+        },
+        {
+            "name": "S_67_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 1.482818603515625
+        },
+        {
+            "name": "S_68_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 1.3143584728240967
+        },
+        {
+            "name": "S_7_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 6.742671966552734
+        },
+        {
+            "name": "S_72_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.0774686336517334
+        },
+        {
+            "name": "S_75_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.2877144813537598
+        },
+        {
+            "name": "S_8_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 1.5430281162261963
+        },
+        {
+            "name": "S_9_healthy",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.2025628089904785
+        },
+        {
+            "name": "S_12_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 4.180253744125366
+        },
+        {
+            "name": "S_34_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.22371244430542
+        },
+        {
+            "name": "S_35_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.8272361755371094
+        },
+        {
+            "name": "S_36_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.5470235347747803
+        },
+        {
+            "name": "S_37_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 4.041927337646484
+        },
+        {
+            "name": "S_38_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.2204842567443848
+        },
+        {
+            "name": "S_39_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.7659060955047607
+        },
+        {
+            "name": "S_40_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.5044851303100586
+        },
+        {
+            "name": "S_41_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.117577075958252
+        },
+        {
+            "name": "S_42_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.07918643951416
+        },
+        {
+            "name": "S_43_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.9491147994995117
+        },
+        {
+            "name": "S_44_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.546121120452881
+        },
+        {
+            "name": "S_45_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.891854763031006
+        },
+        {
+            "name": "S_46_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.0038628578186035
+        },
+        {
+            "name": "S_47_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 4.677625894546509
+        },
+        {
+            "name": "S_48_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.3854711055755615
+        },
+        {
+            "name": "S_49_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 4.642021894454956
+        },
+        {
+            "name": "S_50_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.203115940093994
+        },
+        {
+            "name": "S_51_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 5.353884935379028
+        },
+        {
+            "name": "S_52_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 4.239435434341431
+        },
+        {
+            "name": "S_53_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 4.1542840003967285
+        },
+        {
+            "name": "S_54_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 1.420428991317749
+        },
+        {
+            "name": "S_55_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.791980028152466
+        },
+        {
+            "name": "S_56_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.2077770233154297
+        },
+        {
+            "name": "S_57_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 4.085527658462524
+        },
+        {
+            "name": "S_60_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.505190134048462
+        },
+        {
+            "name": "S_61_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 4.953806638717651
+        },
+        {
+            "name": "S_63_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 4.040251016616821
+        },
+        {
+            "name": "S_64_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.2207698822021484
+        },
+        {
+            "name": "S_65_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.9549217224121094
+        },
+        {
+            "name": "S_66_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 4.512761116027832
+        },
+        {
+            "name": "S_67_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 2.5037739276885986
+        },
+        {
+            "name": "S_68_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.36521315574646
+        },
+        {
+            "name": "S_69_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.9324605464935303
+        },
+        {
+            "name": "S_70_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.3785977363586426
+        },
+        {
+            "name": "S_71_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.0234711170196533
+        },
+        {
+            "name": "S_72_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 0.6260583400726318
+        },
+        {
+            "name": "S_73_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.32928204536438
+        },
+        {
+            "name": "S_74_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 3.649703025817871
+        },
+        {
+            "name": "S_75_sick",
+            "model": "llama3.1:8b",
+            "result": "Error",
+            "responseTime": 4.369944095611572
         }
     ]
 }
