@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
     "totalInferences": 8923,
     "totalTime": "53605.86s",
-=======
-    "totalInferences": 8918,
-    "totalTime": "53445.39s",
->>>>>>> f31961f (some dataset adjustments for fine tuning)
     "inference": [
         {
             "name": "105_1934323665_png.rf.a1e70bb0747c86f17a76a13894e8e191_healthy",
@@ -53238,7 +53233,6 @@
             "model": "deepseek-r1:7b",
             "result": "Successfull",
             "responseTime": 38.630667209625244
-<<<<<<< HEAD
         },
         {
             "name": "2821_1329945541_png.rf.0931f5d386ad027742cdb24142721b56_healthy",
@@ -53269,8 +53263,6 @@
             "model": "deepseek-r1:7b",
             "result": "Successfull",
             "responseTime": 32.15720057487488
-=======
->>>>>>> f31961f (some dataset adjustments for fine tuning)
         }
     ]
 }
