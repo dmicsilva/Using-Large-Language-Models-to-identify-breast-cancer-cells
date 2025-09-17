@@ -11,7 +11,8 @@ import parameters
 
 def process_image(model, evalImage_path, dataset):
 
-    filenameWithoutExtension = os.path.basename(evalImage_path).rsplit('.', 1)[0]
+    filenameWithoutPath = os.path.basename(evalImage_path)
+    filenameWithoutExtension = os.path.splitext(filenameWithoutPath)[0]
 
     print(f"\n\nProcessing image {filenameWithoutExtension} with model {model}...")
     prompt = get_prompt_from_label(datasets)
@@ -31,7 +32,7 @@ def process_image(model, evalImage_path, dataset):
 
 def decide_result(text, filenameWithoutExtension, dataset):
     
-    loweredText = text.lower()
+    loweredText = text.lower().replace(".","")
 
     if dataset['type'] == "healthy/sick":
         
@@ -217,9 +218,17 @@ def get_estimated_time(dataset, model, currentFileCount, totalFileCount):
     with open(datasetResultsFilePath, 'r') as f:
         data = json.load(f)
 
+    totalTime = 0
+    totalInferenceCount = 0
+    for item in data['inference']:
+        if item['model'] == model:
+            totalTime += item['responseTime']
+            totalInferenceCount += 1
+    avgResponseTime = totalTime / totalInferenceCount if totalInferenceCount > 0 else 0
+
     if (data['inference'][-1]['model'] == model):
         filesLeft = totalFileCount - currentFileCount
-        estimatedTime = filesLeft * data['inference'][-1]['responseTime']
+        estimatedTime = filesLeft * avgResponseTime
         formattedTime = time.strftime('%H:%M:%S', time.gmtime(estimatedTime))
         return formattedTime
     else:
@@ -247,7 +256,7 @@ if __name__ == "__main__":
             for dirpath, dirnames, filenames in os.walk(dataset['path']):
                 for filename in filenames:
                     if filename.endswith(('.jpg', '.png', '.tif')):
-                        if (not fi.check_entry_existance(dataset, model, filename.split('.')[0])):    
+                        if (not fi.check_entry_existance(dataset, model, os.path.join(dirpath, filename))):    
                             imagePath = Path(os.path.join(dirpath, filename))
                             process_image(model, imagePath, dataset)
                         else:

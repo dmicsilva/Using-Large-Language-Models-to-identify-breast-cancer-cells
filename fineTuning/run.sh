@@ -1,1 +1,1 @@
-docker run --rm --gpus=all -v .:/app -it unsloth /bin/bash -c "python runGeneralFineTune.py"
+docker run --gpus=all -v .:/app -it unsloth /bin/bash -c "python runGeneralFineTune.py"

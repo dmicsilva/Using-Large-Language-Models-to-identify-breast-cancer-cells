@@ -62,7 +62,7 @@ def format_chat_template(row):
     row["text"] = tokenizer.apply_chat_template(row_json, tokenize=False, add_generation_prompt=False, return_tensors="pt")
     return row
 
-dataset = dataset["train"].map(
+dataset = dataset.map(
     format_chat_template,
     num_proc= 4,
     )

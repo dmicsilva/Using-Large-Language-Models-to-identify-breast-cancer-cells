@@ -14,7 +14,7 @@ def load_model_tokenizer(modelName):
     load_in_4bit = True # Use 4bit quantization to reduce memory usage. Can be False.
 
     model, tokenizer = FastLanguageModel.from_pretrained(
-        model_name = "unsloth/Llama-3.2-3B-Instruct",
+        model_name = modelName,
         max_seq_length = max_seq_length,
         dtype = dtype,
         load_in_4bit = load_in_4bit,
@@ -62,8 +62,8 @@ def prepare_dataset(datasetName):
 def format_chat_template(row, instruction):
     
     row_json = [{"role": "system", "content": instruction },
-               {"role": "user", "content": row["image"]},
-               {"role": "assistant", "content": row["label"]}]
+               {"role": "user", "content": row["base64_encoded_image"]},
+               {"role": "assistant", "content": row["cancerExistance"]}]
     
     row["text"] = tokenizer.apply_chat_template(row_json, tokenize=False, add_generation_prompt=False, return_tensors="pt")
     return row
@@ -76,7 +76,7 @@ def initiate_trainer(model, tokenizer, dataset, fineTunedModelName):
     trainer = SFTTrainer(
     model = model,
     tokenizer = tokenizer,
-    train_dataset = dataset["train"],
+    train_dataset = dataset,
     dataset_text_field = "text",
     max_seq_length = max_seq_length,
     dataset_num_proc = 2,

@@ -1,6 +1,6 @@
 {
-    "totalInferences": 262,
-    "totalTime": "9293.05s",
+    "totalInferences": 524,
+    "totalTime": "15163.91s",
     "inference": [
         {
             "name": "T0001.1.1.S.2012-10-08.00_healthy",
@@ -1573,6 +1573,1578 @@
             "model": "gemma3:latest",
             "result": "Successfull",
             "responseTime": 35.65653038024902
+        },
+        {
+            "name": "T0001.1.1.S.2012-10-08.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 29.03151798248291
+        },
+        {
+            "name": "T0002.1.1.S.2012-10-08.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 16.8293616771698
+        },
+        {
+            "name": "T0004.1.1.S.2012-10-17.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.538880109786987
+        },
+        {
+            "name": "T0005.1.1.S.2012-10-17.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.819783687591553
+        },
+        {
+            "name": "T0006.1.1.S.2012-10-17.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.172894477844238
+        },
+        {
+            "name": "T0007.1.1.S.2012-10-24.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 28.34520936012268
+        },
+        {
+            "name": "T0008.1.1.S.2012-10-24.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 29.840977668762207
+        },
+        {
+            "name": "T0009.1.2.S.2012-10-24.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.18784761428833
+        },
+        {
+            "name": "T0010.1.1.S.2012-10-24.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.515559911727905
+        },
+        {
+            "name": "T0011.1.1.S.2012-10-24.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 10.865225076675415
+        },
+        {
+            "name": "T0012.1.1.S.2012-10-26.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 19.237812995910645
+        },
+        {
+            "name": "T0013.1.1.S.2012-10-26.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 44.07356810569763
+        },
+        {
+            "name": "T0015.1.1.S.2012-10-26.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 25.336177110671997
+        },
+        {
+            "name": "T0016.1.1.S.2012-10-31.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 33.74664092063904
+        },
+        {
+            "name": "T0017.1.1.S.2012-10-26.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 29.247209072113037
+        },
+        {
+            "name": "T0018.1.1.S.2012-10-31.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.75029492378235
+        },
+        {
+            "name": "T0019.1.1.S.2012-10-31.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.3919198513031
+        },
+        {
+            "name": "T0020.1.1.S.2012-10-31.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 11.453526020050049
+        },
+        {
+            "name": "T0021.1.1.S.2012-10-31.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 11.289593935012817
+        },
+        {
+            "name": "T0022.1.1.S.2012-10-31.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 13.036359071731567
+        },
+        {
+            "name": "T0023.1.1.S.2012-10-31.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 14.608675241470337
+        },
+        {
+            "name": "T0024.1.1.S.2012-10-31.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.233238220214844
+        },
+        {
+            "name": "T0026.1.1.S.2012-10-29.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 21.302490949630737
+        },
+        {
+            "name": "T0028.1.1.S.2012-10-29.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 19.12804651260376
+        },
+        {
+            "name": "T0030.1.1.S.2012-10-29.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 12.592150449752808
+        },
+        {
+            "name": "T0031.1.1.S.2012-10-19.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 12.037358522415161
+        },
+        {
+            "name": "T0032.1.1.S.2012-10-29.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 24.625208139419556
+        },
+        {
+            "name": "T0034.1.1.S.2012-11-29.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 26.585025787353516
+        },
+        {
+            "name": "T0035.1.1.S.2012-10-29.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 9.007399082183838
+        },
+        {
+            "name": "T0036.1.1.D.2012-09-29.04_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.625697374343872
+        },
+        {
+            "name": "T0037.1.1.D.2012-10-29.04_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 23.008205890655518
+        },
+        {
+            "name": "T0038.1.1.D.2012-10-29.02_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 27.289037227630615
+        },
+        {
+            "name": "T0040.1.1.S.2012-11-09.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.058283805847168
+        },
+        {
+            "name": "T0041.1.1.S.2012-11-14.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.201724767684937
+        },
+        {
+            "name": "T0042.1.1.S.2012-11-14.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 25.28912091255188
+        },
+        {
+            "name": "T0043.1.1.S.2012-11-14.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.585949659347534
+        },
+        {
+            "name": "T0044.1.1.S.2012-11-14.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 23.564398527145386
+        },
+        {
+            "name": "T0045.1.1.S.2012-11-14.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.56291389465332
+        },
+        {
+            "name": "T0046.1.1.S.2012-11-14.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.537740230560303
+        },
+        {
+            "name": "T0047.1.1.D.2012-11-07.01_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.513831615447998
+        },
+        {
+            "name": "T0048.1.1.D.2012-11-07.01_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 18.717066287994385
+        },
+        {
+            "name": "T0049.1.1.S.2012-11-07.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.001531839370728
+        },
+        {
+            "name": "T0050.1.1.S.2012-11-07.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 29.51366424560547
+        },
+        {
+            "name": "T0051.1.1.S.2012-11-07.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 17.16175413131714
+        },
+        {
+            "name": "T0052.1.1.S.2012-11-07.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.966989517211914
+        },
+        {
+            "name": "T0055.1.1.S.2012-11-19.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 12.290812492370605
+        },
+        {
+            "name": "T0057.1.1.S.2012-11-19.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.170536518096924
+        },
+        {
+            "name": "T0058.1.1.S.2012-11-19.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 32.81627321243286
+        },
+        {
+            "name": "T0060.1.1.S.2012-11-19.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.69357442855835
+        },
+        {
+            "name": "T0061.1.1.S.2012-11-19.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 9.631991624832153
+        },
+        {
+            "name": "T0062.1.1.S.2012-11-19.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 26.116385459899902
+        },
+        {
+            "name": "T0063.2.1.S.2014-01-28.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 35.288331508636475
+        },
+        {
+            "name": "T0064.1.1.S.2012-11-21.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.76770305633545
+        },
+        {
+            "name": "T0066.1.1.S.2012-11-21.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.837503671646118
+        },
+        {
+            "name": "T0067.1.1.S.2012-11-21.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 28.716534852981567
+        },
+        {
+            "name": "T0068.1.1.S.2012-11-21.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 26.026819705963135
+        },
+        {
+            "name": "T0069.1.1.D.2012-11-21.01_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.17691135406494
+        },
+        {
+            "name": "T0070.1.1.S.2012-11-21.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 32.67558240890503
+        },
+        {
+            "name": "T0071.1.1.S.2012-12-03.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.08681321144104
+        },
+        {
+            "name": "T0072.1.1.S.2012-12-03.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 11.086153268814087
+        },
+        {
+            "name": "T0073.1.1.S.2012-12-03.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.901601552963257
+        },
+        {
+            "name": "T0075.1.1.S.2012-12-03.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 12.084465503692627
+        },
+        {
+            "name": "T0080.1.1.S.2012-11-30.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 23.945690155029297
+        },
+        {
+            "name": "T0086.1.1.D.2012-11-12.01_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 19.95689296722412
+        },
+        {
+            "name": "T0087.1.1.S.2012-11-12.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 20.52657389640808
+        },
+        {
+            "name": "T0088.1.1.S.2012-11-12.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.287761449813843
+        },
+        {
+            "name": "T0089.1.1.S.2012-11-12.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.073256015777588
+        },
+        {
+            "name": "T0090.1.1.S.2012-11-12.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.432976007461548
+        },
+        {
+            "name": "T0091.1.1.S.2012-11-12.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.468755722045898
+        },
+        {
+            "name": "T0092.1.1.S.2012-12-07.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 13.093709945678711
+        },
+        {
+            "name": "T0093.1.1.S.2012-12-07.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 24.53358483314514
+        },
+        {
+            "name": "T0094.1.1.S.2012-12-07.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.354360580444336
+        },
+        {
+            "name": "T0095.1.1.S.2012-12-07.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.935480833053589
+        },
+        {
+            "name": "T0096.1.1.S.2012-11-09.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.63900399208069
+        },
+        {
+            "name": "T0097.1.1.S.2012-11-09.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 38.152835845947266
+        },
+        {
+            "name": "T0098.1.1.S.2012-11-09.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.42566704750061
+        },
+        {
+            "name": "T0099.1.1.S.2012-11-09.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 14.209446430206299
+        },
+        {
+            "name": "T0100.1.1.S.2012-11-09.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.923460245132446
+        },
+        {
+            "name": "T0104.1.1.S.2012-11-30.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 16.17273998260498
+        },
+        {
+            "name": "T0105.1.1.S.2012-11-30.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.743449449539185
+        },
+        {
+            "name": "T0106.1.1.S.2012-11-28.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 14.569238662719727
+        },
+        {
+            "name": "T0107.1.1.S.2012-11-28.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 18.780283451080322
+        },
+        {
+            "name": "T0109.1.1.S.2012-11-28.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.235060930252075
+        },
+        {
+            "name": "T0110.1.1.S.2012-11-28.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 6.295699834823608
+        },
+        {
+            "name": "T0111.1.1.S.2012-11-28.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.493136167526245
+        },
+        {
+            "name": "T0112.1.1.S.2012-11-07.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.51962184906006
+        },
+        {
+            "name": "T0113.1.1.S.2013-01-15.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.059092044830322
+        },
+        {
+            "name": "T0114.1.1.S.2013-01-15.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.549193859100342
+        },
+        {
+            "name": "T0115.1.1.S.2013-01-16.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 11.306413650512695
+        },
+        {
+            "name": "T0116.1.1.S.2013-01-16.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 11.720656394958496
+        },
+        {
+            "name": "T0121.1.1.S.2013-01-21.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 24.768821716308594
+        },
+        {
+            "name": "T0125.1.1.S.2013-01-21.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 44.858153343200684
+        },
+        {
+            "name": "T0126.1.1.S.2013-01-22.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 23.545730113983154
+        },
+        {
+            "name": "T0127.1.1.S.2013-01-22.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.74727153778076
+        },
+        {
+            "name": "T0143.1.1.S.2013-01-25.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 12.28815507888794
+        },
+        {
+            "name": "T0144.1.1.S.2013-01-29.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 25.680833101272583
+        },
+        {
+            "name": "T0145.1.1.S.2013-01-29.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.444456815719604
+        },
+        {
+            "name": "T0146.1.1.S.2013-01-29.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 6.84467625617981
+        },
+        {
+            "name": "T0147.1.1.S.2013-01-29.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 11.072747707366943
+        },
+        {
+            "name": "T0148.1.1.S.2013-01-29.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 12.60669732093811
+        },
+        {
+            "name": "T0149.1.1.S.2013-01-28.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 10.943542003631592
+        },
+        {
+            "name": "T0150.1.1.S.2013-01-28.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 14.032083749771118
+        },
+        {
+            "name": "T0151.1.1.S.2013-01-28.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 25.830866813659668
+        },
+        {
+            "name": "T0152.1.1.S.2013-02-01.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.72292685508728
+        },
+        {
+            "name": "T0153.1.1.S.2013-02-01.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 36.24303650856018
+        },
+        {
+            "name": "T0154.1.1.S.2013-02-01.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.972046375274658
+        },
+        {
+            "name": "T0156.1.1.S.2013-02-18.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 29.629781484603882
+        },
+        {
+            "name": "T0158.1.1.S.2013-02-18.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 41.78230166435242
+        },
+        {
+            "name": "T0159.1.1.S.2013-02-22.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.851333379745483
+        },
+        {
+            "name": "T0160.1.1.S.2013-02-22.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 27.173945426940918
+        },
+        {
+            "name": "T0161.1.1.S.2013-02-22.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.20169711112976
+        },
+        {
+            "name": "T0162.1.1.S.2013-02-19.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.335265398025513
+        },
+        {
+            "name": "T0163.1.1.S.2013-02-19.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 29.69435167312622
+        },
+        {
+            "name": "T0164.1.1.S.2013-02-19.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 22.528387546539307
+        },
+        {
+            "name": "T0165.1.1.S.2013-03-06.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 8.631263494491577
+        },
+        {
+            "name": "T0166.1.1.S.2013-01-14.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.415666818618774
+        },
+        {
+            "name": "T0168.1.1.S.2013-04-08.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 30.21102023124695
+        },
+        {
+            "name": "T0169.1.1.S.2013-04-08.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.05916452407837
+        },
+        {
+            "name": "T0170.1.1.S.2013-04-08.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.098830461502075
+        },
+        {
+            "name": "T0171.1.1.S.2013-03-18.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.05589246749878
+        },
+        {
+            "name": "T0172.1.1.S.2013-03-18.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.921713829040527
+        },
+        {
+            "name": "T0173.1.1.S.2013-03-18.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.23578381538391
+        },
+        {
+            "name": "T0174.1.1.S.2013-03-20.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 17.349705934524536
+        },
+        {
+            "name": "T0176.1.1.S.2013-03-20.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 5.994129180908203
+        },
+        {
+            "name": "T0177.1.1.S.2013-03-20.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 19.445900440216064
+        },
+        {
+            "name": "T0182.1.1.S.2013-05-24.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.415245056152344
+        },
+        {
+            "name": "T0184.1.1.S.2013-05-24.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.89062762260437
+        },
+        {
+            "name": "T0188.1.1.S.2013-08-12.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 11.277392625808716
+        },
+        {
+            "name": "T0189.1.1.S.2013-09-30.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.166152954101562
+        },
+        {
+            "name": "T0190.1.1.S.2013-09-30.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.23219323158264
+        },
+        {
+            "name": "T0191.1.1.S.2013-09-06.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 35.29008102416992
+        },
+        {
+            "name": "T0193.1.1.S.2013-10-02.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.31077003479004
+        },
+        {
+            "name": "T0194.1.1.S.2013-10-02.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 9.757563591003418
+        },
+        {
+            "name": "T0195.1.1.S.2013-10-07.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 13.429558277130127
+        },
+        {
+            "name": "T0196.1.1.S.2013-10-07.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Error",
+            "responseTime": 25.46579909324646
+        },
+        {
+            "name": "T0197.1.1.S.2013-10-07.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 28.837620496749878
+        },
+        {
+            "name": "T0199.1.1.S.2013-10-07.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.001518726348877
+        },
+        {
+            "name": "T0200.1.1.S.2013-10-07.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.86519694328308
+        },
+        {
+            "name": "T0201.1.1.S.2013-10-28.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.218224287033081
+        },
+        {
+            "name": "T0206.1.1.S.2013-10-18.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 23.93298602104187
+        },
+        {
+            "name": "T0208.1.1.S.2013-10-28.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 29.045437812805176
+        },
+        {
+            "name": "T0211.1.1.D.2013-11-08.04_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.732306241989136
+        },
+        {
+            "name": "T0212.1.1.D.2013-11-08.04_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 78.71244096755981
+        },
+        {
+            "name": "T0216.1.1.S.2013-11-11.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.130317211151123
+        },
+        {
+            "name": "T0217.1.1.S.2013-11-11.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.352267265319824
+        },
+        {
+            "name": "T0218.1.1.S.2013-11-11.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.296777486801147
+        },
+        {
+            "name": "T0220.1.1.S.2013-11-18.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 31.954920053482056
+        },
+        {
+            "name": "T0221.1.1.S.2013-11-18.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.033916473388672
+        },
+        {
+            "name": "T0222.1.1.S.2013-11-18.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.423100471496582
+        },
+        {
+            "name": "T0224.1.1.S.2013-11-18.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.580670833587646
+        },
+        {
+            "name": "T0225.1.1.S.2013-11-18.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 12.090216636657715
+        },
+        {
+            "name": "T0226.1.1.S.2013-11-18.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.094907760620117
+        },
+        {
+            "name": "T0233.1.1.S.2013-12-11.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 23.061595916748047
+        },
+        {
+            "name": "T0234.1.1.S.2013-12-11.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 10.65624475479126
+        },
+        {
+            "name": "T0235.1.1.S.2014-05-21.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.637453079223633
+        },
+        {
+            "name": "T0236.1.1.S.2014-05-21.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 9.04141092300415
+        },
+        {
+            "name": "T0237.1.1.S.2014-05-21.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 16.688618659973145
+        },
+        {
+            "name": "T0238.1.1.S.2014-05-21.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.257591009140015
+        },
+        {
+            "name": "T0239.1.1.S.2014-05-26.00_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 7.598129749298096
+        },
+        {
+            "name": "T0243.1.1.D.2014-04-15.01_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 12.43658971786499
+        },
+        {
+            "name": "T0244.1.1.D.2014-05-06.04_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.793900966644287
+        },
+        {
+            "name": "T0272.1.1.D.2015-03-13.02_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 19.180200576782227
+        },
+        {
+            "name": "T0138.2.1.D.2013-09-06.02_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 26.398616313934326
+        },
+        {
+            "name": "T0179.1.1.S.2013-08-16.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.649730920791626
+        },
+        {
+            "name": "T0180.1.1.S.2013-08-16.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 26.29975700378418
+        },
+        {
+            "name": "T0181.1.1.S.2013-08-16.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.741341352462769
+        },
+        {
+            "name": "T0192.1.1.S.2013-09-06.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.646288871765137
+        },
+        {
+            "name": "T0198.2.1.S.2014-11-11.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.702880859375
+        },
+        {
+            "name": "T0202.1.1.S.2013-10-11.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.952099323272705
+        },
+        {
+            "name": "T0203.1.1.S.2013-10-11.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.41298007965088
+        },
+        {
+            "name": "T0204.1.1.S.2013-10-11.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 18.894800901412964
+        },
+        {
+            "name": "T0209.1.1.S.2013-11-08.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 32.61135911941528
+        },
+        {
+            "name": "T0210.1.1.S.2013-11-08.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 17.863661766052246
+        },
+        {
+            "name": "T0213.1.1.S.2013-11-08.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 11.130415439605713
+        },
+        {
+            "name": "T0240.1.1.S.2014-07-18.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.931026697158813
+        },
+        {
+            "name": "T0241.1.1.S.2014-07-18.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.302588939666748
+        },
+        {
+            "name": "T0242.1.1.S.2014-07-25.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 10.327875137329102
+        },
+        {
+            "name": "T0245.1.1.S.2014-08-22.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 32.4947988986969
+        },
+        {
+            "name": "T0246.1.1.S.2014-08-22.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 14.838179111480713
+        },
+        {
+            "name": "T0255.1.1.S.2014-10-10.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 11.807533502578735
+        },
+        {
+            "name": "T0256.1.1.S.2014-10-10.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.178179740905762
+        },
+        {
+            "name": "T0257.1.1.S.2014-10-17.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 16.77760076522827
+        },
+        {
+            "name": "T0258.1.1.S.2014-10-17.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 12.596816539764404
+        },
+        {
+            "name": "T0259.1.1.S.2014-11-07.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 19.06112027168274
+        },
+        {
+            "name": "T0260.1.1.S.2014-11-11.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 11.28999924659729
+        },
+        {
+            "name": "T0261.1.1.S.2014-11-11.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 59.82151985168457
+        },
+        {
+            "name": "T0263.1.1.S.2014-12-12.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.893064975738525
+        },
+        {
+            "name": "T0264.1.1.S.2015-01-16.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 51.01459002494812
+        },
+        {
+            "name": "T0266.1.1.S.2015-01-16.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 22.291237831115723
+        },
+        {
+            "name": "T0267.1.5.S.2015-01-16.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.267159461975098
+        },
+        {
+            "name": "T0268.1.1.D.2015-01-23.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 22.6886785030365
+        },
+        {
+            "name": "T0269.1.1.D.2015-01-23.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 32.64311099052429
+        },
+        {
+            "name": "T0269.1.1.S.2015-01-23.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 40.51567625999451
+        },
+        {
+            "name": "T0270.1.1.S.2015-01-30.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.919001817703247
+        },
+        {
+            "name": "T0271.1.1.S.2015-01-27.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 36.70818734169006
+        },
+        {
+            "name": "T0273.1.1.S.2015-03-13.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 27.555097341537476
+        },
+        {
+            "name": "T0274.1.1.S.2015-03-13.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 45.204200983047485
+        },
+        {
+            "name": "T0277.1.1.S.2015-03-20.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.471487760543823
+        },
+        {
+            "name": "T0278.1.1.S.2015-03-20.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 33.372934341430664
+        },
+        {
+            "name": "T0281.1.1.S.2015-05-22.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 27.651955604553223
+        },
+        {
+            "name": "T0282.1.1.S.2015-07-20.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.896327495574951
+        },
+        {
+            "name": "T0283.1.1.S.2015-05-22.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 24.163231372833252
+        },
+        {
+            "name": "T0286.1.1.S.2015-05-22.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 34.839195013046265
+        },
+        {
+            "name": "T0287.1.1.S.2015-07-20.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 31.19605565071106
+        },
+        {
+            "name": "T0312.1.1.S.2019-11-13.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 25.749825716018677
+        },
+        {
+            "name": "T0316.1.1.S.2018-05-23.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 32.43838047981262
+        },
+        {
+            "name": "T0318.1.1.S.2019-08-28.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 41.97995948791504
+        },
+        {
+            "name": "T0319.1.1.S.2019-10-23.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 30.089215517044067
+        },
+        {
+            "name": "T0320.1.2.S.2019-09-19.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 22.48305320739746
+        },
+        {
+            "name": "T0322.1.1.S.2019-11-13.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 16.186777353286743
+        },
+        {
+            "name": "T0326.1.1.S.2019-04-24.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 24.46548557281494
+        },
+        {
+            "name": "T0328.1.1.S.2020-01-20.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.623698711395264
+        },
+        {
+            "name": "T0330.1.1.S.2020-02-26.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 46.20134735107422
+        },
+        {
+            "name": "T0337.2.1.S.2019-11-13.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 18.744319200515747
+        },
+        {
+            "name": "T0338.1.1.S.2020-01-22.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 32.84241247177124
+        },
+        {
+            "name": "T0342.1.1.S.2020-01-22.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 22.25705337524414
+        },
+        {
+            "name": "T0343.1.1.S.2019-04-24.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 28.3481125831604
+        },
+        {
+            "name": "T0344.1.1.S.2019-12-11.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 24.736425399780273
+        },
+        {
+            "name": "T0345.1.1.S.2019-10-23.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 46.032288551330566
+        },
+        {
+            "name": "T0346.1.1.D.2019-08-28.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 21.998013973236084
+        },
+        {
+            "name": "T0346.1.1.S.2019-08-28.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 52.013014793395996
+        },
+        {
+            "name": "T0347.1.1.S.2019-11-13.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 16.688006162643433
+        },
+        {
+            "name": "T0348.1.1.S.2019-06-26.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 32.37979197502136
+        },
+        {
+            "name": "T0350.1.1.S.2020-10-14.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 21.93095326423645
+        },
+        {
+            "name": "T0355.1.1.S.2019-03-27.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 27.416473865509033
+        },
+        {
+            "name": "T0356.1.1.S.2019-06-26.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 50.55548429489136
+        },
+        {
+            "name": "T0361.2.1.S.2020-01-22.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 33.32467007637024
+        },
+        {
+            "name": "T0363.2.1.S.2019-10-23.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 34.44026565551758
+        },
+        {
+            "name": "T0365.2.1.S.2020-01-22.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.025866746902466
+        },
+        {
+            "name": "T0366.1.1.S.2019-11-13.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 24.409590482711792
+        },
+        {
+            "name": "T0368.2.1.S.2019-12-11.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 42.75637698173523
+        },
+        {
+            "name": "T0369.1.1.S.2020-10-14.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 19.91532611846924
+        },
+        {
+            "name": "T0371.2.1.S.2020-02-19.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.578712224960327
+        },
+        {
+            "name": "T0373.2.1.S.2019-06-26.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 29.109082221984863
+        },
+        {
+            "name": "T0374.1.1.S.2020-10-27.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 23.58826446533203
+        },
+        {
+            "name": "T0376.1.1.D.2020-01-30.18_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.175369024276733
+        },
+        {
+            "name": "T0378.2.1.S.2019-09-18.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 25.383103609085083
+        },
+        {
+            "name": "T0381.2.1.S.2019-08-28.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 19.25464677810669
+        },
+        {
+            "name": "T0384.2.1.S.2019-08-28.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 38.687477827072144
+        },
+        {
+            "name": "T0385.1.4.S.2019-08-28.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 25.040868043899536
+        },
+        {
+            "name": "T0386.1.1.S.2019-11-13.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.695837497711182
+        },
+        {
+            "name": "T0387.1.1.S.2019-09-25.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 40.89554786682129
+        },
+        {
+            "name": "T0389.2.1.S.2020-01-22.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 29.714729070663452
+        },
+        {
+            "name": "T0390.1.1.S.2019-01-30.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 19.592100381851196
+        },
+        {
+            "name": "T0393.2.1.S.2019-04-24.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.820501804351807
+        },
+        {
+            "name": "T0394.1.1.S.2018-05-23.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 24.043675661087036
+        },
+        {
+            "name": "T0397.2.1.S.2018-05-23.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 14.198962688446045
+        },
+        {
+            "name": "T0398.1.1.S.2019-01-30.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 40.93813180923462
+        },
+        {
+            "name": "T0400.1.1.D.2018-05-23.06_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 42.12737011909485
+        },
+        {
+            "name": "T0401.1.1.S.2019-07-24.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 35.06521129608154
+        },
+        {
+            "name": "T0402.1.1.S.2018-05-25.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 44.834715604782104
+        },
+        {
+            "name": "T0407.1.1.S.2019-01-30.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 19.56937289237976
+        },
+        {
+            "name": "T0408.1.1.S.2019-02-27.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 27.273595094680786
+        },
+        {
+            "name": "T0409.1.1.S.2019-02-27.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 46.28572487831116
+        },
+        {
+            "name": "T0410.1.1.S.2019-01-30.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 29.39884638786316
+        },
+        {
+            "name": "T0411.1.1.S.2019-01-30.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 42.691760301589966
+        },
+        {
+            "name": "T0413.1.1.S.2019-01-30.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 50.617764949798584
+        },
+        {
+            "name": "T0415.1.1.S.2019-02-27.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 41.8839385509491
+        },
+        {
+            "name": "T0418.2.1.S.2019-08-28.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 26.090680837631226
+        },
+        {
+            "name": "T0422.1.1.S.2019-07-24.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 33.935160636901855
+        },
+        {
+            "name": "T0424.1.1.S.2019-02-27.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 17.16303586959839
+        },
+        {
+            "name": "T0425.2.1.S.2020-10-27.00_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 35.770670890808105
         }
     ]
 }
