@@ -1,6 +1,6 @@
 {
-    "totalInferences": 8923,
-    "totalTime": "53605.86s",
+    "totalInferences": 8976,
+    "totalTime": "54497.90s",
     "inference": [
         {
             "name": "105_1934323665_png.rf.a1e70bb0747c86f17a76a13894e8e191_healthy",
@@ -53263,6 +53263,324 @@
             "model": "deepseek-r1:7b",
             "result": "Successfull",
             "responseTime": 32.15720057487488
+        },
+        {
+            "name": "2841_1204520054_png.rf.ca448c2cc5160dc8e828d1bc7c4c0f57_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 20.997677087783813
+        },
+        {
+            "name": "2856_483108626_png.rf.479a762a5d257323ca879828bbb4a088_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 34.67145323753357
+        },
+        {
+            "name": "2856_764396665_png.rf.b256bc69088bdc5843b79118355131db_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.746259212493896
+        },
+        {
+            "name": "2859_1136731809_png.rf.dc00feab7a4f3feb2122cfaf9f3b3b24_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 31.56259822845459
+        },
+        {
+            "name": "2860_1394587293_png.rf.da698f8754ac90719c72f0a9f26cc91d_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.66155505180359
+        },
+        {
+            "name": "2864_458684637_png.rf.4aa82acb5e2b3b9c78709759e331d9bf_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.361392498016357
+        },
+        {
+            "name": "2879_1767831819_png.rf.b7a49b0e2b1b29a2591be50b55d2b45d_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.54740285873413
+        },
+        {
+            "name": "2882_1013727727_png.rf.4f47f32fd713c9874752323ddf612599_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 12.233662366867065
+        },
+        {
+            "name": "2884_160802697_png.rf.85b3d78a4bd2b9b840794eed8233778a_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 12.80810260772705
+        },
+        {
+            "name": "2896_2144816741_png.rf.063c049416a9c1259529e2508242f605_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 9.622591257095337
+        },
+        {
+            "name": "2896_586387722_png.rf.07d272e489423e0e4def2911dc05975c_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.053640365600586
+        },
+        {
+            "name": "2897_586713670_png.rf.974a87f2da4e770e02e3b7fc41bab507_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.808574199676514
+        },
+        {
+            "name": "2898_114529190_png.rf.12d31945ff897cceedfae9335988b38f_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.797389507293701
+        },
+        {
+            "name": "292_108051053_png.rf.b6d670e60a29eb147e6df095d00207e7_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.007882595062256
+        },
+        {
+            "name": "294_1091299886_png.rf.0a0517c792c251bf3106ca7e4f44038e_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.81878924369812
+        },
+        {
+            "name": "294_2044098614_png.rf.1f17493146bfa674226f43a711f6c141_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 29.01840829849243
+        },
+        {
+            "name": "2957_1611393616_png.rf.1caed43b62e304f6850a79edb632bea9_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 11.535560369491577
+        },
+        {
+            "name": "2957_1727184438_png.rf.377549d761e3a9d857e5c6fc236b60f1_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.394036054611206
+        },
+        {
+            "name": "2958_560652622_png.rf.af4b7334565a4b5e7106102410b8fd43_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.636921644210815
+        },
+        {
+            "name": "2964_1364556093_png.rf.d8c9515f1ba7574b0ba850b0542ba694_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 25.64706778526306
+        },
+        {
+            "name": "2964_1809378517_png.rf.f76b56d126993afc5f6beaa5d55f9e36_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 7.0285680294036865
+        },
+        {
+            "name": "2991_777876033_png.rf.55dea2f13bfc6a76511e6af340b5f74d_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 13.259721040725708
+        },
+        {
+            "name": "2992_1839383720_png.rf.31b88a8cf1eab85f93187ae89a051213_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 8.487206220626831
+        },
+        {
+            "name": "2996_1014639533_png.rf.8cdffd4bebd2d6393e7e1c6acacc9260_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.394469499588013
+        },
+        {
+            "name": "2996_1580648577_png.rf.5af602f7381c04bf671345249106dd1b_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.357090473175049
+        },
+        {
+            "name": "3007_1107103877_png.rf.d999c9199400cd8d803d802b6ac55d83_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.114299535751343
+        },
+        {
+            "name": "3013_1404448369_png.rf.9bc9a9ac49725b7c9c01b17f2548baff_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 17.322447061538696
+        },
+        {
+            "name": "3024_830813930_png.rf.a3ff3f93f6312e6fcc73f3938e65ce45_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 11.819571256637573
+        },
+        {
+            "name": "3053_789811613_png.rf.fce9cfbf66a5c0694adfe2a940d8188a_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.91858220100403
+        },
+        {
+            "name": "3057_1380915125_png.rf.56704fa6d31305be71564e653749deb2_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.52251386642456
+        },
+        {
+            "name": "3083_2004870917_png.rf.f0fe1f8afac7f3b2827c5295d14a6419_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.25495982170105
+        },
+        {
+            "name": "3089_1707733080_png.rf.96839d9f2ef59a91774ce8fe9b9c4420_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.331074714660645
+        },
+        {
+            "name": "30_1153448462_png.rf.1a0601b9ab453091840c540ff19b4afb_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 9.922041654586792
+        },
+        {
+            "name": "30_924301348_png.rf.9f86fb7358cc8f980ac4b5b3d6501139_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 10.92436957359314
+        },
+        {
+            "name": "3110_553642805_png.rf.0c4b33ddac5b1f42f56cf080657525f7_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 18.236591577529907
+        },
+        {
+            "name": "3118_1302401203_png.rf.b40aa656e4c96611a689e22dbe80426a_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 13.925771236419678
+        },
+        {
+            "name": "3118_510544196_png.rf.21dd180c16d8177fc845d7d69f464bc0_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.02559518814087
+        },
+        {
+            "name": "3122_1923527387_png.rf.ee44b7725383cbaed87546cc29f6c6ce_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.703144550323486
+        },
+        {
+            "name": "3124_1564270494_png.rf.d97b8e1be7f6480476b41c6f8b1d29fa_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 12.489715814590454
+        },
+        {
+            "name": "3126_1014932304_png.rf.70aab42eb7a0e3583fa6d949bdee045b_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 12.634456396102905
+        },
+        {
+            "name": "3140_334691214_png.rf.5da087b9796527c78d83da3589a453af_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 23.015469074249268
+        },
+        {
+            "name": "314_1381446132_png.rf.86e090e8df1ad2f5479d69fe6209a879_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.107829093933105
+        },
+        {
+            "name": "314_2008895976_png.rf.f720b91de175360b7f8b28b146965116_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 19.053727626800537
+        },
+        {
+            "name": "3151_1423448967_png.rf.b1bcfaf4243ca0b77560ee5751de6906_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 5.884869337081909
+        },
+        {
+            "name": "3174_1131036557_png.rf.77db0e13eba9eb0683db7ee302e85a91_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.74001407623291
+        },
+        {
+            "name": "3174_162569802_png.rf.8c3dfcfa7738fbcd2b51624c5995c435_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 7.7558958530426025
+        },
+        {
+            "name": "3174_2048033825_png.rf.621c3c7e13770555c87f4c179565270f_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.033868312835693
+        },
+        {
+            "name": "317_1668582908_png.rf.d78d43912fb527215e64757f909b6272_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.87109088897705
+        },
+        {
+            "name": "318_359724140_png.rf.6eee78230513039f4935c39a1493ab5e_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 11.717651128768921
+        },
+        {
+            "name": "318_438214368_png.rf.f138acd2f31603132d0ec8e52a6bd359_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.961966753005981
+        },
+        {
+            "name": "3212_1062786709_png.rf.dd3fd639bbf3e202f0f64d9f2a9fc7ed_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 43.61391067504883
+        },
+        {
+            "name": "3215_1817967736_png.rf.69aa20bb658b91d12f1c6093900fb462_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 26.45915985107422
+        },
+        {
+            "name": "3219_311819518_png.rf.8610240e891ed2e084c34aa156f6246b_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 11.22709321975708
         }
     ]
 }
