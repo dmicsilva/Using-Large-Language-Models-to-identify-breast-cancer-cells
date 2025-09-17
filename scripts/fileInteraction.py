@@ -60,6 +60,9 @@ def check_entry_existance(dataset, model, filename):
     datasetFilename = f"{dataset['label']}_inferences.json"
     datasetResultsFilePath = os.path.join(parameters.cwd, 'inferenceResults', datasetFilename)
 
+    filenameWithoutPath = os.path.basename(filename)
+    filenameWithoutExtension = os.path.splitext(filenameWithoutPath)[0]
+
     if not os.path.exists(datasetResultsFilePath):
         return False
 
@@ -68,7 +71,7 @@ def check_entry_existance(dataset, model, filename):
 
     for item in data['inference']:
         if item['model'] == model:
-            if item['name'] == filename:
+            if (item['name'] == filename or item['name'] == filenameWithoutPath or item['name'] == filenameWithoutExtension):
                 return True
 
     return False

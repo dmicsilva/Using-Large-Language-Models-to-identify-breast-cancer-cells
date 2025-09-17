@@ -1,0 +1,1602 @@
+{
+    "totalInferences": 266,
+    "totalTime": "9457.79s",
+    "inference": [
+        {
+            "name": "case005_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 39.28218936920166
+        },
+        {
+            "name": "case007_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.45919370651245
+        },
+        {
+            "name": "case008_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.375919818878174
+        },
+        {
+            "name": "case010_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.40224480628967
+        },
+        {
+            "name": "case011_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.57945942878723
+        },
+        {
+            "name": "case012_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.52386426925659
+        },
+        {
+            "name": "case013_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.335734367370605
+        },
+        {
+            "name": "case026_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 36.159674644470215
+        },
+        {
+            "name": "case027_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.368260622024536
+        },
+        {
+            "name": "case032_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.578364849090576
+        },
+        {
+            "name": "case034_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.559189558029175
+        },
+        {
+            "name": "case035_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.43778371810913
+        },
+        {
+            "name": "case046_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.404786348342896
+        },
+        {
+            "name": "case050_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.37952542304993
+        },
+        {
+            "name": "case053_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.33170294761658
+        },
+        {
+            "name": "case055_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.62229919433594
+        },
+        {
+            "name": "case058_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.51701521873474
+        },
+        {
+            "name": "case060_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.597901582717896
+        },
+        {
+            "name": "case063_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.472225189208984
+        },
+        {
+            "name": "case066_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.545297622680664
+        },
+        {
+            "name": "case067_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.61868453025818
+        },
+        {
+            "name": "case072_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.5902783870697
+        },
+        {
+            "name": "case075_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.40617799758911
+        },
+        {
+            "name": "case076_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.59725999832153
+        },
+        {
+            "name": "case079_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.52644681930542
+        },
+        {
+            "name": "case082_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.3724160194397
+        },
+        {
+            "name": "case086_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.53326654434204
+        },
+        {
+            "name": "case087_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.597493171691895
+        },
+        {
+            "name": "case088_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.63049101829529
+        },
+        {
+            "name": "case089_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.476293325424194
+        },
+        {
+            "name": "case090_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.30698585510254
+        },
+        {
+            "name": "case094_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.61070680618286
+        },
+        {
+            "name": "case099_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.46863508224487
+        },
+        {
+            "name": "case101_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.42428278923035
+        },
+        {
+            "name": "case102_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.56094741821289
+        },
+        {
+            "name": "case103_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.56745910644531
+        },
+        {
+            "name": "case105_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.56666684150696
+        },
+        {
+            "name": "case106_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.61245107650757
+        },
+        {
+            "name": "case107_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.600977659225464
+        },
+        {
+            "name": "case109_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.58571910858154
+        },
+        {
+            "name": "case111_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.57053780555725
+        },
+        {
+            "name": "case112_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.48828387260437
+        },
+        {
+            "name": "case113_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.61872220039368
+        },
+        {
+            "name": "case114_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.55890727043152
+        },
+        {
+            "name": "case117_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.476224184036255
+        },
+        {
+            "name": "case121_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.43996000289917
+        },
+        {
+            "name": "case125_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.58365988731384
+        },
+        {
+            "name": "case127_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.421233892440796
+        },
+        {
+            "name": "case128_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.585429668426514
+        },
+        {
+            "name": "case130_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.631279945373535
+        },
+        {
+            "name": "case132_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.61818051338196
+        },
+        {
+            "name": "case133_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.606818199157715
+        },
+        {
+            "name": "case144_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.58482813835144
+        },
+        {
+            "name": "case145_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.57576394081116
+        },
+        {
+            "name": "case147_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.59419107437134
+        },
+        {
+            "name": "case148_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.53073191642761
+        },
+        {
+            "name": "case149_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.594781160354614
+        },
+        {
+            "name": "case150_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.58004426956177
+        },
+        {
+            "name": "case153_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.53088879585266
+        },
+        {
+            "name": "case154_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.36430287361145
+        },
+        {
+            "name": "case158_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.54088091850281
+        },
+        {
+            "name": "case160_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.66849708557129
+        },
+        {
+            "name": "case164_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.62041091918945
+        },
+        {
+            "name": "case170_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.59517168998718
+        },
+        {
+            "name": "case172_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.469199657440186
+        },
+        {
+            "name": "case173_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.67525911331177
+        },
+        {
+            "name": "case174_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.575942277908325
+        },
+        {
+            "name": "case176_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.64455437660217
+        },
+        {
+            "name": "case190_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.589394330978394
+        },
+        {
+            "name": "case195_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.451295614242554
+        },
+        {
+            "name": "case198_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.3368444442749
+        },
+        {
+            "name": "case199_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.48265480995178
+        },
+        {
+            "name": "case205_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.56869983673096
+        },
+        {
+            "name": "case206_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.64818811416626
+        },
+        {
+            "name": "case211_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.6328661441803
+        },
+        {
+            "name": "case212_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.56237459182739
+        },
+        {
+            "name": "case218_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.47594165802002
+        },
+        {
+            "name": "case219_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.6064658164978
+        },
+        {
+            "name": "case221_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.61635375022888
+        },
+        {
+            "name": "case225_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.55630826950073
+        },
+        {
+            "name": "case226_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.60344123840332
+        },
+        {
+            "name": "case227_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.34349799156189
+        },
+        {
+            "name": "case228_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.66792416572571
+        },
+        {
+            "name": "case230_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.68781328201294
+        },
+        {
+            "name": "case233_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.60481286048889
+        },
+        {
+            "name": "case234_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.63869500160217
+        },
+        {
+            "name": "case238_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.483699560165405
+        },
+        {
+            "name": "case239_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.2923789024353
+        },
+        {
+            "name": "case243_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.58590483665466
+        },
+        {
+            "name": "case244_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.6311993598938
+        },
+        {
+            "name": "case245_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.58471155166626
+        },
+        {
+            "name": "case247_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.31880021095276
+        },
+        {
+            "name": "case248_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.48376774787903
+        },
+        {
+            "name": "case249_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.63288879394531
+        },
+        {
+            "name": "case250_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.51941156387329
+        },
+        {
+            "name": "case251_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.39474821090698
+        },
+        {
+            "name": "case254_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.62397909164429
+        },
+        {
+            "name": "case255_tumor_malignant",
+            "model": "gemma3:latest",
+            "result": "Successfull",
+            "responseTime": 35.61636734008789
+        },
+        {
+            "name": "case001_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.61670637130737
+        },
+        {
+            "name": "case002_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.667380571365356
+        },
+        {
+            "name": "case003_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.603678464889526
+        },
+        {
+            "name": "case004_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.59709024429321
+        },
+        {
+            "name": "case006_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.35025334358215
+        },
+        {
+            "name": "case009_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.62394833564758
+        },
+        {
+            "name": "case014_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.44004678726196
+        },
+        {
+            "name": "case015_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.52536177635193
+        },
+        {
+            "name": "case016_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.543156147003174
+        },
+        {
+            "name": "case017_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.532203912734985
+        },
+        {
+            "name": "case018_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.46337080001831
+        },
+        {
+            "name": "case019_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.66441082954407
+        },
+        {
+            "name": "case020_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.35551691055298
+        },
+        {
+            "name": "case021_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.65053915977478
+        },
+        {
+            "name": "case022_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.48933458328247
+        },
+        {
+            "name": "case023_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.64121747016907
+        },
+        {
+            "name": "case024_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.58974528312683
+        },
+        {
+            "name": "case025_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.46511173248291
+        },
+        {
+            "name": "case028_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.53992438316345
+        },
+        {
+            "name": "case029_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.63404965400696
+        },
+        {
+            "name": "case030_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.58463740348816
+        },
+        {
+            "name": "case031_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.60857653617859
+        },
+        {
+            "name": "case033_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.579965591430664
+        },
+        {
+            "name": "case036_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.58454751968384
+        },
+        {
+            "name": "case037_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.48248100280762
+        },
+        {
+            "name": "case038_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.61892056465149
+        },
+        {
+            "name": "case039_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.63599944114685
+        },
+        {
+            "name": "case040_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.32232308387756
+        },
+        {
+            "name": "case041_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.60459566116333
+        },
+        {
+            "name": "case042_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.638622999191284
+        },
+        {
+            "name": "case043_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.621957778930664
+        },
+        {
+            "name": "case044_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.4865517616272
+        },
+        {
+            "name": "case047_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.38754367828369
+        },
+        {
+            "name": "case048_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.6046040058136
+        },
+        {
+            "name": "case049_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.497528314590454
+        },
+        {
+            "name": "case051_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.540905475616455
+        },
+        {
+            "name": "case052_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.58432865142822
+        },
+        {
+            "name": "case054_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.54051232337952
+        },
+        {
+            "name": "case056_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.52989363670349
+        },
+        {
+            "name": "case057_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.33280062675476
+        },
+        {
+            "name": "case059_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.61021161079407
+        },
+        {
+            "name": "case062_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.62228870391846
+        },
+        {
+            "name": "case064_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.598631381988525
+        },
+        {
+            "name": "case065_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.569942474365234
+        },
+        {
+            "name": "case068_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.49464154243469
+        },
+        {
+            "name": "case069_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.563039779663086
+        },
+        {
+            "name": "case070_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.431654930114746
+        },
+        {
+            "name": "case071_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.497196674346924
+        },
+        {
+            "name": "case073_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.55115461349487
+        },
+        {
+            "name": "case074_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.47176218032837
+        },
+        {
+            "name": "case077_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.47072124481201
+        },
+        {
+            "name": "case078_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.33530378341675
+        },
+        {
+            "name": "case080_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.579328775405884
+        },
+        {
+            "name": "case081_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.461644411087036
+        },
+        {
+            "name": "case083_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.55948877334595
+        },
+        {
+            "name": "case084_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.619983196258545
+        },
+        {
+            "name": "case085_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.636054039001465
+        },
+        {
+            "name": "case091_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.612509965896606
+        },
+        {
+            "name": "case092_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.480650663375854
+        },
+        {
+            "name": "case093_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.68220829963684
+        },
+        {
+            "name": "case095_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.561826944351196
+        },
+        {
+            "name": "case096_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.491846561431885
+        },
+        {
+            "name": "case097_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.61024332046509
+        },
+        {
+            "name": "case098_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.36863565444946
+        },
+        {
+            "name": "case100_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.487356662750244
+        },
+        {
+            "name": "case104_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.593106269836426
+        },
+        {
+            "name": "case108_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.4759361743927
+        },
+        {
+            "name": "case110_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.44143223762512
+        },
+        {
+            "name": "case115_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.64582538604736
+        },
+        {
+            "name": "case116_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.6968252658844
+        },
+        {
+            "name": "case118_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.470157861709595
+        },
+        {
+            "name": "case119_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.46230983734131
+        },
+        {
+            "name": "case120_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.50904583930969
+        },
+        {
+            "name": "case122_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.544554710388184
+        },
+        {
+            "name": "case123_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.57006311416626
+        },
+        {
+            "name": "case124_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.51632118225098
+        },
+        {
+            "name": "case126_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.62263536453247
+        },
+        {
+            "name": "case129_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.62429690361023
+        },
+        {
+            "name": "case131_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.56978964805603
+        },
+        {
+            "name": "case134_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.43880844116211
+        },
+        {
+            "name": "case135_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.51775884628296
+        },
+        {
+            "name": "case136_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.463138580322266
+        },
+        {
+            "name": "case137_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.60654950141907
+        },
+        {
+            "name": "case138_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.4646110534668
+        },
+        {
+            "name": "case139_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.626588582992554
+        },
+        {
+            "name": "case140_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.60288953781128
+        },
+        {
+            "name": "case141_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.66000485420227
+        },
+        {
+            "name": "case142_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.58674192428589
+        },
+        {
+            "name": "case143_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.58826279640198
+        },
+        {
+            "name": "case146_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.53234100341797
+        },
+        {
+            "name": "case151_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.422980308532715
+        },
+        {
+            "name": "case152_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.4438419342041
+        },
+        {
+            "name": "case155_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.55754995346069
+        },
+        {
+            "name": "case156_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.59256052970886
+        },
+        {
+            "name": "case157_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.604186058044434
+        },
+        {
+            "name": "case159_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.614192724227905
+        },
+        {
+            "name": "case161_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.399192333221436
+        },
+        {
+            "name": "case162_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.59753656387329
+        },
+        {
+            "name": "case163_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.57569122314453
+        },
+        {
+            "name": "case165_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.60401368141174
+        },
+        {
+            "name": "case166_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.480838775634766
+        },
+        {
+            "name": "case167_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.58757972717285
+        },
+        {
+            "name": "case168_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.63686776161194
+        },
+        {
+            "name": "case169_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.5793833732605
+        },
+        {
+            "name": "case171_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.62627029418945
+        },
+        {
+            "name": "case175_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.460795164108276
+        },
+        {
+            "name": "case177_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.53727698326111
+        },
+        {
+            "name": "case178_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.58986139297485
+        },
+        {
+            "name": "case179_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.63032412528992
+        },
+        {
+            "name": "case180_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.57059836387634
+        },
+        {
+            "name": "case181_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.57318830490112
+        },
+        {
+            "name": "case182_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.59203815460205
+        },
+        {
+            "name": "case183_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.38077521324158
+        },
+        {
+            "name": "case184_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.49880909919739
+        },
+        {
+            "name": "case185_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.43434977531433
+        },
+        {
+            "name": "case186_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.59411263465881
+        },
+        {
+            "name": "case187_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.48129987716675
+        },
+        {
+            "name": "case188_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.473142862319946
+        },
+        {
+            "name": "case189_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.59533190727234
+        },
+        {
+            "name": "case191_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.44995069503784
+        },
+        {
+            "name": "case192_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.67159605026245
+        },
+        {
+            "name": "case193_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.52389645576477
+        },
+        {
+            "name": "case194_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.629014015197754
+        },
+        {
+            "name": "case196_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.480154514312744
+        },
+        {
+            "name": "case197_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.59327936172485
+        },
+        {
+            "name": "case200_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.590961933135986
+        },
+        {
+            "name": "case201_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.50188064575195
+        },
+        {
+            "name": "case202_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.55763554573059
+        },
+        {
+            "name": "case203_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.58482217788696
+        },
+        {
+            "name": "case204_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.39600157737732
+        },
+        {
+            "name": "case207_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.517998933792114
+        },
+        {
+            "name": "case208_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.5570855140686
+        },
+        {
+            "name": "case210_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.63174772262573
+        },
+        {
+            "name": "case214_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.5796000957489
+        },
+        {
+            "name": "case215_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.31503701210022
+        },
+        {
+            "name": "case216_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.62949585914612
+        },
+        {
+            "name": "case217_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.58114457130432
+        },
+        {
+            "name": "case220_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.5551540851593
+        },
+        {
+            "name": "case222_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.45215082168579
+        },
+        {
+            "name": "case223_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.45749759674072
+        },
+        {
+            "name": "case224_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.37405323982239
+        },
+        {
+            "name": "case229_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.50365328788757
+        },
+        {
+            "name": "case231_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.50478148460388
+        },
+        {
+            "name": "case232_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.46927332878113
+        },
+        {
+            "name": "case235_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.616854667663574
+        },
+        {
+            "name": "case236_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.466339111328125
+        },
+        {
+            "name": "case237_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.651421546936035
+        },
+        {
+            "name": "case240_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.347145557403564
+        },
+        {
+            "name": "case241_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.57294940948486
+        },
+        {
+            "name": "case242_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.62777018547058
+        },
+        {
+            "name": "case246_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.60870981216431
+        },
+        {
+            "name": "case252_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.56315016746521
+        },
+        {
+            "name": "case253_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.503618001937866
+        },
+        {
+            "name": "case256_tumor_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.62144207954407
+        },
+        {
+            "name": "case022_other1_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.40046453475952
+        },
+        {
+            "name": "case022_other2_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.43196249008179
+        },
+        {
+            "name": "case036_other1_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.588963985443115
+        },
+        {
+            "name": "case036_other2_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.591171741485596
+        },
+        {
+            "name": "case038_other1_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.59820747375488
+        },
+        {
+            "name": "case085_other1_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.35838460922241
+        },
+        {
+            "name": "case085_other2_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.3894989490509
+        },
+        {
+            "name": "case092_other1_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.53446364402771
+        },
+        {
+            "name": "case140_other1_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.410489320755005
+        },
+        {
+            "name": "case140_other2_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.44060206413269
+        },
+        {
+            "name": "case140_other3_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.61781167984009
+        },
+        {
+            "name": "case140_other4_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.56647324562073
+        },
+        {
+            "name": "case151_other1_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.363956451416016
+        },
+        {
+            "name": "case151_other2_benign",
+            "model": "gemma3:latest",
+            "result": "Fail",
+            "responseTime": 35.55772423744202
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 
 datasets = [
-    {"label": "MRI", "hugginFace": "buybluepants/BreastCancerCellsMRI/train", "splitTrain": False},
+    {"label": "MRI", "hugginFace": "buybluepants/JSON_BreastCancerMRI", "splitTrain": False},
     {"label": "Mammogram", "hugginFace": "buybluepants/BreastCancerMammogram", "splitTrain": False},
     {"label": "Ultrasound", "hugginFace": "buybluepants/BreastCancerUltrasound", "splitTrain": True},
     {"label": "UltrasoundMasks", "hugginFace": "buybluepants/BreastCancerUltrasoundMasks", "splitTrain": True},
@@ -10,7 +10,12 @@ datasets = [
 ]
 
 models = [
-    "unsloth/Llama-3.2-3B-Instruct"
+    "unsloth/Llama-3.2-3B-Instruct",
+    "microsoft/Phi-3-mini-128k-instruct",
+    "dphn/Dolphin-Llama3-8B-Instruct-exl2-6bpw",
+    "openchat/openchat_3.5",
+    "Qwen/Qwen2.5-0.5B-Instruct",
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
 ]
 
 instructions = [
