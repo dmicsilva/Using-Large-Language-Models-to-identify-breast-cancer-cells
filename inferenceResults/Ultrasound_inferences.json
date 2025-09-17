@@ -1,6 +1,6 @@
 {
-    "totalInferences": 256,
-    "totalTime": "9071.07s",
+    "totalInferences": 382,
+    "totalTime": "13889.76s",
     "inference": [
         {
             "name": "case005_malignant",
@@ -1537,6 +1537,762 @@
             "model": "gemma3:latest",
             "result": "Fail",
             "responseTime": 35.58686137199402
+        },
+        {
+            "name": "case005_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 30.181467533111572
+        },
+        {
+            "name": "case007_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 44.78470301628113
+        },
+        {
+            "name": "case008_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 27.252546787261963
+        },
+        {
+            "name": "case010_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 98.35150146484375
+        },
+        {
+            "name": "case011_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 41.2614209651947
+        },
+        {
+            "name": "case012_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 26.24673080444336
+        },
+        {
+            "name": "case013_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 29.04668164253235
+        },
+        {
+            "name": "case026_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 58.34821796417236
+        },
+        {
+            "name": "case027_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 30.923277854919434
+        },
+        {
+            "name": "case032_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 29.621915102005005
+        },
+        {
+            "name": "case034_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 41.65820670127869
+        },
+        {
+            "name": "case035_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 24.50848889350891
+        },
+        {
+            "name": "case046_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 40.303499937057495
+        },
+        {
+            "name": "case050_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 44.87843942642212
+        },
+        {
+            "name": "case053_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 40.316707372665405
+        },
+        {
+            "name": "case055_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 47.608532667160034
+        },
+        {
+            "name": "case058_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 27.1684730052948
+        },
+        {
+            "name": "case060_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 23.43503427505493
+        },
+        {
+            "name": "case063_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 36.13555407524109
+        },
+        {
+            "name": "case066_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 31.77804183959961
+        },
+        {
+            "name": "case067_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 37.13747501373291
+        },
+        {
+            "name": "case072_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 40.40368103981018
+        },
+        {
+            "name": "case075_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 44.317514419555664
+        },
+        {
+            "name": "case076_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 31.870466232299805
+        },
+        {
+            "name": "case079_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 45.94527769088745
+        },
+        {
+            "name": "case082_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 31.949065923690796
+        },
+        {
+            "name": "case086_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 45.5045599937439
+        },
+        {
+            "name": "case087_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 29.77043581008911
+        },
+        {
+            "name": "case088_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 64.94468593597412
+        },
+        {
+            "name": "case089_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 62.758209466934204
+        },
+        {
+            "name": "case090_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 33.48743939399719
+        },
+        {
+            "name": "case094_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 33.04952955245972
+        },
+        {
+            "name": "case099_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 34.57629752159119
+        },
+        {
+            "name": "case101_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 30.46268606185913
+        },
+        {
+            "name": "case102_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 53.876883029937744
+        },
+        {
+            "name": "case103_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 38.33580136299133
+        },
+        {
+            "name": "case105_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 41.13771986961365
+        },
+        {
+            "name": "case106_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 43.990779876708984
+        },
+        {
+            "name": "case107_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 39.71499705314636
+        },
+        {
+            "name": "case109_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 37.47993302345276
+        },
+        {
+            "name": "case111_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 50.08897399902344
+        },
+        {
+            "name": "case112_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 33.04163932800293
+        },
+        {
+            "name": "case113_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 38.308631896972656
+        },
+        {
+            "name": "case114_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Error",
+            "responseTime": 28.129473209381104
+        },
+        {
+            "name": "case117_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 48.63032603263855
+        },
+        {
+            "name": "case121_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 28.823574781417847
+        },
+        {
+            "name": "case125_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 55.07580637931824
+        },
+        {
+            "name": "case127_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 65.65452456474304
+        },
+        {
+            "name": "case128_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 28.722573280334473
+        },
+        {
+            "name": "case130_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 30.934250831604004
+        },
+        {
+            "name": "case132_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 46.755162477493286
+        },
+        {
+            "name": "case133_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 27.3335280418396
+        },
+        {
+            "name": "case144_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 53.363470792770386
+        },
+        {
+            "name": "case145_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 37.84861493110657
+        },
+        {
+            "name": "case147_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 27.124736547470093
+        },
+        {
+            "name": "case148_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 54.14135670661926
+        },
+        {
+            "name": "case149_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 51.03912568092346
+        },
+        {
+            "name": "case150_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 59.75903677940369
+        },
+        {
+            "name": "case153_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 29.029691696166992
+        },
+        {
+            "name": "case154_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 45.80348825454712
+        },
+        {
+            "name": "case158_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 32.439497232437134
+        },
+        {
+            "name": "case160_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 52.858423471450806
+        },
+        {
+            "name": "case164_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 36.965815782547
+        },
+        {
+            "name": "case170_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 39.71927309036255
+        },
+        {
+            "name": "case172_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 32.91246175765991
+        },
+        {
+            "name": "case173_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 35.77841067314148
+        },
+        {
+            "name": "case174_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 49.14842629432678
+        },
+        {
+            "name": "case176_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 42.79730486869812
+        },
+        {
+            "name": "case190_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 36.951263666152954
+        },
+        {
+            "name": "case195_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 52.239102840423584
+        },
+        {
+            "name": "case198_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 27.50049352645874
+        },
+        {
+            "name": "case199_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 43.10677742958069
+        },
+        {
+            "name": "case205_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 30.438705921173096
+        },
+        {
+            "name": "case206_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 33.60723066329956
+        },
+        {
+            "name": "case211_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 44.901031494140625
+        },
+        {
+            "name": "case212_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 17.698150396347046
+        },
+        {
+            "name": "case218_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 26.271181344985962
+        },
+        {
+            "name": "case219_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 28.452511310577393
+        },
+        {
+            "name": "case221_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 39.010950565338135
+        },
+        {
+            "name": "case225_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 37.875787019729614
+        },
+        {
+            "name": "case226_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 46.78934407234192
+        },
+        {
+            "name": "case227_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 44.342886447906494
+        },
+        {
+            "name": "case228_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 51.935500383377075
+        },
+        {
+            "name": "case230_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 34.0715434551239
+        },
+        {
+            "name": "case233_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 29.604652881622314
+        },
+        {
+            "name": "case234_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 30.031340837478638
+        },
+        {
+            "name": "case238_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 29.819791078567505
+        },
+        {
+            "name": "case239_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 36.14584183692932
+        },
+        {
+            "name": "case243_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 39.3644163608551
+        },
+        {
+            "name": "case244_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 44.7862548828125
+        },
+        {
+            "name": "case245_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 27.179272890090942
+        },
+        {
+            "name": "case247_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 30.279139041900635
+        },
+        {
+            "name": "case248_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 39.473655223846436
+        },
+        {
+            "name": "case249_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 27.53030228614807
+        },
+        {
+            "name": "case250_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 27.247727870941162
+        },
+        {
+            "name": "case251_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 32.37340950965881
+        },
+        {
+            "name": "case254_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 31.22084617614746
+        },
+        {
+            "name": "case255_malignant",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.81583023071289
+        },
+        {
+            "name": "case001_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 23.85508370399475
+        },
+        {
+            "name": "case002_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 41.246737480163574
+        },
+        {
+            "name": "case003_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 43.25465965270996
+        },
+        {
+            "name": "case004_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 30.734965085983276
+        },
+        {
+            "name": "case006_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 29.977128505706787
+        },
+        {
+            "name": "case009_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 39.8620548248291
+        },
+        {
+            "name": "case014_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 42.88713455200195
+        },
+        {
+            "name": "case015_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 44.94419598579407
+        },
+        {
+            "name": "case016_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 38.42650604248047
+        },
+        {
+            "name": "case017_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 31.040203332901
+        },
+        {
+            "name": "case018_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Error",
+            "responseTime": 26.3832745552063
+        },
+        {
+            "name": "case019_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 49.875317335128784
+        },
+        {
+            "name": "case020_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 63.89720606803894
+        },
+        {
+            "name": "case021_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 47.21054744720459
+        },
+        {
+            "name": "case022_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 41.1408109664917
+        },
+        {
+            "name": "case022_other1_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 32.954686641693115
+        },
+        {
+            "name": "case022_other2_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 30.669633388519287
+        },
+        {
+            "name": "case023_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 24.94141912460327
+        },
+        {
+            "name": "case024_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 36.91409754753113
+        },
+        {
+            "name": "case025_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 35.12438917160034
+        },
+        {
+            "name": "case028_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 36.707040786743164
+        },
+        {
+            "name": "case029_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 29.354477643966675
+        },
+        {
+            "name": "case030_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 32.77655363082886
+        },
+        {
+            "name": "case031_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 35.14206790924072
+        },
+        {
+            "name": "case033_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 39.24690508842468
+        },
+        {
+            "name": "case036_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Error",
+            "responseTime": 38.164182901382446
+        },
+        {
+            "name": "case036_other1_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 35.840606927871704
+        },
+        {
+            "name": "case036_other2_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.302431344985962
         }
     ]
 }

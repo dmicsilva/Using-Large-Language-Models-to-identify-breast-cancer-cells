@@ -76,7 +76,7 @@ def initiate_trainer(model, tokenizer, dataset, fineTunedModelName):
     trainer = SFTTrainer(
     model = model,
     tokenizer = tokenizer,
-    train_dataset = dataset,
+    train_dataset = dataset['train'],
     dataset_text_field = "text",
     max_seq_length = max_seq_length,
     dataset_num_proc = 2,
