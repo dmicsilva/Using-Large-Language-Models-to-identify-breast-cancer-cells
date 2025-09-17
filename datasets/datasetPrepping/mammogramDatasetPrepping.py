@@ -5,9 +5,9 @@ import json
 cwd = os.getcwd()
 
 src_folder = 'datasets/breast-cancer-detection-mammogram'
-"""
-dest_healthy = os.path.join(cwd, 'mammogramDataset', 'healthy')
-dest_sick = os.path.join(cwd, 'mammogramDataset', 'sick')
+
+dest_healthy = os.path.join(cwd, 'datasets', 'datasetPrepping', 'mammogramDataset', 'healthy')
+dest_sick = os.path.join(cwd, 'datasets', 'datasetPrepping', 'mammogramDataset', 'sick')
 
 os.makedirs(dest_healthy, exist_ok=True)
 os.makedirs(dest_sick, exist_ok=True)
@@ -29,7 +29,7 @@ for subfolder in subfolders_to_process:
                 with open(dest_file, 'wb') as dest_f:
                     dest_f.write(src_f.read())
 
-"""
+
 dest_healthy = os.path.join(cwd, 'datasets', 'datasetPrepping', 'Json_mammogramDataset', 'healthy')
 dest_sick = os.path.join(cwd, 'datasets', 'datasetPrepping', 'Json_mammogramDataset', 'sick')
 

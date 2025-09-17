@@ -1,6 +1,6 @@
 {
-    "totalInferences": 8976,
-    "totalTime": "54497.90s",
+    "totalInferences": 9111,
+    "totalTime": "57613.64s",
     "inference": [
         {
             "name": "105_1934323665_png.rf.a1e70bb0747c86f17a76a13894e8e191_healthy",
@@ -53581,6 +53581,816 @@
             "model": "deepseek-r1:7b",
             "result": "Successfull",
             "responseTime": 11.22709321975708
+        },
+        {
+            "name": "3229_108261501_png.rf.d4eb7b20b781b2d8f7d6d6f771251711_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 240.70537686347961
+        },
+        {
+            "name": "322_1764678914_png.rf.e159b7ecc9fee7dd41f06762ec320927_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.195982217788696
+        },
+        {
+            "name": "322_769115829_png.rf.628cde32acc34576d76ff0cfbfb8d375_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.454240560531616
+        },
+        {
+            "name": "3246_544973833_png.rf.d6054c984644a4d8cae494ddf8c65069_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.191439628601074
+        },
+        {
+            "name": "3251_94004652_png.rf.7eaabdef2a26031d65d7ca3dc3e53989_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.48540735244751
+        },
+        {
+            "name": "3255_488726905_png.rf.e85fed820529f0e663a76075de427397_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 12.34611988067627
+        },
+        {
+            "name": "3258_915557234_png.rf.5f6adbfa5ddb5bf9cc5a64136f6ee2aa_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 23.215948581695557
+        },
+        {
+            "name": "3277_268904501_png.rf.900dec26f5affa3892c2b7bf3296bd4c_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.179651737213135
+        },
+        {
+            "name": "3313_1554705481_png.rf.a8e1c4c7fea39dc5bfec64bbe9ff1613_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.087653875350952
+        },
+        {
+            "name": "3315_1917037754_png.rf.2452af58b222913d06b48f713559fca3_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 10.001669645309448
+        },
+        {
+            "name": "3321_1574911144_png.rf.6957771fe99cf7b23c1aac32256be310_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 26.658440828323364
+        },
+        {
+            "name": "3321_830339959_png.rf.10da037e0abb1d0aa960bbbdc433d509_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.335695743560791
+        },
+        {
+            "name": "334_1137236673_png.rf.1f89e7ad52591274c19555f559ae1b8b_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.796043634414673
+        },
+        {
+            "name": "33_1863578666_png.rf.79e8f7530eeb3df8198be87bc3177a58_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 19.48175573348999
+        },
+        {
+            "name": "353_794625802_png.rf.82296bfb2f89e0ca7057c7ca28b19f75_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 13.132636547088623
+        },
+        {
+            "name": "362_1656610750_png.rf.37703e207217c2ef181d5c48cb69621f_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.85367727279663
+        },
+        {
+            "name": "362_650652935_png.rf.58c09fb9d8e31f63f6016c3fe0dcce06_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.28858208656311
+        },
+        {
+            "name": "364_974495902_png.rf.ba3656c3d6da5374c4d28faff96dcf32_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.386625289916992
+        },
+        {
+            "name": "36_1877920136_png.rf.9a49fa540556c84a4a01d4fe24c70ec9_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.73157811164856
+        },
+        {
+            "name": "370_1943620586_png.rf.6b2845edfbb223f65f126beabd7aee6a_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 15.68828272819519
+        },
+        {
+            "name": "370_869177278_png.rf.a41182872ec5813baf573a9474877558_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 28.378097772598267
+        },
+        {
+            "name": "383_566009676_png.rf.9db5ee25a5904da0c47e589568e30ddb_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 34.071402072906494
+        },
+        {
+            "name": "390_440963062_png.rf.0660afec57cceb2ac21caafd0d0c23fd_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 21.042317390441895
+        },
+        {
+            "name": "399_269395891_png.rf.8e8f469094ae7025046c08e4a04cd9c1_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.43880605697632
+        },
+        {
+            "name": "402_795090914_png.rf.d58359a437f9beed64239597cf9f0750_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.955971717834473
+        },
+        {
+            "name": "411_211324279_png.rf.1b291dc3b970e981d1768d1a643bc4a8_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 31.078852891921997
+        },
+        {
+            "name": "412_1162843275_png.rf.6687abab73b508b7ae5c01ca21892a95_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.519773721694946
+        },
+        {
+            "name": "412_1487258419_png.rf.ec6db6fb1f6694cde0dafd652c9b8c66_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 14.455255270004272
+        },
+        {
+            "name": "412_1512565578_png.rf.c3e8aaf6b2acf8f74b99b9349eed18ee_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 19.149836540222168
+        },
+        {
+            "name": "415_1795139574_png.rf.27ff9514466cddd6bbf66fe328af2492_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 18.583641052246094
+        },
+        {
+            "name": "415_893460795_png.rf.ac717f1df7ce19c32ea48812127d3365_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 8.999128580093384
+        },
+        {
+            "name": "421_1277649924_png.rf.25624ff44b7dfe3849fe68c601cefd2b_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 25.153721809387207
+        },
+        {
+            "name": "426_377223559_png.rf.8f33c84a1946aa67fed51e7e48ed89e0_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 28.813979625701904
+        },
+        {
+            "name": "438_1263504727_png.rf.bdc8a40843d6d5e70547749cc3252bbf_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Error",
+            "responseTime": 25.000266075134277
+        },
+        {
+            "name": "448_662501031_png.rf.1ff53b8930fbf25c9118434e64c7d71d_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 30.156236171722412
+        },
+        {
+            "name": "45_1476454372_png.rf.782a97111559cf118b1e217aac8eaf20_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 14.192569494247437
+        },
+        {
+            "name": "45_310190625_png.rf.8613aeff225c6686fdad0d91fc3d5481_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.092307806015015
+        },
+        {
+            "name": "489_775609436_png.rf.36214765f34cbf63cbb97f654f1c625a_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 19.802668809890747
+        },
+        {
+            "name": "505_322793737_png.rf.124cdd33bae414c760a58a1fb8163e3a_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 24.48561143875122
+        },
+        {
+            "name": "526_978068785_png.rf.4332cffee9c0bac56ee552e641734db8_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.263873100280762
+        },
+        {
+            "name": "529_547351542_png.rf.841d01f35c5367cb079c3e6b179b45ea_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.915282487869263
+        },
+        {
+            "name": "529_780181743_png.rf.95bb71cf9efae147169cc1f381fc0f4d_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 41.832590103149414
+        },
+        {
+            "name": "532_1031466118_png.rf.03dd2e67158b5d66557ed2753abd6215_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 11.639843940734863
+        },
+        {
+            "name": "532_821136751_png.rf.292730a258a4e9be47a0fe1dadf73d53_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 10.30992603302002
+        },
+        {
+            "name": "547_1025777243_png.rf.28344f0df45f5a03f1f7920bf4ec6948_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 16.301750898361206
+        },
+        {
+            "name": "551_674534911_png.rf.c542edb01910a8071ca458f76e6ecd29_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 19.98007822036743
+        },
+        {
+            "name": "557_2118159102_png.rf.1b6d3602017e9fd53dbd1a54e6ff742d_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 33.2059645652771
+        },
+        {
+            "name": "561_1308043124_png.rf.e7f17d151c0e2df684b5569befe144f1_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 46.35943818092346
+        },
+        {
+            "name": "582_1928648898_png.rf.da96f248666f43f3971c3019afd31315_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 11.107452630996704
+        },
+        {
+            "name": "596_1119894157_png.rf.29ca9ad4967bd7ac03f7d2c17981e609_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.184202671051025
+        },
+        {
+            "name": "5_1351088028_png.rf.23b179fbcc55c993c304bf283f80f607_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 17.459153413772583
+        },
+        {
+            "name": "604_1657989982_png.rf.46a2d4f0dd71176e8e722fef024c18a5_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 20.563886165618896
+        },
+        {
+            "name": "604_822592646_png.rf.d8e93234d2fe163cb28a079969f9162d_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 28.20259118080139
+        },
+        {
+            "name": "608_2092410881_png.rf.1f74c6fe6c0fc0ddf544df027cb92a30_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 36.18681073188782
+        },
+        {
+            "name": "613_1935194198_png.rf.0e958c828637ae15533c804f286c7670_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 8.749099493026733
+        },
+        {
+            "name": "623_146680542_png.rf.d6441efbcee628f4f118f8fcd55e05f6_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.925668478012085
+        },
+        {
+            "name": "623_620652095_png.rf.195fd8ce1962382590779ce03d3a898e_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.908472299575806
+        },
+        {
+            "name": "625_1097006067_png.rf.74100fa7cf2bf518b73b7530fbfc409f_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 34.41636347770691
+        },
+        {
+            "name": "625_1257987957_png.rf.b369b83d80733e2418586abb2f774795_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.40675926208496
+        },
+        {
+            "name": "629_1630005332_png.rf.51129d24c55cb2310ec07a993d141770_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 21.070575714111328
+        },
+        {
+            "name": "634_783503417_png.rf.12a6c536924bf8297ef7e3e606eea14f_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.493038415908813
+        },
+        {
+            "name": "646_1823227591_png.rf.f6bbae5161adbd5331e64e79219f4fc3_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.280887842178345
+        },
+        {
+            "name": "646_238005361_png.rf.23d70daed6220dba3cf05807258b44b1_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 47.8613977432251
+        },
+        {
+            "name": "648_1596966751_png.rf.22065e3b5f2ad5b458e5de303a0f7614_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.657086849212646
+        },
+        {
+            "name": "657_331487155_png.rf.22b5c1f8508e0bd8c5a96a348c7d7f2a_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 22.153386116027832
+        },
+        {
+            "name": "661_1074171616_png.rf.317a04fdd732c68806a1d44d1daf4955_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 18.509501218795776
+        },
+        {
+            "name": "665_1230697451_png.rf.5e7e548d857f9a0232dd4f17a5e2dffe_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 19.702935218811035
+        },
+        {
+            "name": "665_1714047622_png.rf.c97364b2b5233206d0dba124b1a4795a_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 34.89623212814331
+        },
+        {
+            "name": "665_785975238_png.rf.30cb8b8dd22b93ee9816e46dbd5d0a5c_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 17.990283250808716
+        },
+        {
+            "name": "665_964941054_png.rf.88c0293fe3113783bb398f02142da727_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.297124147415161
+        },
+        {
+            "name": "665_96506336_png.rf.83744e42bbd398326f6bfaf4672f558a_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.927165269851685
+        },
+        {
+            "name": "666_2077136603_png.rf.0052b2c01dba78f1459a33d975a07427_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 23.697596311569214
+        },
+        {
+            "name": "676_1187553918_png.rf.4deb64dadc1973853cf7af6bb41756f0_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 27.30764389038086
+        },
+        {
+            "name": "696_158576960_png.rf.fc8522a35db0189c9dc083797757c6d0_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.150019884109497
+        },
+        {
+            "name": "713_1057455332_png.rf.c9525070859b8daec8b987aaf87cb758_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 12.074243068695068
+        },
+        {
+            "name": "71_2004100590_png.rf.a6e8d074801b3163e9cf4d6d93a428d7_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 19.001510858535767
+        },
+        {
+            "name": "720_561161967_png.rf.40c1a1d82397825dcd66ee5d8f1273f2_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.403211832046509
+        },
+        {
+            "name": "72_1062143065_png.rf.ebf165fbcc2d0152b65d6ba7b69ad258_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 16.084895849227905
+        },
+        {
+            "name": "72_158596367_png.rf.ab7bf37ed3cfa971b19e51023c01f855_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 46.93512797355652
+        },
+        {
+            "name": "735_2105598334_png.rf.03266b8c594d107cd950f0445186e3d8_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.509706020355225
+        },
+        {
+            "name": "741_1589701215_png.rf.14303cc6ef608e6fd6f95a8a52a4c060_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 29.254335165023804
+        },
+        {
+            "name": "749_545029099_png.rf.6c8c23f9668f9e070718d19093602cf9_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.656259059906006
+        },
+        {
+            "name": "757_246720344_png.rf.08965511971c0050797fe8bf0d84a7c9_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 26.18388056755066
+        },
+        {
+            "name": "763_1263517435_png.rf.c88f22c4e58bf0b0f1dffdbd8cf1b9b3_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 50.23169660568237
+        },
+        {
+            "name": "763_1797155020_png.rf.2fa65581bc1dc54cac64aeeacd2e448a_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 26.69138479232788
+        },
+        {
+            "name": "767_297722689_png.rf.d0f86faaa6e45d324ce358a8d681e821_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 28.81596565246582
+        },
+        {
+            "name": "768_1091787247_png.rf.fcbde644a3477a8fe967c22d448b03dc_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 29.37063956260681
+        },
+        {
+            "name": "768_2131118601_png.rf.20cfedb28d741b141534122a2b4157cb_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 19.225497722625732
+        },
+        {
+            "name": "768_797328632_png.rf.d0995b6174ace40eaa2314371e09e407_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 39.8919198513031
+        },
+        {
+            "name": "778_1333016076_png.rf.e8b98cbca262ab034e8bcb7bc89b3b6b_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 17.57346510887146
+        },
+        {
+            "name": "778_449106019_png.rf.d4e4d78e63e1adc02fa29bf8f95764b7_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.335912227630615
+        },
+        {
+            "name": "792_2016106872_png.rf.da70caed252faee0c8df31eb2f9bd8f3_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 24.112163543701172
+        },
+        {
+            "name": "794_358144547_png.rf.36816467bd42ee80721f947676d9f3bb_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 23.1159348487854
+        },
+        {
+            "name": "794_723248157_png.rf.ef19757bca8e7a94b5492053188c2907_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.963400602340698
+        },
+        {
+            "name": "794_914974807_png.rf.58cc6a556dd161cb33887ab35d349514_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.1534423828125
+        },
+        {
+            "name": "79_1043635482_png.rf.bb27476630e24d0e3a00ca2d54cd84c1_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.396770477294922
+        },
+        {
+            "name": "804_1358481431_png.rf.aae3488870193198df0f83a87ac9ed32_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 33.52385854721069
+        },
+        {
+            "name": "804_178764132_png.rf.2885d75b769d4b658ecc6a48374fe8cc_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 30.285505533218384
+        },
+        {
+            "name": "816_473371293_png.rf.1b4ed0bc7af7e822126873cf06ed049f_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 22.67155432701111
+        },
+        {
+            "name": "816_65191543_png.rf.f5e64953853bb13a0f3a3ae9d005b770_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 20.05560302734375
+        },
+        {
+            "name": "821_1370833078_png.rf.e881add2680843a1d36e15860cd96166_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 20.17370867729187
+        },
+        {
+            "name": "821_1742102179_png.rf.5a853e6bea1a2ffaf7245a80aa49aaf2_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.582539319992065
+        },
+        {
+            "name": "821_278141206_png.rf.27bc9aa7ae2a5d3085a69c3fb4b0d951_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 34.16454219818115
+        },
+        {
+            "name": "851_13173880_png.rf.567e8ae61ced41752fa8d2351df516e4_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 32.0079824924469
+        },
+        {
+            "name": "851_2119019066_png.rf.73109993ac5f55439318510f27ecc181_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 11.918120861053467
+        },
+        {
+            "name": "866_1033311478_png.rf.ff97b307c7b296343424c8e5aa172c27_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 11.284601926803589
+        },
+        {
+            "name": "87_236738285_png.rf.9ec07b8fa7363fcfd159fb885a0f06e3_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 19.78585696220398
+        },
+        {
+            "name": "883_838748644_png.rf.d729b68711d0dc6d8daed38080513a23_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.172815084457397
+        },
+        {
+            "name": "886_1914151797_png.rf.0a0f26f7387b5e9b43d6c66b19bf3c57_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 18.355833768844604
+        },
+        {
+            "name": "896_1097089377_png.rf.1f967b71e757512339aad22ee66c9023_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.433388710021973
+        },
+        {
+            "name": "901_733335316_png.rf.e0a883c946a04806f38a7c13c733fe1a_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 28.065028429031372
+        },
+        {
+            "name": "907_140750770_png.rf.b7f82dc306c7cb27e333af2ea3f0cadf_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.6764714717865
+        },
+        {
+            "name": "924_1550248827_png.rf.2cf24351d8680a0c1f3b61e1c2053a2b_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 16.59249258041382
+        },
+        {
+            "name": "924_1564741756_png.rf.e7d8170169b32276b5449cedb77e3530_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 12.616403102874756
+        },
+        {
+            "name": "924_960326467_png.rf.5850e7067ccd8e23f3d36de1f465a120_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 15.731391191482544
+        },
+        {
+            "name": "929_668904418_png.rf.ac0222343f0f82315867b9f73dd6c95d_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 12.090713500976562
+        },
+        {
+            "name": "934_304176456_png.rf.ccd00f77d26ae1b748c24519b9d0c2a7_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 6.6517493724823
+        },
+        {
+            "name": "936_2006445536_png.rf.1a92471e246c6821d1fefd29118afe81_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 21.20716094970703
+        },
+        {
+            "name": "938_1079750245_png.rf.56c08e2651856fd6f5e8258402c2d14b_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 26.072754859924316
+        },
+        {
+            "name": "953_1229037240_png.rf.b81a8d1ea9ffc7bacebcc91d57cb6ef0_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 18.357651472091675
+        },
+        {
+            "name": "959_1101869471_png.rf.2bce0d2ced84bfa610c6cc57e106c20e_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.360384225845337
+        },
+        {
+            "name": "959_737916288_png.rf.fdf2af16be3ccf6aa34304f37ee84be9_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.783437728881836
+        },
+        {
+            "name": "959_935204233_png.rf.76f208e5ff810120d79fb7a8e351dd9d_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.853527784347534
+        },
+        {
+            "name": "962_1956145518_png.rf.0287f55270e6da8f30c66991853f6615_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 17.450907468795776
+        },
+        {
+            "name": "967_1585416686_png.rf.6be2e784e3d3644a23cf2921ff7b27c1_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 13.520363569259644
+        },
+        {
+            "name": "967_1656607222_png.rf.ead9f6ec66db7ef2451160d2d09059c3_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 23.19136381149292
+        },
+        {
+            "name": "990_1386484611_png.rf.7acc5424c5a9c9b0d5fc26f6cda3b413_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 73.6879632472992
+        },
+        {
+            "name": "990_837618473_png.rf.0131be3553a003e4520543c844f7cbb5_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 32.06064248085022
+        },
+        {
+            "name": "993_634075859_png.rf.3854c8f2aedea712901cc4be42d3e09b_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 14.346792697906494
+        },
+        {
+            "name": "997_873425464_png.rf.7685bd2c0d3dd3b01d5ad8ad9775890f_healthy",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 19.075344562530518
+        },
+        {
+            "name": "1025_773597682_png.rf.10eef608772845290c0ed1c5dc80c3ac_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 13.55580759048462
+        },
+        {
+            "name": "10638_311168378_png.rf.7ef722d2719ba63452148c5fbdf6d0c5_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 13.049625635147095
+        },
+        {
+            "name": "11094_1882170663_png.rf.bf3d44059abd89b0c863f874964b5380_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 25.88414430618286
+        },
+        {
+            "name": "12153_1652537920_png.rf.cba80b05a9a3089c1554cfb383ce28bb_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 13.652666568756104
+        },
+        {
+            "name": "12282_1127855363_png.rf.2361757161e3a502c9ca481a853f2e7b_sick",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 35.28152775764465
         }
     ]
 }
