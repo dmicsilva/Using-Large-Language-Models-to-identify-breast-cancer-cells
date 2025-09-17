@@ -1,12 +1,10 @@
 
 datasets = [
     {"label": "MRI", "hugginFace": "buybluepants/JSON_BreastCancerMRI", "splitTrain": False},
-    {"label": "Mammogram", "hugginFace": "buybluepants/BreastCancerMammogram", "splitTrain": False},
-    {"label": "Ultrasound", "hugginFace": "buybluepants/BreastCancerUltrasound", "splitTrain": True},
-    {"label": "UltrasoundMasks", "hugginFace": "buybluepants/BreastCancerUltrasoundMasks", "splitTrain": True},
-    {"label": "Thermography", "hugginFace": "buybluepants/BreastCancerThermogram", "splitTrain": True},
-    {"label": "Histopathology", "hugginFace": "buybluepants/BreatCancerHistopathology", "splitTrain": True},
-    {"label": "HistopathologyMasks", "hugginFace": "buybluepants/BreastCancerHistopatholgyMasks", "splitTrain": True}
+    {"label": "Mammogram", "hugginFace": "buybluepants/JSON_BreastCancerMammogram", "splitTrain": False},
+    {"label": "Ultrasound", "hugginFace": "buybluepants/JSON_BreastCancerUltrasound", "splitTrain": True},
+    {"label": "Thermography", "hugginFace": "buybluepants/JSON_BreastCancerThermogram", "splitTrain": True},
+    {"label": "Histopathology", "hugginFace": "buybluepants/JSON_BreatCancerHistopathology", "splitTrain": True},
 ]
 
 models = [
@@ -25,19 +23,13 @@ instructions = [
     {"label": "Mammogram", "instruction": """You are an experienced physician that detects breast cancer in mammogram images.
                                     Answer all the questions with the words "positive" or "negative" according to your evaluation of a given image.
                                     """},
-    {"label": "Ultrasound", "instruction": """You are an experienced physician that detects if a breast mass is malignant ou benign, in ultrasound images.
-                                    Answer all the questions with the words "malignant" or "benign" according to your evaluation of a given image.
-                                    """},
-    {"label": "UltrasoundMasks", "instruction": """You are an experienced physician that detects if a breast mass is malignant ou benign, in masks extrated from ultrasound images.
+    {"label": "Ultrasound", "instruction": """You are an experienced physician that detects if a breast mass is malignant ou benign, in ultrasound images and masks extracted from images.
                                     Answer all the questions with the words "malignant" or "benign" according to your evaluation of a given image.
                                     """},
     {"label": "Thermography", "instruction": """You are an experienced physician that detects breast cancer in thermography images.
                                     Answer all the questions with the words "positive" or "negative" according to your evaluation of a given image.
                                     """},
-    {"label": "Histopathology", "instruction": """You are an experienced physician that detects if a segmentation of cells is malignant ou benign, in histopathology images.
-                                    Answer all the questions with the words "malignant" or "benign" according to your evaluation of a given image.
-                                    """},
-    {"label": "HistopathologyMasks", "instruction": """You are an experienced physician that detects if a segmentation of cells is malignant ou benign, in masks extrated from histopathology images.
+    {"label": "Histopathology", "instruction": """You are an experienced physician that detects if a segmentation of cells is malignant ou benign, in histopathology images and masks extracted from images.
                                     Answer all the questions with the words "malignant" or "benign" according to your evaluation of a given image.
                                     """},
 ]

@@ -37,12 +37,17 @@
 /fineTuning/model
 /fineTuning/MRIFinetuned_Qwen2.5-0.5B-Instruct
 /fineTuning/MRIFinetuned_Llama-3.2-3B-Instruct
+/fineTuning/ThermographyFinetuned_DeepSeek-R1-Distill-Qwen-1.5B
+/fineTuning/ThermographyFinetuned_Llama-3.2-3B-Instruct
+/fineTuning/ThermographyFinetuned_Qwen2.5-0.5B-Instruct
 /fineTuning/_unsloth_sentencepiece_temp
 /fineTuning/outputs
 /fineTuning/__pycache__
+/fineTuning/_unsloth_temporary_saved_buffers
 /unsloth_compiled_cache
 /sentencepiece
 /scripts/__pycache__
+/fineTuning/llama.cpp
 
 # Document
 

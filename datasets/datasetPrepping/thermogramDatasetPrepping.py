@@ -1,11 +1,13 @@
 import os
+import json
+import datasetToJson
 
 cwd = os.getcwd()
 
 src_folder = 'datasets/BCD_Dataset-thermogram'
-"""
-dest_healthy = os.path.join(cwd, 'thermogramDataset', 'healthy')
-dest_sick = os.path.join(cwd, 'thermogramDataset', 'sick')
+
+dest_healthy = os.path.join(cwd, 'datasets', 'datasetPrepping', 'thermogramDataset', 'healthy')
+dest_sick = os.path.join(cwd, 'datasets', 'datasetPrepping', 'thermogramDataset', 'sick')
 
 os.makedirs(dest_healthy, exist_ok=True)
 os.makedirs(dest_sick, exist_ok=True)
@@ -24,7 +26,8 @@ for subfolder in subfolders_to_process:
         with open(src_file, 'rb') as src_f:
             with open(dest_file, 'wb') as dest_f:
                 dest_f.write(src_f.read())
-"""
+
+
 dest_healthy = os.path.join(cwd, 'datasets', 'datasetPrepping', 'Json_thermogramDataset', 'healthy')
 dest_sick = os.path.join(cwd, 'datasets', 'datasetPrepping', 'Json_thermogramDataset', 'sick')
 
@@ -40,8 +43,15 @@ for subfolder in subfolders_to_process:
             src_file = os.path.join(src_path, filename)
             
             dest_filename = f"{os.path.splitext(filename)[0]}{'_healthy' if subfolder == 'normal' else '_sick'}{os.path.splitext(filename)[1]}"
-            dest_file = os.path.join(dest_sick if subfolder == 'Sick' else dest_healthy, dest_filename)
+            dest_file = os.path.join(dest_sick if subfolder == 'Sick' else dest_healthy, os.path.splitext(dest_filename)[0]) + '.json'
+            cancer_existance = "Negative" if subfolder == 'normal' else "Positive"
 
-            with open(src_file, 'rb') as src_f:
-                with open(dest_file, 'wb') as dest_f:
-                    dest_f.write(src_f.read())
+            base64_string = datasetToJson.image_to_base64(src_file)
+
+            metadata = {
+                "base64_encoded_image": base64_string,
+                "cancerExistance": cancer_existance
+            }
+
+            with open(dest_file, 'w') as f:
+                json.dump(metadata, f, indent=4)
