@@ -1,6 +1,6 @@
 {
-    "totalInferences": 9461,
-    "totalTime": "66700.98s",
+    "totalInferences": 9581,
+    "totalTime": "67652.23s",
     "inference": [
         {
             "name": "105_1934323665_png.rf.a1e70bb0747c86f17a76a13894e8e191_healthy",
@@ -56491,6 +56491,726 @@
             "model": "deepseek-r1:7b",
             "result": "Successfull",
             "responseTime": 20.701512336730957
+        },
+        {
+            "name": "2112_1919315535_png.rf.3adab0b67ee4a34c64500a7433195494_healthy",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 23.618346214294434
+        },
+        {
+            "name": "211_1129998950_png.rf.d5995a8321c75b58e887139d6a854b17_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.158674716949463
+        },
+        {
+            "name": "211_1930908854_png.rf.2d5e91ba1b4a536e0ab682caefe9cefa_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 5.218670606613159
+        },
+        {
+            "name": "211_601721717_png.rf.097c566de6f11eeb7cd5904950515712_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.9157962799072266
+        },
+        {
+            "name": "2128_1051661155_png.rf.80024af04b729a1b5a980b508cc52396_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.9638125896453857
+        },
+        {
+            "name": "2128_1158224659_png.rf.d06c8ba6430f098b2642c96b8a69ae08_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 6.159316778182983
+        },
+        {
+            "name": "2128_184765903_png.rf.413af397926d1cc793e78e79c1f5a138_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 0.6323046684265137
+        },
+        {
+            "name": "2131_1627980096_png.rf.5938ea3874660c4287ade527c84d3856_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 15.357697248458862
+        },
+        {
+            "name": "2141_652276710_png.rf.1a4c099aa3726d8c5988adea4a59e152_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.0392837524414062
+        },
+        {
+            "name": "2147_90632830_png.rf.764bc2dde78e9811aaf9d7ed63efdccf_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 3.686615228652954
+        },
+        {
+            "name": "2152_1080832233_png.rf.206c97d6a5f87712826e3ccfb1424d36_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.6281092166900635
+        },
+        {
+            "name": "2163_1188948682_png.rf.ae6b7229f6bae4f8577a2d9b0bb15691_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 7.884057998657227
+        },
+        {
+            "name": "2169_995407598_png.rf.32b600c47c0eeb7e2ca2fb86da96dd1a_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 21.404975414276123
+        },
+        {
+            "name": "2172_2047519298_png.rf.0b016c2164e09931244201692ddb68ca_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.9653892517089844
+        },
+        {
+            "name": "2172_689138199_png.rf.ef6947d5627b9d23ac61bffc19f7a7bf_healthy",
+            "model": "medllama2:7b",
+            "result": "Successfull",
+            "responseTime": 9.848281145095825
+        },
+        {
+            "name": "2175_630465271_png.rf.d35fc54c77a3418477e59d9dce069f5c_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 16.427900552749634
+        },
+        {
+            "name": "2175_673252343_png.rf.e8c4628545a3cd3e7326f456724607d3_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 1.9656953811645508
+        },
+        {
+            "name": "2178_1504787289_png.rf.cf0882cacc4a7fe0dcb4eab950fe0f20_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 19.137779712677002
+        },
+        {
+            "name": "2178_870383531_png.rf.a261b8e3864466e2a333c88d2a81db7f_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 7.6524975299835205
+        },
+        {
+            "name": "2180_373418221_png.rf.defb4d41215ec6d8eaad4a4407198272_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 3.1119940280914307
+        },
+        {
+            "name": "2180_625377150_png.rf.8a83c542dc48d6226fb86caa2a8b9d89_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 8.944153070449829
+        },
+        {
+            "name": "2180_980414212_png.rf.f97a8513b121ae6e14c688fe6491a934_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 12.719276189804077
+        },
+        {
+            "name": "2182_2067189673_png.rf.cac9b146e0401574138153e9da61c10d_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 5.234390020370483
+        },
+        {
+            "name": "2182_420324769_png.rf.a7c5d4ebf4f9659228c4c13ca2592a81_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 13.519452810287476
+        },
+        {
+            "name": "2182_916784015_png.rf.068dc9895dcd63d0e38f51be18dabd23_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 6.049084901809692
+        },
+        {
+            "name": "2188_1775147448_png.rf.0382632026bb5e9014e07c31dff661db_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 2.2037651538848877
+        },
+        {
+            "name": "2190_1009040271_png.rf.7472b5bff860a7ca060e50ddb2c6b76a_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.0998711585998535
+        },
+        {
+            "name": "2205_1922546139_png.rf.a3206f3cf26b2d1d823ab790e0acca49_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 0.6036906242370605
+        },
+        {
+            "name": "2205_2044128060_png.rf.553f7102382bf308bfedac822d49c2da_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.570246934890747
+        },
+        {
+            "name": "2205_693854644_png.rf.74603d898319610e4578e0ef18e611f7_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 3.806640625
+        },
+        {
+            "name": "2210_45332126_png.rf.66b3c701ef0cd58d65f21ee92c05566d_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 4.450989246368408
+        },
+        {
+            "name": "2215_34990467_png.rf.d750587edd435e0178fa1e748d9daabb_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 9.441253662109375
+        },
+        {
+            "name": "2215_827767314_png.rf.67c22f01ca321a9d7d81e866de32c983_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 22.846354246139526
+        },
+        {
+            "name": "2229_1981150130_png.rf.5e3ec083db3d8ee61ceda66b909b5a1f_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.2462999820709229
+        },
+        {
+            "name": "2231_618761360_png.rf.a086e18b65206c32a9096e65a85f4e56_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 13.067881107330322
+        },
+        {
+            "name": "2240_1254330889_png.rf.6117e84a4fd0f19f5d2ea82e39ed213a_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.6401610374450684
+        },
+        {
+            "name": "2240_1940985422_png.rf.46d4212df6727bea703b416f2b890ca1_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 7.242584705352783
+        },
+        {
+            "name": "2254_1924963943_png.rf.aed2892090563862fbec365c221ee1d8_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.073359489440918
+        },
+        {
+            "name": "2254_231448131_png.rf.826055d8ebd3e153510e0ae536917deb_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 1.9212594032287598
+        },
+        {
+            "name": "2254_762052227_png.rf.51116eb06b21a53057af77bd94b47b37_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 12.836545944213867
+        },
+        {
+            "name": "2266_329697695_png.rf.0c3cb811c9bbe07d0b3a441a23d9d26d_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 9.843412399291992
+        },
+        {
+            "name": "2271_1847226167_png.rf.211699cc899eb8a0f238dee2d01fb6df_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 7.736910581588745
+        },
+        {
+            "name": "2281_115146648_png.rf.e1065c1dd36aa9403b2e4ef572140e93_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.0071344375610352
+        },
+        {
+            "name": "2282_1913904373_png.rf.6ff4ed5edcce4e3f1d0af82ebe110053_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 10.336814641952515
+        },
+        {
+            "name": "2282_2092132689_png.rf.8b110ae2768e8650d7b30dce6ed00e36_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 4.385205030441284
+        },
+        {
+            "name": "2287_2025490793_png.rf.7d2f3cff2a8fb33e6aff30434ee8565d_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.9670932292938232
+        },
+        {
+            "name": "2288_532180287_png.rf.0e00db27b87fbfa29a7ee0cbcbca8b51_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 11.165573596954346
+        },
+        {
+            "name": "2290_1803805719_png.rf.617bf06358a847bd398d0ce1177b6a86_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.6824219226837158
+        },
+        {
+            "name": "2290_972192716_png.rf.61f11395b84f095b5ddc10de5fb24bb0_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 17.761968851089478
+        },
+        {
+            "name": "2302_461252051_png.rf.9a598bd76910d2cd994185d761ca86e4_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.3499805927276611
+        },
+        {
+            "name": "2302_676429073_png.rf.1229c4cdf22a2fdb1623b9218c62b3ee_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 3.78580641746521
+        },
+        {
+            "name": "2311_1509557418_png.rf.a6c12234bb0aea3b66cc102a5480f1ed_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 6.815929412841797
+        },
+        {
+            "name": "2313_2065520937_png.rf.06fe059a38b13c1f86ff34bcde2af9c3_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 6.041645765304565
+        },
+        {
+            "name": "2313_87547612_png.rf.131e0bd7f98204140f87b71f52cd1c6a_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 10.04812502861023
+        },
+        {
+            "name": "2317_1935829544_png.rf.f6c94243f36c2b029e04eb8a0899cf85_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 3.6061220169067383
+        },
+        {
+            "name": "2331_897349809_png.rf.36b0ae5649cd5f12da37d72a6ce5ca37_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.071274757385254
+        },
+        {
+            "name": "2336_2076992444_png.rf.d439aa4e7a183903fa0872a0153dd443_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 11.508766651153564
+        },
+        {
+            "name": "233_719075506_png.rf.f538a5281b32705fc537ff387ea85380_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.1083426475524902
+        },
+        {
+            "name": "2354_1249053441_png.rf.5f63a35ff355fc0f01032ea42b7f45d7_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 12.226914167404175
+        },
+        {
+            "name": "2364_1125878011_png.rf.12988052fdab63c2c1432586cb29deb1_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 10.481175661087036
+        },
+        {
+            "name": "236_435616956_png.rf.26c6c9bab709f9e646dd04eca044c621_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 6.824813604354858
+        },
+        {
+            "name": "2406_1989125371_png.rf.c43522a0a1a8fb8ba69e1f2511d4beb5_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 9.99852728843689
+        },
+        {
+            "name": "2406_231662927_png.rf.62a9f17095ca62d20d7d637da6f0eaaa_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 11.596081256866455
+        },
+        {
+            "name": "2446_673465301_png.rf.7189792b8aecd13fd1403eb6074ad264_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 8.857874870300293
+        },
+        {
+            "name": "2460_1258092255_png.rf.e59e6081399a9dccaa460e3b197e2a06_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 3.3608999252319336
+        },
+        {
+            "name": "2460_465607433_png.rf.4b84150e97ee1e2fb16e485d7b092bde_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.0167012214660645
+        },
+        {
+            "name": "2460_859578255_png.rf.186c1ef0051e2287dffff7e068a65f6f_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 12.379405975341797
+        },
+        {
+            "name": "2471_1041597640_png.rf.3967da6d4c79a46b9b0dc3c6b511ecc1_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 0.8804550170898438
+        },
+        {
+            "name": "2472_492124098_png.rf.9076e2d72ff86f5e8582a1cd0836a331_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 13.711982250213623
+        },
+        {
+            "name": "2476_2039818549_png.rf.c1c6bacc1c8df4a750d55b959b12070a_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 1.5364105701446533
+        },
+        {
+            "name": "2478_1903258650_png.rf.e760ed8b30d14e8cc8e86694f861343e_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 4.23740291595459
+        },
+        {
+            "name": "2478_2071782547_png.rf.e041e0c7b4bb505b9202aed8e07019ef_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 2.7075412273406982
+        },
+        {
+            "name": "2480_1292210706_png.rf.a9b143b061c25b1beaa7450699226837_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 10.57199478149414
+        },
+        {
+            "name": "2482_1890232525_png.rf.ccd934e49cb31de1decae34a011efb4d_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.698328971862793
+        },
+        {
+            "name": "2488_1240294865_png.rf.c55f8547807968ba8db948323d89ea45_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.2255208492279053
+        },
+        {
+            "name": "2494_1104477140_png.rf.f57a05d8c80fbda9c177e881a0cf2074_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 13.485200881958008
+        },
+        {
+            "name": "2499_1640515288_png.rf.aef7aa0c1cedbcc3cb9ffe3528bb4df0_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 8.544109344482422
+        },
+        {
+            "name": "2514_1110850296_png.rf.745e064a3972b33556aff30bded85cb9_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 16.939298629760742
+        },
+        {
+            "name": "2518_1111057751_png.rf.e23b1fc9c629a795ddb71c4364d1a388_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 17.783588409423828
+        },
+        {
+            "name": "2518_1461877239_png.rf.c320b08ccd1fb3ec8697d4f4f76ca840_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 43.11507749557495
+        },
+        {
+            "name": "2518_1856592577_png.rf.4848f68f5d51fc834400e96d6ced4217_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 8.73263430595398
+        },
+        {
+            "name": "2526_421279955_png.rf.47e908ba4cb4694a95a9c0c8de090f7b_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 20.162922620773315
+        },
+        {
+            "name": "2539_1083492684_png.rf.cbe0324b3af56092ff7214213abd784a_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.3490033149719238
+        },
+        {
+            "name": "2539_1802131267_png.rf.de122d4158f34df56e28d75d3cf73e11_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 1.462468147277832
+        },
+        {
+            "name": "2539_348435445_png.rf.01401f6e7f03a3a5dcd723fbd6be3992_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.3607380390167236
+        },
+        {
+            "name": "2541_1859547445_png.rf.d31d8311193e50d5793caafde7c43501_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.6745617389678955
+        },
+        {
+            "name": "2546_730952035_png.rf.0aa3bdf9935f0ebed78558c5259bc6bb_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.9272634983062744
+        },
+        {
+            "name": "2552_189350088_png.rf.cd61fae0915af6f5c2155cfcb2fdcf27_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 5.2944629192352295
+        },
+        {
+            "name": "2552_223054388_png.rf.956a3cfc1438c890ba702d58335d4145_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 1.6052172183990479
+        },
+        {
+            "name": "2552_698117587_png.rf.5a8473f73b5bb8d487ad4d40f85f8761_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 4.5171356201171875
+        },
+        {
+            "name": "2564_1570678080_png.rf.135a908f06be029039778a6df2ab5149_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 15.001297235488892
+        },
+        {
+            "name": "25_1723979573_png.rf.cb7b0577d1de86f18474daa325bdd714_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 9.098592519760132
+        },
+        {
+            "name": "25_1962456803_png.rf.af7491ff94fcd2f6c0ee5e59e3e84428_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 4.762087821960449
+        },
+        {
+            "name": "2600_2126930949_png.rf.3204d33be93feada3f2147cbdbfc7a6b_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 26.04607129096985
+        },
+        {
+            "name": "2606_1243766254_png.rf.0f9c1658f283e0f06c551f3156ddcce3_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 14.780815839767456
+        },
+        {
+            "name": "2606_72547626_png.rf.185f3470d44f28bac3859d6b8b024e47_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 6.836799144744873
+        },
+        {
+            "name": "2606_824029134_png.rf.4f3d9251214568fde0cc08a706ffd34f_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 15.892326354980469
+        },
+        {
+            "name": "260_400539057_png.rf.1cde5b6e2c0a0f3e9b48c36c2df4020e_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 6.1103127002716064
+        },
+        {
+            "name": "2612_1802348073_png.rf.4a084de61060a3ad57f6333e3ef10818_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.162764310836792
+        },
+        {
+            "name": "2612_2146340154_png.rf.00f680b8b75cf609b3950181c2eca62e_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 14.047534227371216
+        },
+        {
+            "name": "2613_1073317621_png.rf.2c85a6e0ce166f9d4e2040a606df308e_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 43.121278047561646
+        },
+        {
+            "name": "2619_766241633_png.rf.f4ed27e4dd4ea77415846e97f675f79f_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.257554531097412
+        },
+        {
+            "name": "2625_769225021_png.rf.e2f6141d6d2b3f491433882cd10158be_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 11.94873046875
+        },
+        {
+            "name": "262_2083259512_png.rf.e4d9ca0928631ac74f3856d1a5ceb67e_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 12.548776149749756
+        },
+        {
+            "name": "2637_1580205762_png.rf.98fc11f9b39ea3c41f3f14394990b66a_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 16.758981466293335
+        },
+        {
+            "name": "2637_1704598560_png.rf.d152c2421424e0d86017ee1205983ee9_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.697490692138672
+        },
+        {
+            "name": "2649_1164641254_png.rf.206280ce04a2018d6318383a26c0b758_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 6.269740104675293
+        },
+        {
+            "name": "2657_752592083_png.rf.def0939e36c20e827af1c0c1c69f2372_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 8.94608759880066
+        },
+        {
+            "name": "2664_461314421_png.rf.946befb86082f689a73ec842c40da130_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 11.363526105880737
+        },
+        {
+            "name": "2671_657202909_png.rf.38db78664b3a31b05ffde7123e84f8af_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 8.5952467918396
+        },
+        {
+            "name": "2673_1865776330_png.rf.b15fa7216f7de7cb7181dd757ad8e7b3_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 5.902215480804443
+        },
+        {
+            "name": "2673_511077561_png.rf.e186ee120f5d431f14c0282364bb6555_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.1758813858032227
+        },
+        {
+            "name": "2676_1713941648_png.rf.3c5fce028e35397dd8cb45026a429061_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 2.8369321823120117
+        },
+        {
+            "name": "2679_1053891186_png.rf.38b279e0d4f6309f35d03cd23fed1d27_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 2.4853076934814453
+        },
+        {
+            "name": "2679_542621403_png.rf.d87ee93e7853bde15f6e82982c76ec4c_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 8.742176532745361
+        },
+        {
+            "name": "2685_866280834_png.rf.af6e89082cfffecc29b5b0f6545e3d48_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 3.976473331451416
+        },
+        {
+            "name": "2694_1032568612_png.rf.bf486031e9523de6998f86828f9a9815_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 5.867821216583252
+        },
+        {
+            "name": "2704_781524556_png.rf.c3007300f84e02ef651821761af1c8a9_healthy",
+            "model": "medllama2:7b",
+            "result": "Fail",
+            "responseTime": 6.129358530044556
+        },
+        {
+            "name": "2708_1284465269_png.rf.9f54f0fb53ebca255b0bd8be25f49e41_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 4.68172287940979
+        },
+        {
+            "name": "2718_104362628_png.rf.5e16dafc11c8cea347bb5e095fd456e2_healthy",
+            "model": "medllama2:7b",
+            "result": "Error",
+            "responseTime": 7.349722623825073
         }
     ]
 }

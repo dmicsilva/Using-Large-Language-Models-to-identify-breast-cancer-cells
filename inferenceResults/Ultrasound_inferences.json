@@ -1,6 +1,6 @@
 {
-    "totalInferences": 382,
-    "totalTime": "13889.76s",
+    "totalInferences": 526,
+    "totalTime": "24915.85s",
     "inference": [
         {
             "name": "case005_malignant",
@@ -2293,6 +2293,870 @@
             "model": "deepseek-r1:7b",
             "result": "Successfull",
             "responseTime": 18.302431344985962
+        },
+        {
+            "name": "case037_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 69.87131142616272
+        },
+        {
+            "name": "case038_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Error",
+            "responseTime": 57.5838897228241
+        },
+        {
+            "name": "case038_other1_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 91.39250993728638
+        },
+        {
+            "name": "case039_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 52.12694454193115
+        },
+        {
+            "name": "case040_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 159.35075402259827
+        },
+        {
+            "name": "case041_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 44.100062131881714
+        },
+        {
+            "name": "case042_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 91.67113947868347
+        },
+        {
+            "name": "case043_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 51.81840682029724
+        },
+        {
+            "name": "case044_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 30.137303590774536
+        },
+        {
+            "name": "case045_normal",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 70.58110070228577
+        },
+        {
+            "name": "case047_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 88.02507662773132
+        },
+        {
+            "name": "case048_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 62.47586631774902
+        },
+        {
+            "name": "case049_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 54.61172914505005
+        },
+        {
+            "name": "case051_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 63.528284788131714
+        },
+        {
+            "name": "case052_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 50.36500692367554
+        },
+        {
+            "name": "case054_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 89.226398229599
+        },
+        {
+            "name": "case056_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 92.57098126411438
+        },
+        {
+            "name": "case057_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 85.49718832969666
+        },
+        {
+            "name": "case059_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 35.15348744392395
+        },
+        {
+            "name": "case061_normal",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 116.03716015815735
+        },
+        {
+            "name": "case062_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 50.8677191734314
+        },
+        {
+            "name": "case064_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 50.07665681838989
+        },
+        {
+            "name": "case065_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 92.94134140014648
+        },
+        {
+            "name": "case068_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 88.53397154808044
+        },
+        {
+            "name": "case069_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 41.56671953201294
+        },
+        {
+            "name": "case070_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 63.093199729919434
+        },
+        {
+            "name": "case071_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 98.78996229171753
+        },
+        {
+            "name": "case073_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 43.16037893295288
+        },
+        {
+            "name": "case074_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 81.61947274208069
+        },
+        {
+            "name": "case077_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 62.08482599258423
+        },
+        {
+            "name": "case078_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 99.88296175003052
+        },
+        {
+            "name": "case080_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 53.84237790107727
+        },
+        {
+            "name": "case081_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 47.91816282272339
+        },
+        {
+            "name": "case083_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 105.43469977378845
+        },
+        {
+            "name": "case084_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 54.63499903678894
+        },
+        {
+            "name": "case085_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 122.07801294326782
+        },
+        {
+            "name": "case085_other1_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 423.24583625793457
+        },
+        {
+            "name": "case085_other2_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 57.94035291671753
+        },
+        {
+            "name": "case091_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 126.71258664131165
+        },
+        {
+            "name": "case092_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 44.68490147590637
+        },
+        {
+            "name": "case092_other1_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 143.7368984222412
+        },
+        {
+            "name": "case093_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 88.11234593391418
+        },
+        {
+            "name": "case095_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 116.26558256149292
+        },
+        {
+            "name": "case096_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 76.20730304718018
+        },
+        {
+            "name": "case097_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 68.63857698440552
+        },
+        {
+            "name": "case098_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 100.95021724700928
+        },
+        {
+            "name": "case100_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 52.91133141517639
+        },
+        {
+            "name": "case104_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 49.13931584358215
+        },
+        {
+            "name": "case108_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 90.58750057220459
+        },
+        {
+            "name": "case110_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 37.39838886260986
+        },
+        {
+            "name": "case115_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 48.77146673202515
+        },
+        {
+            "name": "case116_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 59.31735038757324
+        },
+        {
+            "name": "case118_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 80.79875755310059
+        },
+        {
+            "name": "case119_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 134.82555770874023
+        },
+        {
+            "name": "case120_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 69.57646298408508
+        },
+        {
+            "name": "case122_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 57.83920621871948
+        },
+        {
+            "name": "case123_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 71.54483699798584
+        },
+        {
+            "name": "case124_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 77.33243441581726
+        },
+        {
+            "name": "case126_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 99.84704089164734
+        },
+        {
+            "name": "case129_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 58.59865713119507
+        },
+        {
+            "name": "case131_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 97.19198656082153
+        },
+        {
+            "name": "case134_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 18.919960260391235
+        },
+        {
+            "name": "case135_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 82.95894455909729
+        },
+        {
+            "name": "case136_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 71.62360262870789
+        },
+        {
+            "name": "case137_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 85.66338157653809
+        },
+        {
+            "name": "case138_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 51.22080111503601
+        },
+        {
+            "name": "case139_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 74.29551982879639
+        },
+        {
+            "name": "case140_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 63.55137586593628
+        },
+        {
+            "name": "case140_other1_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 104.52294707298279
+        },
+        {
+            "name": "case140_other2_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 107.5954577922821
+        },
+        {
+            "name": "case140_other3_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 44.61212348937988
+        },
+        {
+            "name": "case140_other4_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 22.367493629455566
+        },
+        {
+            "name": "case141_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 52.650811433792114
+        },
+        {
+            "name": "case142_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 138.71021342277527
+        },
+        {
+            "name": "case143_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 48.210121154785156
+        },
+        {
+            "name": "case146_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 33.22163653373718
+        },
+        {
+            "name": "case151_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 79.47155499458313
+        },
+        {
+            "name": "case151_other1_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 87.0084958076477
+        },
+        {
+            "name": "case151_other2_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 99.21768450737
+        },
+        {
+            "name": "case152_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 61.21961450576782
+        },
+        {
+            "name": "case155_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 87.94669318199158
+        },
+        {
+            "name": "case156_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 52.23675274848938
+        },
+        {
+            "name": "case157_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 60.73187732696533
+        },
+        {
+            "name": "case159_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 72.81458306312561
+        },
+        {
+            "name": "case161_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 79.24244832992554
+        },
+        {
+            "name": "case162_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 73.86655449867249
+        },
+        {
+            "name": "case163_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 56.90403962135315
+        },
+        {
+            "name": "case165_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 78.91024804115295
+        },
+        {
+            "name": "case166_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 55.491400957107544
+        },
+        {
+            "name": "case167_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 43.96706819534302
+        },
+        {
+            "name": "case168_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 29.37137246131897
+        },
+        {
+            "name": "case169_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 61.525376319885254
+        },
+        {
+            "name": "case171_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 84.20094156265259
+        },
+        {
+            "name": "case175_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 38.78644943237305
+        },
+        {
+            "name": "case177_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 52.06659245491028
+        },
+        {
+            "name": "case178_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 56.59898328781128
+        },
+        {
+            "name": "case179_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 113.07496309280396
+        },
+        {
+            "name": "case180_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 68.53802800178528
+        },
+        {
+            "name": "case181_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 104.77752423286438
+        },
+        {
+            "name": "case182_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 51.473514556884766
+        },
+        {
+            "name": "case183_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 63.33399152755737
+        },
+        {
+            "name": "case184_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 101.5710699558258
+        },
+        {
+            "name": "case185_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 85.70341181755066
+        },
+        {
+            "name": "case186_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 67.13205790519714
+        },
+        {
+            "name": "case187_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 57.40199875831604
+        },
+        {
+            "name": "case188_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 111.20852017402649
+        },
+        {
+            "name": "case189_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 82.95666813850403
+        },
+        {
+            "name": "case191_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 90.0060818195343
+        },
+        {
+            "name": "case192_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 82.28785729408264
+        },
+        {
+            "name": "case193_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 89.63573622703552
+        },
+        {
+            "name": "case194_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 120.02295255661011
+        },
+        {
+            "name": "case196_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 66.36577677726746
+        },
+        {
+            "name": "case197_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 47.59640550613403
+        },
+        {
+            "name": "case200_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 156.57532143592834
+        },
+        {
+            "name": "case201_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 84.2732765674591
+        },
+        {
+            "name": "case202_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 114.51125121116638
+        },
+        {
+            "name": "case203_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 93.25251245498657
+        },
+        {
+            "name": "case204_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 57.714191198349
+        },
+        {
+            "name": "case207_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 141.4241223335266
+        },
+        {
+            "name": "case208_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 87.69062781333923
+        },
+        {
+            "name": "case209_normal",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 28.498518705368042
+        },
+        {
+            "name": "case210_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 49.830434799194336
+        },
+        {
+            "name": "case213_normal",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 52.80267524719238
+        },
+        {
+            "name": "case214_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Error",
+            "responseTime": 75.58539485931396
+        },
+        {
+            "name": "case215_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 89.34651184082031
+        },
+        {
+            "name": "case216_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 81.07129621505737
+        },
+        {
+            "name": "case217_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 36.9941132068634
+        },
+        {
+            "name": "case220_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 53.755858421325684
+        },
+        {
+            "name": "case222_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 112.09633088111877
+        },
+        {
+            "name": "case223_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 70.5315272808075
+        },
+        {
+            "name": "case224_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 59.78772759437561
+        },
+        {
+            "name": "case229_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 94.2321207523346
+        },
+        {
+            "name": "case231_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 116.08872556686401
+        },
+        {
+            "name": "case232_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 67.27904963493347
+        },
+        {
+            "name": "case235_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 97.19638442993164
+        },
+        {
+            "name": "case236_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 55.183189392089844
+        },
+        {
+            "name": "case237_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 46.33489966392517
+        },
+        {
+            "name": "case240_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 158.63311505317688
+        },
+        {
+            "name": "case241_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 39.96191740036011
+        },
+        {
+            "name": "case242_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 27.476787090301514
+        },
+        {
+            "name": "case246_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 54.71048665046692
+        },
+        {
+            "name": "case252_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Successfull",
+            "responseTime": 35.35688376426697
+        },
+        {
+            "name": "case253_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 60.34290051460266
+        },
+        {
+            "name": "case256_benign",
+            "model": "deepseek-r1:7b",
+            "result": "Fail",
+            "responseTime": 67.92320203781128
         }
     ]
 }
