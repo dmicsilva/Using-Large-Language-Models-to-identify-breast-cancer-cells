@@ -39,7 +39,7 @@ def decide_result(text, filenameWithoutExtension, dataset):
         if ((loweredText.endswith('positive') or loweredText.startswith('positive') and not (loweredText.endswith('negative') or loweredText.startswith('negative'))) and len(text) > 200):
             if "_sick" in filenameWithoutExtension:
                 return "Successfull"
-            elif "_healthy" in filenameWithoutExtension:
+            elif "_healthy" in filenameWithoutExtension or "_normal" in filenameWithoutExtension:
                 return "Fail"
             else:
                 raise ValueError("No appropriate appendix in filename")
@@ -48,7 +48,7 @@ def decide_result(text, filenameWithoutExtension, dataset):
         elif ((loweredText.endswith('negative') or loweredText.startswith('negative') and not (loweredText.endswith('positive') or loweredText.startswith('positive'))) and len(text) > 200):
             if "_sick" in filenameWithoutExtension:
                 return "Fail"
-            elif "_healthy" in filenameWithoutExtension:
+            elif "_healthy" in filenameWithoutExtension or "_normal" in filenameWithoutExtension:
                 return "Successfull"
             else:
                 raise ValueError("No appropriate appendix in filename")
@@ -63,14 +63,14 @@ def decide_result(text, filenameWithoutExtension, dataset):
         elif "positive" in loweredText:
             if "_sick" in filenameWithoutExtension:
                 return "Successfull"
-            elif "_healthy" in filenameWithoutExtension:
+            elif "_healthy" in filenameWithoutExtension or "_normal" in filenameWithoutExtension:
                 return "Fail"
             else:
                 raise ValueError("No appropriate appendix in filename")
                 return "Error"
 
         elif "negative" in loweredText or "no signs of" in loweredText:
-            if "_healthy" in filenameWithoutExtension:
+            if "_healthy" in filenameWithoutExtension or "_normal" in filenameWithoutExtension:
                 return "Successfull"
             elif "_sick" in filenameWithoutExtension:
                 return "Fail"
@@ -86,7 +86,7 @@ def decide_result(text, filenameWithoutExtension, dataset):
         if ((loweredText.endswith('malignant') or loweredText.startswith('malignant') and not (loweredText.endswith('benign') or loweredText.startswith('benign')) and not '/' in loweredText) and len(text) > 200):
             if "_malignant" in filenameWithoutExtension:
                 return "Successfull"
-            elif "_benign" in filenameWithoutExtension:
+            elif "_benign" in filenameWithoutExtension or "_normal" in filenameWithoutExtension:
                 return "Fail"
             else:
                 raise ValueError("No appropriate appendix in filename")
@@ -95,7 +95,7 @@ def decide_result(text, filenameWithoutExtension, dataset):
         elif ((loweredText.endswith('benign') or loweredText.startswith('benign') and not loweredText.endswith('malignant') or loweredText.startswith('malignant') and not '/' in loweredText) and len(text) > 200):
             if "_malignant" in filenameWithoutExtension:
                 return "Fail"
-            elif "_benign" in filenameWithoutExtension:
+            elif "_benign" in filenameWithoutExtension or "_normal" in filenameWithoutExtension:
                 return "Successfull"
             else:
                 raise ValueError("No appropriate appendix in filename")
@@ -110,14 +110,14 @@ def decide_result(text, filenameWithoutExtension, dataset):
         elif "malignant" in loweredText:
             if "_malignant" in filenameWithoutExtension:
                 return "Successfull"
-            elif "_benign" in filenameWithoutExtension:
+            elif "_benign" in filenameWithoutExtension or "_normal" in filenameWithoutExtension:
                 return "Fail"
             else:
                 raise ValueError(f"No appropriate appendix in filename.{filenameWithoutExtension}")
                 return "Error"
 
         elif "benign" in loweredText:
-            if "_benign" in filenameWithoutExtension:
+            if "_benign" in filenameWithoutExtension or "_normal" in filenameWithoutExtension:
                 return "Successfull"
             elif "_malignant" in filenameWithoutExtension:
                 return "Fail"
@@ -260,7 +260,7 @@ if __name__ == "__main__":
                             imagePath = Path(os.path.join(dirpath, filename))
                             process_image(model, imagePath, dataset)
                         else:
-                            print(f"\n\nImage already analyzed for this dataset ({dataset['label']}) -> {filename}\n")
+                            print(f"\n\nImage already analyzed for this dataset ({dataset['label']}) -> {filename} on model {model}\n")
                         
                         currentFileCount += 1
                         print_progress(currentFileCount, totalFileCount, dataset, model)
