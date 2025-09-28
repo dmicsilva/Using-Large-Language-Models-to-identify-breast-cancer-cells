@@ -34,6 +34,12 @@ def decide_result(text, filenameWithoutExtension, dataset):
     
     loweredText = text.lower().replace(".","")
 
+    if text == "Understood. I will only respond with 'positive' or 'negative'.":
+        return "Error"
+    
+    if text.startswith("I'm sorry"):
+        return "Error"
+
     if dataset['type'] == "healthy/sick":
         
         if ((loweredText.endswith('positive') or loweredText.startswith('positive') and not (loweredText.endswith('negative') or loweredText.startswith('negative'))) and len(text) > 200):
