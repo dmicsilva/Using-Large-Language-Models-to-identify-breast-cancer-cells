@@ -1,0 +1,464 @@
+[
+    {
+        "model": "gemma3:latest",
+        "totalInferences": 262,
+        "totalTime": "9293.07s",
+        "statistics": [
+            {
+                "mainMetrics": [
+                    {
+                        "precision": 1.0,
+                        "specificity": 1.0,
+                        "recall": 0.3875968992248062,
+                        "f1_score": 0.558659217877095,
+                        "accuracy": 0.3969465648854962
+                    }
+                ],
+                "mainRates": [
+                    {
+                        "success_rate": 0.3969465648854962,
+                        "fail_rate": 0.6030534351145038,
+                        "error_rate": 0.0
+                    }
+                ],
+                "otherRates": [
+                    {
+                        "error_on_positive_or_malignant_rate": 0.0,
+                        "error_on_negative_or_benign_rate": 0.0,
+                        "false_positive_rate": 0.0,
+                        "false_negative_rate": 0.6124031007751938
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "model": "deepseek-r1:7b",
+        "totalInferences": 262,
+        "totalTime": "5870.79s",
+        "statistics": [
+            {
+                "mainMetrics": [
+                    {
+                        "precision": 0.36,
+                        "specificity": 0.6342857142857142,
+                        "recall": 0.41379310344827586,
+                        "f1_score": 0.38502673796791437,
+                        "accuracy": 0.5610687022900763
+                    }
+                ],
+                "mainRates": [
+                    {
+                        "success_rate": 0.5610687022900763,
+                        "fail_rate": 0.4351145038167939,
+                        "error_rate": 0.003816793893129771
+                    }
+                ],
+                "otherRates": [
+                    {
+                        "error_on_positive_or_malignant_rate": 0.0,
+                        "error_on_negative_or_benign_rate": 0.003816793893129771,
+                        "false_positive_rate": 0.3657142857142857,
+                        "false_negative_rate": 0.5747126436781609
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "model": "qwen2.5:7b",
+        "totalInferences": 262,
+        "totalTime": "130.76s",
+        "statistics": [
+            {
+                "mainMetrics": [
+                    {
+                        "precision": 0.0,
+                        "specificity": 0.6183206106870229,
+                        "recall": 0,
+                        "f1_score": 0,
+                        "accuracy": 0.6183206106870229
+                    }
+                ],
+                "mainRates": [
+                    {
+                        "success_rate": 0.6183206106870229,
+                        "fail_rate": 0.3816793893129771,
+                        "error_rate": 0.0
+                    }
+                ],
+                "otherRates": [
+                    {
+                        "error_on_positive_or_malignant_rate": 0.0,
+                        "error_on_negative_or_benign_rate": 0.0,
+                        "false_positive_rate": 0.3816793893129771,
+                        "false_negative_rate": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "model": "openchat:7b",
+        "totalInferences": 262,
+        "totalTime": "173.25s",
+        "statistics": [
+            {
+                "mainMetrics": [
+                    {
+                        "precision": 0.29,
+                        "specificity": 0.538961038961039,
+                        "recall": 0.26851851851851855,
+                        "f1_score": 0.27884615384615385,
+                        "accuracy": 0.42748091603053434
+                    }
+                ],
+                "mainRates": [
+                    {
+                        "success_rate": 0.42748091603053434,
+                        "fail_rate": 0.3969465648854962,
+                        "error_rate": 0.17557251908396945
+                    }
+                ],
+                "otherRates": [
+                    {
+                        "error_on_positive_or_malignant_rate": 0.030534351145038167,
+                        "error_on_negative_or_benign_rate": 0.1450381679389313,
+                        "false_positive_rate": 0.4090909090909091,
+                        "false_negative_rate": 0.37962962962962965
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "model": "medllama2:7b",
+        "totalInferences": 262,
+        "totalTime": "1758.89s",
+        "statistics": [
+            {
+                "mainMetrics": [
+                    {
+                        "precision": 0.29,
+                        "specificity": 0.07792207792207792,
+                        "recall": 0.15675675675675677,
+                        "f1_score": 0.20350877192982456,
+                        "accuracy": 0.13358778625954199
+                    }
+                ],
+                "mainRates": [
+                    {
+                        "success_rate": 0.13358778625954199,
+                        "fail_rate": 0.1984732824427481,
+                        "error_rate": 0.6679389312977099
+                    }
+                ],
+                "otherRates": [
+                    {
+                        "error_on_positive_or_malignant_rate": 0.25572519083969464,
+                        "error_on_negative_or_benign_rate": 0.4122137404580153,
+                        "false_positive_rate": 0.05194805194805195,
+                        "false_negative_rate": 0.2594594594594595
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "model": "granite3.3:8b",
+        "totalInferences": 262,
+        "totalTime": "1105.41s",
+        "statistics": [
+            {
+                "mainMetrics": [
+                    {
+                        "precision": 0.0,
+                        "specificity": 0.3939393939393939,
+                        "recall": 0.0,
+                        "f1_score": 0,
+                        "accuracy": 0.2480916030534351
+                    }
+                ],
+                "mainRates": [
+                    {
+                        "success_rate": 0.2480916030534351,
+                        "fail_rate": 0.2099236641221374,
+                        "error_rate": 0.5419847328244275
+                    }
+                ],
+                "otherRates": [
+                    {
+                        "error_on_positive_or_malignant_rate": 0.17557251908396945,
+                        "error_on_negative_or_benign_rate": 0.366412213740458,
+                        "false_positive_rate": 0.32727272727272727,
+                        "false_negative_rate": 0.010309278350515464
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "model": "falcon3:7b",
+        "totalInferences": 262,
+        "totalTime": "2517.89s",
+        "statistics": [
+            {
+                "mainMetrics": [
+                    {
+                        "precision": 0.09,
+                        "specificity": 0.0,
+                        "recall": 0.05263157894736842,
+                        "f1_score": 0.06642066420664205,
+                        "accuracy": 0.03435114503816794
+                    }
+                ],
+                "mainRates": [
+                    {
+                        "success_rate": 0.03435114503816794,
+                        "fail_rate": 0.019083969465648856,
+                        "error_rate": 0.9465648854961832
+                    }
+                ],
+                "otherRates": [
+                    {
+                        "error_on_positive_or_malignant_rate": 0.3473282442748092,
+                        "error_on_negative_or_benign_rate": 0.5992366412213741,
+                        "false_positive_rate": 0.0,
+                        "false_negative_rate": 0.029239766081871343
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "model": "olmo2:7b",
+        "totalInferences": 262,
+        "totalTime": "613.99s",
+        "statistics": [
+            {
+                "mainMetrics": [
+                    {
+                        "precision": 0.0,
+                        "specificity": 0.5689655172413793,
+                        "recall": 0.0,
+                        "f1_score": 0,
+                        "accuracy": 0.5038167938931297
+                    }
+                ],
+                "mainRates": [
+                    {
+                        "success_rate": 0.5038167938931297,
+                        "fail_rate": 0.32061068702290074,
+                        "error_rate": 0.17557251908396945
+                    }
+                ],
+                "otherRates": [
+                    {
+                        "error_on_positive_or_malignant_rate": 0.061068702290076333,
+                        "error_on_negative_or_benign_rate": 0.11450381679389313,
+                        "false_positive_rate": 0.3620689655172414,
+                        "false_negative_rate": 0.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "model": "qwen2.5:0.5b",
+        "totalInferences": 262,
+        "totalTime": "52.55s",
+        "statistics": [
+            {
+                "mainMetrics": [
+                    {
+                        "precision": 0.91,
+                        "specificity": 0.5714285714285714,
+                        "recall": 0.3775933609958506,
+                        "f1_score": 0.533724340175953,
+                        "accuracy": 0.3931297709923664
+                    }
+                ],
+                "mainRates": [
+                    {
+                        "success_rate": 0.3931297709923664,
+                        "fail_rate": 0.6068702290076335,
+                        "error_rate": 0.0
+                    }
+                ],
+                "otherRates": [
+                    {
+                        "error_on_positive_or_malignant_rate": 0.0,
+                        "error_on_negative_or_benign_rate": 0.0,
+                        "false_positive_rate": 0.42857142857142855,
+                        "false_negative_rate": 0.6224066390041494
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "model": "phi3:3.8b",
+        "totalInferences": 262,
+        "totalTime": "41005.40s",
+        "statistics": [
+            {
+                "mainMetrics": [
+                    {
+                        "precision": 0.15,
+                        "specificity": 0.4879518072289157,
+                        "recall": 0.15625,
+                        "f1_score": 0.1530612244897959,
+                        "accuracy": 0.366412213740458
+                    }
+                ],
+                "mainRates": [
+                    {
+                        "success_rate": 0.366412213740458,
+                        "fail_rate": 0.25572519083969464,
+                        "error_rate": 0.37786259541984735
+                    }
+                ],
+                "otherRates": [
+                    {
+                        "error_on_positive_or_malignant_rate": 0.24427480916030533,
+                        "error_on_negative_or_benign_rate": 0.13358778625954199,
+                        "false_positive_rate": 0.12650602409638553,
+                        "false_negative_rate": 0.4791666666666667
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "model": "llama2-uncensored:7b",
+        "totalInferences": 262,
+        "totalTime": "449.48s",
+        "statistics": [
+            {
+                "mainMetrics": [
+                    {
+                        "precision": 0.82,
+                        "specificity": 0.35714285714285715,
+                        "recall": 0.3504273504273504,
+                        "f1_score": 0.49101796407185627,
+                        "accuracy": 0.3511450381679389
+                    }
+                ],
+                "mainRates": [
+                    {
+                        "success_rate": 0.3511450381679389,
+                        "fail_rate": 0.48854961832061067,
+                        "error_rate": 0.16030534351145037
+                    }
+                ],
+                "otherRates": [
+                    {
+                        "error_on_positive_or_malignant_rate": 0.04198473282442748,
+                        "error_on_negative_or_benign_rate": 0.1183206106870229,
+                        "false_positive_rate": 0.25,
+                        "false_negative_rate": 0.5170940170940171
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "model": "dolphin3:latest",
+        "totalInferences": 262,
+        "totalTime": "149.12s",
+        "statistics": [
+            {
+                "mainMetrics": [
+                    {
+                        "precision": 0.81,
+                        "specificity": 0.5681818181818182,
+                        "recall": 0.37155963302752293,
+                        "f1_score": 0.509433962264151,
+                        "accuracy": 0.40458015267175573
+                    }
+                ],
+                "mainRates": [
+                    {
+                        "success_rate": 0.40458015267175573,
+                        "fail_rate": 0.5687022900763359,
+                        "error_rate": 0.026717557251908396
+                    }
+                ],
+                "otherRates": [
+                    {
+                        "error_on_positive_or_malignant_rate": 0.015267175572519083,
+                        "error_on_negative_or_benign_rate": 0.011450381679389313,
+                        "false_positive_rate": 0.3409090909090909,
+                        "false_negative_rate": 0.6146788990825688
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "model": "deepseek-r1:1.5b",
+        "totalInferences": 262,
+        "totalTime": "4831.19s",
+        "statistics": [
+            {
+                "mainMetrics": [
+                    {
+                        "precision": 0.41,
+                        "specificity": 0.6335403726708074,
+                        "recall": 0.40594059405940597,
+                        "f1_score": 0.4079601990049751,
+                        "accuracy": 0.5458015267175572
+                    }
+                ],
+                "mainRates": [
+                    {
+                        "success_rate": 0.5458015267175572,
+                        "fail_rate": 0.4389312977099237,
+                        "error_rate": 0.015267175572519083
+                    }
+                ],
+                "otherRates": [
+                    {
+                        "error_on_positive_or_malignant_rate": 0.007633587786259542,
+                        "error_on_negative_or_benign_rate": 0.007633587786259542,
+                        "false_positive_rate": 0.35403726708074534,
+                        "false_negative_rate": 0.5742574257425742
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "model": "llama3.1:8b",
+        "totalInferences": 3,
+        "totalTime": "31.01s",
+        "statistics": [
+            {
+                "mainMetrics": [
+                    {
+                        "precision": 0,
+                        "specificity": 0,
+                        "recall": 0.0,
+                        "f1_score": 0,
+                        "accuracy": 0.0
+                    }
+                ],
+                "mainRates": [
+                    {
+                        "success_rate": 0.0,
+                        "fail_rate": 0.0,
+                        "error_rate": 1.0
+                    }
+                ],
+                "otherRates": [
+                    {
+                        "error_on_positive_or_malignant_rate": 0.0,
+                        "error_on_negative_or_benign_rate": 1.0,
+                        "false_positive_rate": 0,
+                        "false_negative_rate": 0.0
+                    }
+                ]
+            }
+        ]
+    }
+]
